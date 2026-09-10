@@ -1,0 +1,188 @@
+{
+  "schema": 1,
+  "images": [
+    {
+      "id": "oracle",
+      "source": "oracle-cat.png",
+      "title": "Кот-оракул",
+      "cards": [
+        "coat",
+        "cat",
+        "parcel",
+        "socks",
+        "umbrella",
+        "plant",
+        "shopping",
+        "dust",
+        "fortune",
+        "it_mute",
+        "it_ai_agrees",
+        "it_short_call",
+        "it_percent",
+        "it_config",
+        "it_review_praise",
+        "it_side_project"
+      ]
+    },
+    {
+      "id": "terminal-cat",
+      "source": "terminal-cat.png",
+      "title": "Магический терминал",
+      "cards": [
+        "password",
+        "deadline",
+        "bug",
+        "manager",
+        "backup",
+        "tabs",
+        "restart",
+        "charger",
+        "message",
+        "idea",
+        "it_estimate",
+        "it_documentation",
+        "it_demo",
+        "it_cache",
+        "it_ai_review",
+        "it_git_blame",
+        "it_ai_prompt",
+        "it_delete",
+        "it_legacy",
+        "it_handoff",
+        "it_done",
+        "it_keyboard",
+        "it_api_contract",
+        "it_settings",
+        "it_search_history",
+        "it_printed_future"
+      ]
+    },
+    {
+      "id": "tea-alchemy",
+      "source": "tea-alchemy.png",
+      "title": "Чайная алхимия",
+      "cards": [
+        "tea",
+        "fridge",
+        "recipe",
+        "dance",
+        "tea_biscuit",
+        "tea_lemon",
+        "tea_mug",
+        "tea_refill",
+        "tea_shelf",
+        "tea_loose_leaf",
+        "tea_mint",
+        "tea_second_brew",
+        "tea_small_cup",
+        "tea_choose_simple"
+      ]
+    },
+    {
+      "id": "moon-nap",
+      "source": "moon-nap.png",
+      "title": "Космический отдых",
+      "cards": [
+        "sofa",
+        "monday",
+        "calendar",
+        "queue",
+        "sleep",
+        "walk",
+        "pause",
+        "it_rename",
+        "it_name",
+        "it_readonly",
+        "it_feature",
+        "it_rubber_duck",
+        "it_lunch",
+        "it_no_notifications"
+      ]
+    },
+    {
+      "id": "beer-oracle",
+      "source": "beer-oracle.png",
+      "title": "Пенный оракул",
+      "cards": [
+        "beer_foam",
+        "beer_menu",
+        "beer_snacks",
+        "beer_zero",
+        "beer_tasting_notes",
+        "beer_long_title",
+        "beer_small_batch",
+        "beer_round_table",
+        "beer_receipt_math",
+        "beer_first_sip"
+      ]
+    },
+    {
+      "id": "hop-wizard",
+      "source": "hop-wizard.png",
+      "title": "Хмельной маг",
+      "cards": [
+        "beer_coaster",
+        "beer_bartender",
+        "beer_tap",
+        "beer_ipa",
+        "beer_networking",
+        "beer_timebox",
+        "beer_lecture",
+        "beer_expert_pause",
+        "beer_water_break",
+        "beer_jacket"
+      ]
+    },
+    {
+      "id": "cosmic-toast",
+      "source": "cosmic-toast.png",
+      "title": "Космический тост",
+      "cards": [
+        "beer_toast",
+        "beer_playlist",
+        "beer_friends",
+        "beer_lastslide",
+        "beer_table_fix",
+        "beer_quiet_corner",
+        "beer_truce",
+        "beer_recommendation",
+        "beer_known_face",
+        "beer_foam_art"
+      ]
+    },
+    {
+      "id": "teapot-wizard",
+      "source": "teapot-wizard.png",
+      "title": "Магия заварника",
+      "cards": [
+        "tea_kettle",
+        "tea_puer",
+        "tea_ceremony",
+        "tea_thermos",
+        "tea_guest",
+        "tea_saucer",
+        "tea_empty_cup",
+        "tea_package",
+        "tea_stain",
+        "tea_reading_book"
+      ]
+    },
+    {
+      "id": "tea-leaf-oracle",
+      "source": "tea-leaf-oracle.png",
+      "title": "Гадание на чаинках",
+      "cards": [
+        "tea_leaves",
+        "tea_bag",
+        "tea_bergamot",
+        "tea_oolong",
+        "tea_temperature",
+        "tea_timer",
+        "tea_sugar",
+        "tea_spill",
+        "tea_office",
+        "tea_last_cookie"
+      ]
+    }
+  ]
+}

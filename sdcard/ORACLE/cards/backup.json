@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "backup",
+  "title": "Оберег",
+  "topic": "it",
+  "motif": 1,
+  "text": "Сегодня хороший день для создания талисмана. Назови его backup и положи в надёжное место. Магия особенно сильна, если проверить восстановление.",
+  "image": "/ORACLE/images/terminal-cat.jpg",
+  "audio": "/ORACLE/audio/backup.wav"
+}

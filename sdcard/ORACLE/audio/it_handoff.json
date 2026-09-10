@@ -1,0 +1,9 @@
+{
+  "sha256": "6ce9da0ea57fad253bad2f49a6d8dffc8c8c9628f59b64b5997e14c1d995294d",
+  "voice_id": "ELWVgJ5Mo9lF5Tha9ahW",
+  "voice_name": "Arina",
+  "model": "eleven_multilingual_v2",
+  "text": "Ты передашь коллеге проект за полчаса. Первые двадцать пять минут займёт рассказ, почему папка называется old_new_final. На сам проект останется вполне достаточно времени: он гораздо понятнее.",
+  "seconds": 11.79575,
+  "normalization_gain": 2.5
+}

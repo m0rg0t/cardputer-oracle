@@ -1,0 +1,9 @@
+{
+  "sha256": "dd5ef5add4c0c60c426ac9b11b984b6cdfbf76779779de72e7f7a93c308bf093",
+  "voice_id": "ELWVgJ5Mo9lF5Tha9ahW",
+  "voice_name": "Arina",
+  "model": "eleven_multilingual_v2",
+  "text": "Ты обнаружишь предмет из забытой эпохи. Во время уборки под диваном. Учёные назовут его пультом, а ты вспомнишь, что у тебя есть телевизор.",
+  "seconds": 9.0093125,
+  "normalization_gain": 2.5
+}

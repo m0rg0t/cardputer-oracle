@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "calendar",
+  "title": "Редкий дар",
+  "topic": "life",
+  "motif": 0,
+  "text": "Тебя ждёт роскошный подарок: отменённая встреча. Потрать освободившийся час мудро. Например, расскажи всем, как ты занят.",
+  "audio": "/ORACLE/audio/calendar.wav",
+  "image": "/ORACLE/images/moon-nap.jpg"
+}

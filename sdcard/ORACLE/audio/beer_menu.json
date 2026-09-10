@@ -1,0 +1,9 @@
+{
+  "sha256": "d3d9de370194468cc3cfd68fb97258c213bc69db61e209aeed87500f7d50e370",
+  "voice_id": "ELWVgJ5Mo9lF5Tha9ahW",
+  "voice_name": "Arina",
+  "model": "eleven_multilingual_v2",
+  "text": "Сегодня ты научишься различать тонкие оттенки. Сначала между лагером и элем. Потом между уверенным выбором и фразой: мне то же, что соседу.",
+  "seconds": 10.123875,
+  "normalization_gain": 2.5
+}

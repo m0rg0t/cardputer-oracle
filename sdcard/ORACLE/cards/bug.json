@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "bug",
+  "title": "Знак свыше",
+  "topic": "it",
+  "motif": 3,
+  "text": "Твой код подаст тебе знак. Красный. В консоли. Не пугайся: это вселенная просит обратить внимание на одну маленькую скобку.",
+  "image": "/ORACLE/images/terminal-cat.jpg",
+  "audio": "/ORACLE/audio/bug.wav"
+}

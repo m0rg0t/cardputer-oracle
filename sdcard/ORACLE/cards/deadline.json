@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "deadline",
+  "title": "Повелитель дня",
+  "topic": "it",
+  "motif": 2,
+  "text": "Ты обретёшь власть над временем. Дедлайн снова перенесут. Пользуйся даром осторожно: дедлайн тоже учится управлять тобой.",
+  "image": "/ORACLE/images/terminal-cat.jpg",
+  "audio": "/ORACLE/audio/deadline.wav"
+}

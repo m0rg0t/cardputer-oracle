@@ -1,0 +1,9 @@
+{
+  "sha256": "a3601e7c12bf3f5b534a056d65f78beef115560a137d69e332da99a8345ed0c4",
+  "voice_id": "ELWVgJ5Mo9lF5Tha9ahW",
+  "voice_name": "Arina",
+  "model": "eleven_multilingual_v2",
+  "text": "Тебя ждёт встреча с автором загадочного решения. История изменений сообщит твоё имя. Судить его строго не стоит: он тоже обещал себе потом спокойно разобраться.",
+  "seconds": 10.5883125,
+  "normalization_gain": 2.5
+}

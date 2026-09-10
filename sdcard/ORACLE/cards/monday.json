@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "monday",
+  "title": "Новая эпоха",
+  "topic": "life",
+  "motif": 1,
+  "text": "Ты начнёшь новую жизнь с понедельника. Звёзды предусмотрительно не уточняют, с какого. У тебя прекрасный запас понедельников.",
+  "audio": "/ORACLE/audio/monday.wav",
+  "image": "/ORACLE/images/moon-nap.jpg"
+}

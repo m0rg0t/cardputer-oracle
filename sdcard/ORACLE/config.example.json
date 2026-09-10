@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "wifi": [
+    {"ssid": "YOUR_HOTSPOT_SSID", "password": "YOUR_WIFI_PASSWORD"}
+  ],
+  "tarot": {
+    "host": "litellm.example.com",
+    "model": "openai/gpt-5.6-luna",
+    "token": "YOUR_LITELLM_VIRTUAL_KEY"
+  }
+}

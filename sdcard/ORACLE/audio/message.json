@@ -1,0 +1,9 @@
+{
+  "sha256": "4cfee79dc0d41436dbe3b3999cf922421a5a557c8d5a2a03df2671206667924f",
+  "voice_id": "ELWVgJ5Mo9lF5Tha9ahW",
+  "voice_name": "Arina",
+  "model": "eleven_multilingual_v2",
+  "text": "Скоро придёт сообщение, которого ты давно ждал. Возможно, просто код подтверждения. Но приятно, когда хоть кто-то уверен, что ты это ты.",
+  "seconds": 8.777125,
+  "normalization_gain": 2.5
+}

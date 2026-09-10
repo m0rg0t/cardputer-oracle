@@ -1,0 +1,9 @@
+{
+  "sha256": "5bc42e8f0c446194d6a2798d90a3039532522c732fc492a5ab13dfe0ff5dc8eb",
+  "voice_id": "ELWVgJ5Mo9lF5Tha9ahW",
+  "voice_name": "Arina",
+  "model": "eleven_multilingual_v2",
+  "text": "Скоро ты поразишь всех точностью оценки: задача займёт ровно столько, сколько ты сказал. Осталось найти запись, где ты сказал три дня, две недели и месяц, и выбрать нужную.",
+  "seconds": 11.61,
+  "normalization_gain": 2.5
+}

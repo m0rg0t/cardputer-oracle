@@ -1,0 +1,9 @@
+{
+  "sha256": "45c5dc0e3d97900872b22ddbd73b7165483e793ba11b0ebcac3f8092be9dc00f",
+  "voice_id": "ELWVgJ5Mo9lF5Tha9ahW",
+  "voice_name": "Arina",
+  "model": "eleven_multilingual_v2",
+  "text": "Звёзды разрешают тебе сегодня немного отдохнуть. Разрешение бессрочное, печать воображаемая. Если кто-то возразит, отправь его к звёздам за уточнением.",
+  "seconds": 9.7059375,
+  "normalization_gain": 2.5
+}

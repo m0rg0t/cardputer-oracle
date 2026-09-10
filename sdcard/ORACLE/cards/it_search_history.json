@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "it_search_history",
+  "title": "Путь мастера",
+  "topic": "it",
+  "motif": 0,
+  "text": "Ты найдёшь ответ на сложный вопрос в собственной истории поиска. Будет приятно узнать, что полгода назад ты уже был таким умным. И немного тревожно, что с тех пор успел это забыть.",
+  "audio": "/ORACLE/audio/it_search_history.wav",
+  "image": "/ORACLE/images/terminal-cat.jpg"
+}

@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "fridge",
+  "title": "Врата изобилия",
+  "topic": "life",
+  "motif": 2,
+  "text": "Дверь к новым возможностям уже рядом. Ты открываешь её каждые двадцать минут. Пока внутри только сыр, но надежда сильна.",
+  "audio": "/ORACLE/audio/fridge.wav",
+  "image": "/ORACLE/images/tea-alchemy.jpg"
+}

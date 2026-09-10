@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "beer_coaster",
+  "title": "Великий стартап",
+  "topic": "beer",
+  "motif": 3,
+  "text": "Сегодня на салфетке родится гениальный стартап. Круг от бокала уже готов стать логотипом. Осталось найти проблему, которую всё это решает.",
+  "image": "/ORACLE/images/hop-wizard.jpg",
+  "audio": "/ORACLE/audio/beer_coaster.wav"
+}

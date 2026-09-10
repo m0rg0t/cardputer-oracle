@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "sofa",
+  "title": "Великий путь",
+  "topic": "life",
+  "motif": 1,
+  "text": "Тебя ждёт дальняя дорога. Из кухни в комнату. По пути встретится испытание: вспомнить, зачем ты вообще встал.",
+  "audio": "/ORACLE/audio/sofa.wav",
+  "image": "/ORACLE/images/moon-nap.jpg"
+}

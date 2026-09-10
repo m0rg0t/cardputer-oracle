@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "beer_menu",
+  "title": "Трудный выбор",
+  "topic": "beer",
+  "motif": 1,
+  "text": "Сегодня ты научишься различать тонкие оттенки. Сначала между лагером и элем. Потом между уверенным выбором и фразой: мне то же, что соседу.",
+  "image": "/ORACLE/images/beer-oracle.jpg",
+  "audio": "/ORACLE/audio/beer_menu.wav"
+}

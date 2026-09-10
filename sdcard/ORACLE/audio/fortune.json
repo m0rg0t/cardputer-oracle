@@ -1,0 +1,9 @@
+{
+  "sha256": "295b497da72a198f6d96e444ae14aa4963f09d9f8b2abd8612ed312a17a82ab4",
+  "voice_id": "ELWVgJ5Mo9lF5Tha9ahW",
+  "voice_name": "Arina",
+  "model": "eleven_multilingual_v2",
+  "text": "В ближайшем будущем ты прочтёшь весьма точное предсказание. Вот оно: сейчас ты дочитаешь эту фразу. Репутация оракула снова безупречна.",
+  "seconds": 10.123875,
+  "normalization_gain": 2.5
+}

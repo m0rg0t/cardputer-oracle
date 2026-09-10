@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "beer_lastslide",
+  "title": "Финальный слайд",
+  "topic": "beer",
+  "motif": 3,
+  "text": "Твой доклад вызовет живой интерес. После финального слайда прозвучит главный вопрос вечера: а можно ещё раз нажать на эту штуку? Оракул готов к овациям.",
+  "image": "/ORACLE/images/cosmic-toast.jpg",
+  "audio": "/ORACLE/audio/beer_lastslide.wav"
+}

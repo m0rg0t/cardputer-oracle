@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "manager",
+  "title": "Важная встреча",
+  "topic": "it",
+  "motif": 0,
+  "text": "Скоро ты встретишь человека, который изменит твою жизнь. Вероятно, нового менеджера проекта. Он уже придумал небольшой созвон.",
+  "image": "/ORACLE/images/terminal-cat.jpg",
+  "audio": "/ORACLE/audio/manager.wav"
+}

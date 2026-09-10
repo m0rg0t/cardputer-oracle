@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "beer_tasting_notes",
+  "title": "Тонкие ноты",
+  "topic": "beer",
+  "motif": 2,
+  "text": "Ты различишь в пиве хлебную корочку, цитрус и лёгкую карамель. Сосед различит пиво. Вечер пройдёт прекрасно: вы научитесь уважать разную глубину исследования.",
+  "audio": "/ORACLE/audio/beer_tasting_notes.wav",
+  "image": "/ORACLE/images/beer-oracle.jpg"
+}

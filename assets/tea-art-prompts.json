@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-10",
+  "tool": "built-in imagegen",
+  "images": [
+    {
+      "id": "teapot-wizard",
+      "prompt": "Use case: illustration-story. Asset type: one square illustration for a humorous offline fortune-telling app on a Cardputer, ultimately displayed at just 92x92 pixels. Style: polished retro pixel-art inspired flat illustration, chunky readable pixels and large simple shapes, bold contours and clear silhouettes. Color palette: near-black midnight plum background #100e1b, deep purple, warm cream, antique gold. Mood: benevolent occult comedy, solemn exaggerated mysticism with deadpan humor. Composition: one centered subject filling about 80 percent of the frame, sparse small stars/crescent, strong contrast, generous uncluttered shapes that survive reduction to 92 pixels. No text, no letters, no numbers, no logo, no watermark, no border, no collage, no sprite sheet. Primary request: A deadpan cream-and-dark-plum cat wizard in a purple gold-trimmed hood solemnly pours tea from one huge ornate antique-gold teapot into a small purple-and-cream cup. The teapot is unmistakable, with a big curved spout, lid and handle, filling the lower half of the square. A broad curling ribbon of steam and three gold sparks suggest a magical ritual. Cat's serious face fills the upper half. Clear simple composition, only cat, teapot, one cup and steam, cozy tea sorcery."
+    },
+    {
+      "id": "tea-leaf-oracle",
+      "prompt": "Use case: illustration-story. Asset type: one square illustration for a humorous offline fortune-telling app on a Cardputer, ultimately displayed at just 92x92 pixels. Style: polished retro pixel-art inspired flat illustration, chunky readable pixels and large simple shapes, bold contours and clear silhouettes. Color palette: near-black midnight plum background #100e1b, deep purple, warm cream, antique gold. Mood: benevolent occult comedy, solemn exaggerated mysticism with deadpan humor. Composition: one centered subject filling about 80 percent of the frame, sparse small stars/crescent, strong contrast, generous uncluttered shapes that survive reduction to 92 pixels. No text, no letters, no numbers, no logo, no watermark, no border, no collage, no sprite sheet. Primary request: A deadpan cream-and-dark-plum cat fortune teller in a purple hood with gold trim reads the future in a large cream teacup, tilted toward the viewer so its inside is clearly visible. Three large antique-gold tea leaves float above the cup and arrange themselves into a simple arc like a tiny constellation. Cat face in upper half, large cup and three leaf shapes in lower half. The cat wears a comically serious expression as if the tea has revealed something extremely important. Instantly readable silhouette, magical tasseography, no other props."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "beer_playlist",
+  "title": "Знакомый мотив",
+  "topic": "beer",
+  "motif": 3,
+  "text": "Сегодня ты найдёшь единомышленников с первой ноты знакомой песни. Ещё минуту назад вы спорили об архитектуре. Теперь у вас распределённый хор.",
+  "image": "/ORACLE/images/cosmic-toast.jpg",
+  "audio": "/ORACLE/audio/beer_playlist.wav"
+}

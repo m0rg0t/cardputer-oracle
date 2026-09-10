@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "tea",
+  "title": "Зелье ясности",
+  "topic": "life",
+  "motif": 3,
+  "text": "Ответ на твой вопрос лежит на дне чашки. Сначала допей чай. Теперь налей ещё. Некоторые тайны требуют двух подходов.",
+  "audio": "/ORACLE/audio/tea.wav",
+  "image": "/ORACLE/images/tea-alchemy.jpg"
+}

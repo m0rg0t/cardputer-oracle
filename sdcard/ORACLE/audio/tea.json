@@ -1,0 +1,9 @@
+{
+  "sha256": "c5f49e86d4a6a2f8155ad66ecdff79b4cfa19e6fb8992610e8faf5b91d9215d4",
+  "voice_id": "ELWVgJ5Mo9lF5Tha9ahW",
+  "voice_name": "Arina",
+  "model": "eleven_multilingual_v2",
+  "text": "Ответ на твой вопрос лежит на дне чашки. Сначала допей чай. Теперь налей ещё. Некоторые тайны требуют двух подходов.",
+  "seconds": 8.7306875,
+  "normalization_gain": 2.5
+}

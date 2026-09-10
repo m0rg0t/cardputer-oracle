@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "beer_snacks",
+  "title": "Закон притяжения",
+  "topic": "beer",
+  "motif": 1,
+  "text": "Твоя компания станет ещё дружнее. Особенно когда принесут общую тарелку закусок. Последняя картошка покажет, кто здесь настоящий дипломат.",
+  "image": "/ORACLE/images/beer-oracle.jpg",
+  "audio": "/ORACLE/audio/beer_snacks.wav"
+}

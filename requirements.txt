@@ -1,0 +1,2 @@
+# Content validation and image/receipt preparation. Site build uses stdlib only.
+Pillow==12.1.1

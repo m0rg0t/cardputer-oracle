@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "parcel",
+  "title": "Дар судьбы",
+  "topic": "life",
+  "motif": 0,
+  "text": "Скоро ты получишь подарок от человека, который отлично знает твои желания. Это ты. Посылка уже в пункте выдачи.",
+  "audio": "/ORACLE/audio/parcel.wav",
+  "image": "/ORACLE/images/oracle.jpg"
+}

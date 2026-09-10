@@ -1,0 +1,9 @@
+{
+  "sha256": "5f88db84a77e3c76fc03284a86df890b137859304d1d2e0c13a78263e61d1b9b",
+  "voice_id": "ELWVgJ5Mo9lF5Tha9ahW",
+  "voice_name": "Arina",
+  "model": "eleven_multilingual_v2",
+  "text": "Тебя ждёт дальняя дорога. Из кухни в комнату. По пути встретится испытание: вспомнить, зачем ты вообще встал.",
+  "seconds": 7.94125,
+  "normalization_gain": 2.5
+}

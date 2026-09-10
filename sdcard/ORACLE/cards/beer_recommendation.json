@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "beer_recommendation",
+  "title": "Попадание во вкус",
+  "topic": "beer",
+  "motif": 1,
+  "text": "Бармен подберёт тебе сорт после двух простых вопросов. Ты вспомнишь рабочую анкету из сорока пунктов, которая никому не помогла. Возможно, её автору тоже пора поговорить с барменом.",
+  "audio": "/ORACLE/audio/beer_recommendation.wav",
+  "image": "/ORACLE/images/cosmic-toast.jpg"
+}

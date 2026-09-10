@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "beer_ipa",
+  "title": "Горькая правда",
+  "topic": "beer",
+  "motif": 1,
+  "text": "Скоро ты научишься принимать горькую правду с удовольствием. На этот раз речь о хмеле. Жизненные уроки сегодня подают в красивом бокале.",
+  "image": "/ORACLE/images/hop-wizard.jpg",
+  "audio": "/ORACLE/audio/beer_ipa.wav"
+}

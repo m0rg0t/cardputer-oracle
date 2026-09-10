@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "plant",
+  "title": "Зелёный союз",
+  "topic": "life",
+  "motif": 1,
+  "text": "Рядом с тобой есть существо, которому очень нужна твоя забота. Это цветок на подоконнике. Он уже неделю изображает сухоцвет.",
+  "image": "/ORACLE/images/oracle.jpg",
+  "audio": "/ORACLE/audio/plant.wav"
+}

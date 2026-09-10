@@ -1,0 +1,55 @@
+# Private settings, credentials, backups and session history.
+/local/
+/release/
+.env
+.env.*
+!.env.example
+**/config.json
+**/config.local.*
+**/secrets.*
+**/credentials.*
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+*.pem
+!sdcard/ORACLE/tls/roots.pem
+# Build output and development environments.
+/build/
+.pio/
+.pio-core/
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.o
+*.a
+*.elf
+*.map
+*.log
+.coverage
+.pytest_cache/
+# Public docs are curated Markdown and media, not probes or generated logs.
+/docs/*
+!/docs/*.md
+!/docs/media/
+/docs/media/*.ppm
+# Finished SD voices must be committed; generated sound previews are ignored.
+*.wav
+*.WAV
+!sdcard/ORACLE/audio/*.wav
+/sdcard/ORACLE/diagnostic.txt
+/sdcard/ORACLE/*.tmp
+# Operating system / editor files.
+.DS_Store
+._*
+.Spotlight-V100/
+.Trashes/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~

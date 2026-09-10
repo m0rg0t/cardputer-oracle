@@ -1,0 +1,9 @@
+{
+  "sha256": "18e989eef6af8928ddd3f39165480e73d2511beac18f620c311c1ea11ede5857",
+  "voice_id": "ELWVgJ5Mo9lF5Tha9ahW",
+  "voice_name": "Arina",
+  "model": "eleven_multilingual_v2",
+  "text": "Ты исправишь серьёзную проблему одной строчкой настроек. Со стороны это займёт минуту. Про три часа, за которые ты нашёл эту строчку, можно рассказать в мемуарах.",
+  "seconds": 9.752375,
+  "normalization_gain": 2.5
+}

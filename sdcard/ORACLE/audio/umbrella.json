@@ -1,0 +1,9 @@
+{
+  "sha256": "cbb9dd4cad20523d7710c36c9db1f8bec2e504dc1e4bf957b401d9570dfc310e",
+  "voice_id": "ELWVgJ5Mo9lF5Tha9ahW",
+  "voice_name": "Arina",
+  "model": "eleven_multilingual_v2",
+  "text": "Ты научишься управлять погодой. Возьми зонт, и дождь не пойдёт. Забудь его, и эксперимент немедленно подтвердится.",
+  "seconds": 7.3839375,
+  "normalization_gain": 2.4839973249259577
+}

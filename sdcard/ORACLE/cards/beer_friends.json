@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "beer_friends",
+  "title": "Счастливый случай",
+  "topic": "beer",
+  "motif": 2,
+  "text": "Случайный сосед по столику окажется нужным человеком. У него найдётся зарядка, хорошая история или свободный стул. Вселенная сегодня работает через бар.",
+  "image": "/ORACLE/images/cosmic-toast.jpg",
+  "audio": "/ORACLE/audio/beer_friends.wav"
+}

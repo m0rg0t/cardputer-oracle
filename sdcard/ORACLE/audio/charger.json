@@ -1,0 +1,9 @@
+{
+  "sha256": "a3dfb67609b979687234770c99d74f141ff6ac1c56541d2a9f56104244472c9f",
+  "voice_id": "ELWVgJ5Mo9lF5Tha9ahW",
+  "voice_name": "Arina",
+  "model": "eleven_multilingual_v2",
+  "text": "Твоя энергия скоро восстановится. Сначала найди зарядку для телефона. Затем еду для себя. Главное, не перепутай разъёмы.",
+  "seconds": 8.1734375,
+  "normalization_gain": 2.5
+}

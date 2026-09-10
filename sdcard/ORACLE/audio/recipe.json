@@ -1,0 +1,9 @@
+{
+  "sha256": "d8b2f1ff4a31caa5dddde14ef839bfae94ac7f6b16e7be7695869036475ddbcd",
+  "voice_id": "ELWVgJ5Mo9lF5Tha9ahW",
+  "voice_name": "Arina",
+  "model": "eleven_multilingual_v2",
+  "text": "Сегодня в тебе проснётся великий алхимик. Ты смешаешь всё, что осталось в холодильнике. Название блюда лучше придумать после дегустации.",
+  "seconds": 9.288,
+  "normalization_gain": 2.5
+}

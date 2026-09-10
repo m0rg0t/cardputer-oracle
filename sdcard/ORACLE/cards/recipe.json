@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "recipe",
+  "title": "Алхимия ужина",
+  "topic": "life",
+  "motif": 1,
+  "text": "Сегодня в тебе проснётся великий алхимик. Ты смешаешь всё, что осталось в холодильнике. Название блюда лучше придумать после дегустации.",
+  "image": "/ORACLE/images/tea-alchemy.jpg",
+  "audio": "/ORACLE/audio/recipe.wav"
+}

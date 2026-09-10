@@ -1,0 +1,9 @@
+{
+  "sha256": "2abff3613e37bb8acb969876a1e53760bd14727535f459d5606053337bdaabc9",
+  "voice_id": "ELWVgJ5Mo9lF5Tha9ahW",
+  "voice_name": "Arina",
+  "model": "eleven_multilingual_v2",
+  "text": "Иногда, чтобы всё наладилось, нужно начать заново. Попробуй сначала перезагрузить устройство. Решения о переезде пока отложим.",
+  "seconds": 7.3375,
+  "normalization_gain": 2.5
+}

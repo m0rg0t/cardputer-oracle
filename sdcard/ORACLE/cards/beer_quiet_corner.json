@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "beer_quiet_corner",
+  "title": "Место силы",
+  "topic": "beer",
+  "motif": 3,
+  "text": "Ты найдёшь столик, за которым слышно собеседника и не дует. Друзья оценят твой выбор выше любого сложного вкуса. Самая редкая позиция в баре иногда называется нормальная акустика.",
+  "audio": "/ORACLE/audio/beer_quiet_corner.wav",
+  "image": "/ORACLE/images/cosmic-toast.jpg"
+}

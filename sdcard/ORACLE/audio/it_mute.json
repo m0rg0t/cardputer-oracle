@@ -1,0 +1,9 @@
+{
+  "sha256": "3c562f53048fe90b12f1c4ecfea3d2e6534de8a025e9893dbb34a2cdb9a5028e",
+  "voice_id": "ELWVgJ5Mo9lF5Tha9ahW",
+  "voice_name": "Arina",
+  "model": "eleven_multilingual_v2",
+  "text": "На ближайшем созвоне ты сформулируешь безупречную мысль. Тебе даже дадут договорить. Правда, потом попросят повторить со включённым микрофоном, и получится уже обычная мысль.",
+  "seconds": 11.517125,
+  "normalization_gain": 2.5
+}

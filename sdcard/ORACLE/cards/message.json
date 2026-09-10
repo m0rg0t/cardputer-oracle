@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "message",
+  "title": "Благая весть",
+  "topic": "life",
+  "motif": 1,
+  "text": "Скоро придёт сообщение, которого ты давно ждал. Возможно, просто код подтверждения. Но приятно, когда хоть кто-то уверен, что ты это ты.",
+  "image": "/ORACLE/images/terminal-cat.jpg",
+  "audio": "/ORACLE/audio/message.wav"
+}

@@ -1,0 +1,9 @@
+{
+  "sha256": "a4bf5d2a3b416b53c32b120aafa168321db17d5848140e0ad3ac4e2a793cab66",
+  "voice_id": "ELWVgJ5Mo9lF5Tha9ahW",
+  "voice_name": "Arina",
+  "model": "eleven_multilingual_v2",
+  "text": "Твою работу примут с комментарием: всё хорошо. Первым порывом будет спросить, точно ли её смотрели. Постарайся принять похвалу без запроса дополнительных доказательств.",
+  "seconds": 11.192,
+  "normalization_gain": 2.5
+}

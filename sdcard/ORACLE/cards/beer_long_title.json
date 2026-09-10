@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "beer_long_title",
+  "title": "Краткость заказа",
+  "topic": "beer",
+  "motif": 1,
+  "text": "Ты выберешь пиво с названием в три строки и историей в две страницы. Бармен кивнёт: светлое, понял. Иногда лучший переводчик с языка маркетинга стоит по другую сторону стойки.",
+  "audio": "/ORACLE/audio/beer_long_title.wav",
+  "image": "/ORACLE/images/beer-oracle.jpg"
+}

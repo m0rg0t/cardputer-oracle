@@ -1,0 +1,16 @@
+* text=auto
+*.py text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+*.ini text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.wav binary
+*.png binary
+*.jpg binary
+*.bin binary
+# Preserve upstream license texts verbatim, including their whitespace.
+third_party/*-LICENSE -whitespace

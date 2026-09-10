@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "beer_networking",
+  "title": "Нужные знакомства",
+  "topic": "beer",
+  "motif": 3,
+  "text": "Тебя ждёт полезное знакомство у стойки. Поговорите так хорошо, что забудете обменяться контактами. Зато оба запомните человека, который ни разу не спросил, где ты работаешь.",
+  "audio": "/ORACLE/audio/beer_networking.wav",
+  "image": "/ORACLE/images/hop-wizard.jpg"
+}

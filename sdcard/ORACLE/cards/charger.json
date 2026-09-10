@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "charger",
+  "title": "Источник силы",
+  "topic": "life",
+  "motif": 0,
+  "text": "Твоя энергия скоро восстановится. Сначала найди зарядку для телефона. Затем еду для себя. Главное, не перепутай разъёмы.",
+  "image": "/ORACLE/images/terminal-cat.jpg",
+  "audio": "/ORACLE/audio/charger.wav"
+}

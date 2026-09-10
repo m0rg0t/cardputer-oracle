@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "restart",
+  "title": "Перерождение",
+  "topic": "it",
+  "motif": 3,
+  "text": "Иногда, чтобы всё наладилось, нужно начать заново. Попробуй сначала перезагрузить устройство. Решения о переезде пока отложим.",
+  "image": "/ORACLE/images/terminal-cat.jpg",
+  "audio": "/ORACLE/audio/restart.wav"
+}

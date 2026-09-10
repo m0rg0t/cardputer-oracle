@@ -1,0 +1,9 @@
+{
+  "sha256": "db21d8d3d2259b1681e1f07a3c836d959bcceda71dcdc07bce2cad9da99b567f",
+  "voice_id": "ELWVgJ5Mo9lF5Tha9ahW",
+  "voice_name": "Arina",
+  "model": "eleven_multilingual_v2",
+  "text": "Сегодня ты обнаружишь способ замедлить время. Скажи: давайте спокойно выпьем чаю. Час спустя окажется, что вы обсудили всё, кроме вопроса, ради которого собрались. Церемония прошла успешно.",
+  "seconds": 13.0960625,
+  "normalization_gain": 2.5
+}

@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "beer_toast",
+  "title": "Дар красноречия",
+  "topic": "beer",
+  "motif": 2,
+  "text": "Тебя ждёт блестящее выступление. Тост получится коротким, смешным и без презентации. Коллеги впервые узнают, что ты умеешь укладываться в минуту.",
+  "image": "/ORACLE/images/cosmic-toast.jpg",
+  "audio": "/ORACLE/audio/beer_toast.wav"
+}

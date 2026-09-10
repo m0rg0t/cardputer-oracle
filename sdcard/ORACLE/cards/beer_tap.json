@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "beer_tap",
+  "title": "Новый поток",
+  "topic": "beer",
+  "motif": 2,
+  "text": "В твоей жизни откроется новый поток возможностей. Пока это свободное место у барной стойки. Занимай: хорошая инфраструктура сама себя не найдёт.",
+  "image": "/ORACLE/images/hop-wizard.jpg",
+  "audio": "/ORACLE/audio/beer_tap.wav"
+}

@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "beer_bartender",
+  "title": "Хранитель знаний",
+  "topic": "beer",
+  "motif": 0,
+  "text": "Скоро ты встретишь мудреца, который знает ответ на любой вопрос. Это бармен. Если ответ звучит как название пива, значит, вопрос был достаточно философским.",
+  "image": "/ORACLE/images/hop-wizard.jpg",
+  "audio": "/ORACLE/audio/beer_bartender.wav"
+}

@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "dance",
+  "title": "Зов сердца",
+  "topic": "life",
+  "motif": 2,
+  "text": "Неожиданная мелодия укажет тебе верный путь. Это микроволновка. Ужин готов, и вселенная настоятельно рекомендует не спорить.",
+  "image": "/ORACLE/images/tea-alchemy.jpg",
+  "audio": "/ORACLE/audio/dance.wav"
+}

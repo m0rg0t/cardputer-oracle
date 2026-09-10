@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "beer_foam",
+  "title": "Пенный знак",
+  "topic": "beer",
+  "motif": 0,
+  "text": "Сегодня ты увидишь знак судьбы в пивной пене. Если знак похож на усы, сначала посмотри в зеркало. Иногда пророчество находится прямо под носом.",
+  "image": "/ORACLE/images/beer-oracle.jpg",
+  "audio": "/ORACLE/audio/beer_foam.wav"
+}

@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "tea_leaves",
+  "title": "Знаки на дне",
+  "topic": "tea",
+  "motif": 0,
+  "text": "Сегодня чаинки сложатся в карту великих перемен. Если видишь дракона, тебя ждёт приключение. Если видишь только чаинки, приключение начнётся после второй чашки.",
+  "image": "/ORACLE/images/tea-leaf-oracle.jpg",
+  "audio": "/ORACLE/audio/tea_leaves.wav"
+}

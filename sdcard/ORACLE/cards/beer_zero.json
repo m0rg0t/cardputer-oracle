@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "beer_zero",
+  "title": "Нулевая магия",
+  "topic": "beer",
+  "motif": 0,
+  "text": "Тебя ждёт приятное открытие: безалкогольное пиво тоже совместимо с великими идеями. Ноль градусов, сто процентов участия. Оракул проверил протокол.",
+  "image": "/ORACLE/images/beer-oracle.jpg",
+  "audio": "/ORACLE/audio/beer_zero.wav"
+}

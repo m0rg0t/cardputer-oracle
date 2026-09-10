@@ -1,0 +1,9 @@
+{
+  "sha256": "e62983a946b4a254d80391adc20646dc16dfca5af0a8f8261cb1d8f0e06e5515",
+  "voice_id": "ELWVgJ5Mo9lF5Tha9ahW",
+  "voice_name": "Arina",
+  "model": "eleven_multilingual_v2",
+  "text": "Ты так подробно объяснишь нейросети задачу, что сам поймёшь, как её решить. Она всё равно пришлёт длинный ответ. Уважительно кивни: вы оба сегодня хорошо поработали.",
+  "seconds": 9.8916875,
+  "normalization_gain": 2.5
+}

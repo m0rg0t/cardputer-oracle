@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "tabs",
+  "title": "Много миров",
+  "topic": "it",
+  "motif": 2,
+  "text": "Перед тобой откроется множество возможностей. Примерно сорок вкладок. В одной играет музыка. Это и есть главный квест дня.",
+  "image": "/ORACLE/images/terminal-cat.jpg",
+  "audio": "/ORACLE/audio/tabs.wav"
+}

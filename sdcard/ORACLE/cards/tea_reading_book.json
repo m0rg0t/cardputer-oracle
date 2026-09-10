@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "tea_reading_book",
+  "title": "Ещё одна глава",
+  "topic": "tea",
+  "motif": 0,
+  "text": "Ты сядешь с чаем и книгой на двадцать минут. Чай остынет, а двадцать минут превратятся в главу. Это редкий случай, когда забытый напиток свидетельствует о прекрасно потраченном времени.",
+  "audio": "/ORACLE/audio/tea_reading_book.wav",
+  "image": "/ORACLE/images/teapot-wizard.jpg"
+}

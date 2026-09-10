@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "beer_round_table",
+  "title": "Общий язык",
+  "topic": "beer",
+  "motif": 3,
+  "text": "Ты окажешься за столом, где у каждого есть история про странного заказчика. К концу вечера выяснится, что в двух историях заказчиком был ты. Хорошо, что рассказывали с любовью.",
+  "audio": "/ORACLE/audio/beer_round_table.wav",
+  "image": "/ORACLE/images/beer-oracle.jpg"
+}

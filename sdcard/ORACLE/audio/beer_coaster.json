@@ -1,0 +1,9 @@
+{
+  "sha256": "44705e72cc95257039b9ab00c08cdc22455fdf1c4d64e44b5701d47fdf02bad2",
+  "voice_id": "ELWVgJ5Mo9lF5Tha9ahW",
+  "voice_name": "Arina",
+  "model": "eleven_multilingual_v2",
+  "text": "Сегодня на салфетке родится гениальный стартап. Круг от бокала уже готов стать логотипом. Осталось найти проблему, которую всё это решает.",
+  "seconds": 9.0093125,
+  "normalization_gain": 2.5
+}

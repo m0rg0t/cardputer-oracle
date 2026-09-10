@@ -1,0 +1,9 @@
+{
+  "sha256": "2b16cbe8e84bce073abc46807e19ccfebc02e5da306cd0cb778f89d050a15ee2",
+  "voice_id": "ELWVgJ5Mo9lF5Tha9ahW",
+  "voice_name": "Arina",
+  "model": "eleven_multilingual_v2",
+  "text": "Ты заведёшь таймер, чтобы заварить чай правильно. Через три минуты он напомнит, что ты не положил заварку. Зато ты получил три минуты спокойствия строго по инструкции.",
+  "seconds": 8.8235625,
+  "normalization_gain": 2.5
+}

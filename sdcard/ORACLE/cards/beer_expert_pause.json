@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "beer_expert_pause",
+  "title": "Знак знатока",
+  "topic": "beer",
+  "motif": 0,
+  "text": "Сегодня ты сделаешь задумчивую паузу после первого глотка. Все решат, что ты оцениваешь послевкусие. Можно не уточнять, что ты просто пытаешься вспомнить, закрыл ли дома окно.",
+  "audio": "/ORACLE/audio/beer_expert_pause.wav",
+  "image": "/ORACLE/images/hop-wizard.jpg"
+}
