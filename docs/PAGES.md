@@ -1,5 +1,7 @@
 # GitHub Pages
 
+Публичный сайт: https://m0rg0t.github.io/cardputer-oracle/. В репозитории включён источник GitHub Actions; обновление запускается вручную через Deploy GitHub Pages.
+
 Исходники — site/index.html, site/style.css, site/language.js и site/locales/{en,ru,zh}.json. Генератор tools/build_site.py использует стандартную библиотеку Python 3.10+. Для каждого языка примеры берутся из соответствующей настоящей колоды, включая три готовых WAV. Всего на сайте девять записей.
 
 ~~~sh

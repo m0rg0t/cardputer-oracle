@@ -141,7 +141,7 @@ local/          Private working notes and deployment checkout (ignored)
 
 ## Project page
 
-[Public project page](https://oracle-adv.antonlenev.chatgpt.site). Available in English, Russian and Simplified Chinese. Changes here do not automatically republish the Sites deployment.
+[GitHub Pages](https://m0rg0t.github.io/cardputer-oracle/) · [ChatGPT Sites mirror](https://oracle-adv.antonlenev.chatgpt.site). Available in English, Russian and Simplified Chinese. Changes here do not automatically republish the Sites deployment.
 
 The website source provides English, Russian and Simplified Chinese at `/en/`, `/ru/` and `/zh/`, with matching fortune examples, recordings, firmware screenshots, receipt previews and installation guides. The entry page detects the browser language, falling back to English; the language switcher remembers a manual choice. Direct language links stay in the requested language. All content and language links still work without JavaScript.
 
