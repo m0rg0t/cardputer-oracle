@@ -1,42 +1,27 @@
 <!doctype html>
-<html lang="ru">
+<html lang="@@HTML_LANG@@" data-language-entry="@@ENTRY@@">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#100e1b">
-<meta name="description" content="Карманный оракул на Cardputer ADV: 120 озвученных предсказаний, мистические коты, Таро и печать будущего на бумаге.">
-<title>Oracle ADV — будущее по нажатию</title><link rel="stylesheet" href="style.css">
-</head>
-<body>
-<a class="skip" href="#main">К содержанию</a>
-<header class="nav wrap"><a class="wordmark" href="#main">ORACLE <span>/ ADV</span></a><nav aria-label="По странице"><a href="#examples">Предсказания</a><a href="#inside">Как устроено</a><a href="#build">Собрать</a></nav></header>
-<main id="main">
-<section class="hero wrap" aria-labelledby="headline">
-<div><p class="eyebrow">M5Stack Cardputer ADV · v@@VERSION@@</p><h1 id="headline">Будущее —<br>по нажатию.</h1><p class="lead">Карманный оракул с чувством юмора. Тасует предсказания, читает их вслух и, если рядом есть принтер, выдаёт будущее на бумаге.</p><a class="button" href="#examples">Заглянуть в колоду <span aria-hidden="true">↘</span></a><p class="aside">Звёзды старались. Гарантий нет.</p></div>
-<figure class="hero-art"><img src="assets/oracle-cat.png" alt="Невозмутимый кот-оракул над золотым хрустальным шаром" width="1024" height="1024" fetchpriority="high"><figcaption>Главный консультант по неопределённости.</figcaption></figure>
-</section>
-<div class="stats wrap" aria-label="В цифрах"><p><strong>@@TOTAL@@</strong><span>готовых предсказаний</span></p><p><strong>3 + 1</strong><span>три колоды и Таро / AI</span></p><p><strong>9</strong><span>мистических иллюстраций</span></p><p><strong>0</strong><span>запросов в сеть для обычного гадания</span></p></div>
-<section class="wrap section" id="examples" aria-labelledby="examples-title">
-<div class="section-heading"><p class="eyebrow">Из настоящей колоды</p><h2 id="examples-title">У каждой темы<br>свои знаки судьбы.</h2><p>Три примера с теми самыми голосами и иллюстрациями, которые лежат на microSD устройства.</p></div>
-<div class="examples">@@EXAMPLES@@</div>
-<div class="tarot"><div><p class="eyebrow">Четвёртая тема</p><h3>А если вопрос слишком конкретный?</h3></div><p>В «Таро / AI» можно набрать вопрос на клавиатуре. Оракул выберет три разных старших аркана — прошлое, настоящее и будущее — и запросит шутливое толкование через LiteLLM. Для этого режима нужны Wi-Fi и собственный ключ. Озвучка пока есть у готовых предсказаний.</p></div>
-</section>
-<section class="section how" id="inside" aria-labelledby="inside-title"><div class="wrap"><p class="eyebrow">Магия с понятным устройством</p><h2 id="inside-title">Немного нейросетей.<br>Много заготовленной судьбы.</h2>
-<div class="how-grid"><div><ol class="steps">
-<li><h3>Выбираем тему</h3><p>Лево и право переключают колоды. Остальные кнопки на главном экране запускают предсказание.</p></li>
-<li><h3>Тасуем вероятности</h3><p>Короткая анимация и магические звуки, которые синтезируются прямо на устройстве. У каждой темы своя очередь без повторов.</p></li>
-<li><h3>Слушаем и читаем</h3><p>С SD загружается только выбранная карточка. На экране — картинка, затем прокручиваемый текст. Голос записан заранее в ElevenLabs.</p></li>
-<li><h3>Забираем на бумаге</h3><p>Одна автоматическая попытка печати на BQ95 по Bluetooth. Клавиша <kbd>P</kbd> — ещё одна копия того же предсказания.</p></li></ol>
-<figure class="screen"><img src="assets/screen-home.png" alt="Главный экран Oracle 0.5.3: батарея, тема и приглашение получить прогноз" width="240" height="135" loading="lazy"><figcaption>Экран приложения, снимок симулятора. Заряд обновляется раз в пять секунд.</figcaption></figure>
-</div><figure class="paper"><img src="assets/receipt-tea.png" alt="Полный чайный чек с крупной иллюстрацией и предсказанием" width="384" height="770" loading="lazy"><figcaption>Чек шириной 384 точки. Иллюстрация занимает почти всю ширину.</figcaption></figure></div>
-</div></section>
-<section class="section wrap build" id="build" aria-labelledby="build-title"><div><p class="eyebrow">Собрать своего оракула</p><h2 id="build-title">Колода, голос<br>и код — вместе.</h2><p>Нужны Cardputer ADV, microSD с FAT32 и M5Apps. В проекте уже есть все тексты, WAV, картинки и готовые растры чеков. Повторно генерировать контент не требуется.</p><p>Сборки доступны на английском, русском и упрощённом китайском. Проверки на компьютере выполнены; установку, звук и радио нужно проверить на своём Cardputer ADV.</p>@@REPOSITORY_LINK@@</div>
-<div class="build-notes"><h3>Локальная сборка</h3><pre><code>python3 -m venv .venv
+<meta name="theme-color" content="#100e1b"><meta name="description" content="@@DESCRIPTION@@">
+<title>@@TITLE@@</title>@@ALTERNATES@@
+<link rel="stylesheet" href="@@BASE@@style.css"><script src="@@BASE@@language.js"></script>
+</head><body>
+<a class="skip" href="#main">@@SKIP@@</a>
+<header class="nav wrap"><a class="wordmark" href="#main">ORACLE <span>/ ADV</span></a><div class="nav-tools"><nav aria-label="@@NAV_LABEL@@"><a href="#examples">@@NAV_EXAMPLES@@</a><a href="#inside">@@NAV_INSIDE@@</a><a href="#build">@@NAV_BUILD@@</a></nav><nav class="languages" aria-label="@@LANGUAGE_LABEL@@">@@SWITCHER@@</nav></div></header>
+<main id="main"><section class="hero wrap" aria-labelledby="headline">
+<div><p class="eyebrow">M5Stack Cardputer ADV · v@@VERSION@@</p><h1 id="headline">@@HEADLINE@@</h1><p class="lead">@@LEAD@@</p><a class="button" href="#examples">@@CTA@@ <span aria-hidden="true">↘</span></a><p class="aside">@@ASIDE@@</p></div>
+<figure class="hero-art"><img src="@@BASE@@assets/oracle-cat.png" alt="@@CAT_ALT@@" width="1024" height="1024" fetchpriority="high"><figcaption>@@CAT_CAPTION@@</figcaption></figure></section>
+<div class="stats wrap" role="group" aria-label="@@STATS_LABEL@@"><p><strong>@@TOTAL@@</strong><span>@@STAT_FORTUNES@@</span></p><p><strong>3 + 1</strong><span>@@STAT_THEMES@@</span></p><p><strong>@@ART_COUNT@@</strong><span>@@STAT_ART@@</span></p><p><strong>0</strong><span>@@STAT_NETWORK@@</span></p></div>
+<section class="wrap section" id="examples" aria-labelledby="examples-title"><div class="section-heading"><p class="eyebrow">@@EXAMPLES_EYEBROW@@</p><h2 id="examples-title">@@EXAMPLES_TITLE@@</h2><p>@@EXAMPLES_INTRO@@</p></div><div class="examples">@@EXAMPLES@@</div><div class="tarot"><div><p class="eyebrow">@@TAROT_EYEBROW@@</p><h3>@@TAROT_TITLE@@</h3></div><p>@@TAROT_BODY@@</p></div></section>
+<section class="section how" id="inside" aria-labelledby="inside-title"><div class="wrap"><p class="eyebrow">@@HOW_EYEBROW@@</p><h2 id="inside-title">@@HOW_TITLE@@</h2><div class="how-grid"><div><ol class="steps">@@STEPS@@</ol>
+<figure class="screen"><img src="@@BASE@@assets/screen-home-@@LANG@@.png" alt="@@HOME_ALT@@" width="480" height="270" loading="lazy"><figcaption>@@SCREEN_CAPTION@@</figcaption></figure>
+<figure class="screen"><img src="@@BASE@@assets/screen-result-@@LANG@@.png" alt="@@RESULT_ALT@@" width="480" height="270" loading="lazy"><figcaption>@@RESULT_CAPTION@@</figcaption></figure></div>
+<figure class="paper"><img src="@@BASE@@assets/receipt-tea-@@LANG@@.png" alt="@@RECEIPT_ALT@@" width="384" height="@@RECEIPT_HEIGHT@@" loading="lazy"><figcaption>@@RECEIPT_CAPTION@@</figcaption></figure></div></div></section>
+<section class="section wrap build" id="build" aria-labelledby="build-title"><div><p class="eyebrow">@@BUILD_EYEBROW@@</p><h2 id="build-title">@@BUILD_TITLE@@</h2><p>@@BUILD_INTRO@@</p><p>@@BUILD_STATUS@@</p>@@REPOSITORY_LINK@@<p><a class="button" href="@@BASE@@assets/@@GUIDE_FILE@@" download>@@GUIDE_LABEL@@ ↓</a></p></div>
+<div class="build-notes"><h3>@@BUILD_LOCAL@@</h3><pre tabindex="0"><code>python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
 python -m pip install platformio
-python tools/build_release.py
-# Русский: --language ru
-# 中文: --language zh</code></pre><p>Установка — M5Apps → Installer → SD. В корень microSD скопируйте BIN и целиком папку <code>ORACLE</code> из одного языкового ZIP. Исходный <code>sdcard/</code> не является готовым английским или китайским набором.</p><p>Если M5Apps ещё нет, сначала установите его по USB с кабелем данных. Для дальнейших установок Oracle достаточно кардридера. Формат карты — FAT32. После установки в шапке должно быть SD; DEMO означает, что полный набор не загрузился.</p><p>Сохраняйте личный <code>ORACLE/config.json</code> при обновлении. Файлы <code>ORACLE/print/*.bin</code> и <code>ORACLE/fonts/chinese12.bin</code> — ресурсы, не прошивки. Полные инструкции: подготовка карты, дерево файлов, Wi-Fi, обновление и диагностика.</p><p><a href="assets/INSTALL.en.md" download>Installation guide (EN)</a> · <a href="assets/INSTALL.md" download>Инструкция (RU)</a> · <a href="assets/INSTALL.zh.md" download>安装说明 (中文)</a></p></div></section>
-</main>
-<footer class="wrap foot"><a class="wordmark" href="#main">ORACLE <span>/ ADV</span></a><p>Будущее непредсказуемо.<br>Зато формат WAV вполне определён.</p><span>v@@VERSION@@ · эксперимент с нейросетями</span></footer>
+@@BUILD_COMMAND@@</code></pre><p>@@INSTALL_COPY@@</p><p>@@INSTALL_LAUNCHER@@</p><p>@@INSTALL_PRIVATE@@</p></div></section></main>
+<footer class="wrap foot"><a class="wordmark" href="#main">ORACLE <span>/ ADV</span></a><p>@@FOOTER@@</p><span>v@@VERSION@@ · @@FOOTNOTE@@</span></footer>
 </body></html>

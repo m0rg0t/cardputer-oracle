@@ -1,0 +1,75 @@
+{
+  "DESCRIPTION": "A pocket oracle for Cardputer ADV: 120 spoken fortunes, mystical cats, AI Tarot and printed keepsakes.",
+  "TITLE": "Oracle ADV — your future, one key away",
+  "SKIP": "Skip to content",
+  "NAV_LABEL": "On this page",
+  "NAV_EXAMPLES": "Fortunes",
+  "NAV_INSIDE": "How it works",
+  "NAV_BUILD": "Install",
+  "LANGUAGE_LABEL": "Site language",
+  "HEADLINE": "Your future.\nOne key away.",
+  "LEAD": "A pocket fortune teller with a sense of humor. Shuffles your fortunes, reads them aloud and, with a printer nearby, puts your future on paper.",
+  "CTA": "Explore the deck",
+  "ASIDE": "The stars tried. No guarantees.",
+  "CAT_ALT": "An unflappable oracle cat watching over a golden crystal ball",
+  "CAT_CAPTION": "Chief consultant on uncertainty.",
+  "STATS_LABEL": "At a glance",
+  "STAT_FORTUNES": "ready-to-play fortunes",
+  "STAT_THEMES": "three decks and AI Tarot",
+  "STAT_ART": "mystical illustrations",
+  "STAT_NETWORK": "network requests for an offline fortune",
+  "EXAMPLES_EYEBROW": "From the actual deck",
+  "EXAMPLES_TITLE": "Every theme has\nits own signs.",
+  "EXAMPLES_INTRO": "Three examples with the exact English voices and illustrations included in the device's microSD bundle.",
+  "TAROT_EYEBROW": "The fourth theme",
+  "TAROT_TITLE": "Have a more specific question?",
+  "TAROT_BODY": "Type a question in Tarot / AI. The oracle draws three different major arcana—past, present and future—and asks LiteLLM for a playful reading in English. This mode needs Wi-Fi and your own proxy key. Narration is available for the pre-generated fortunes; online Tarot is text and a printable receipt.",
+  "HOW_EYEBROW": "Magic you can understand",
+  "HOW_TITLE": "A little AI.\nPlenty of prepared destiny.",
+  "STEPS": [
+    [
+      "Choose a theme",
+      "Left and right change decks. Other keys on the home screen start a fortune."
+    ],
+    [
+      "Shuffle the possibilities",
+      "A short animation and magical sounds synthesized on the device. Each theme has its own queue without repeats until exhausted."
+    ],
+    [
+      "Listen and read",
+      "Only the selected card is loaded from SD. A picture appears, followed by scrolling text. The narration is recorded in advance with ElevenLabs."
+    ],
+    [
+      "Take it home on paper",
+      "One automatic Bluetooth print attempt on a BQ95. Press P for another copy of the same fortune."
+    ]
+  ],
+  "HOME_ALT": "English Oracle home screen showing battery level and theme",
+  "RESULT_ALT": "English fortune text on the Cardputer screen",
+  "SCREEN_CAPTION": "English firmware in the simulator. The battery value is simulated.",
+  "RESULT_CAPTION": "The same English text appears on screen, in the recording and on the receipt.",
+  "RECEIPT_ALT": "English tea fortune receipt with large artwork",
+  "RECEIPT_CAPTION": "384-dot receipt, with 336-dot artwork. A generated preview of the English print data.",
+  "BUILD_EYEBROW": "Make it your own",
+  "BUILD_TITLE": "The deck, the voice\nand the code.",
+  "BUILD_INTRO": "You'll need a Cardputer ADV, FAT32 microSD and M5Apps. Text, WAV recordings, artwork and receipts are included. No need to regenerate content or supply a key for offline fortunes.",
+  "BUILD_STATUS": "English is the default build. Russian and Simplified Chinese bundles are also available. Software checks pass; check installation, sound and wireless functions on your own device.",
+  "BUILD_LOCAL": "Build the English bundle",
+  "INSTALL_COPY": "Install through M5Apps → Installer → SD. Copy the BIN and the complete ORACLE folder from the same English ZIP to the microSD root. The source sdcard/ directory is not the English release pack.",
+  "INSTALL_LAUNCHER": "If M5Apps is not installed, set it up over USB with a data cable first. Later Oracle updates only need a card reader. The header should show SD; DEMO means the complete deck was not loaded.",
+  "INSTALL_PRIVATE": "Preserve your private ORACLE/config.json when updating. Files inside ORACLE/print/ and ORACLE/fonts/ are resources, not installable firmware. The guide covers the directory layout, Wi-Fi, updates and troubleshooting.",
+  "GUIDE_LABEL": "English installation guide",
+  "REPOSITORY_LABEL": "View source on GitHub",
+  "FOOTER": "The future is unpredictable.\nThe WAV format is well defined.",
+  "FOOTNOTE": "a pocket AI experiment",
+  "THEMES": [
+    "Tech & everyday",
+    "Beer",
+    "Tea"
+  ],
+  "CARDS_LABEL": "cards",
+  "LISTEN": "Listen to this fortune",
+  "AUDIO_LABEL": "Narration",
+  "DOWNLOAD_AUDIO": "Download audio",
+  "ART_ALT": "artwork from the deck"
+}

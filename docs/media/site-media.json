@@ -1,0 +1,48 @@
+{
+  "version": "0.6.0",
+  "source": "Firmware simulator screenshots and generated receipt rasters",
+  "languages": {
+    "en": {
+      "home": {
+        "file": "screen-home-en.png",
+        "sha256": "c6632c24feed41c5c28e5b7f8f766f21a0e754ec56e1caaf14ed2c82ce5bd2ab"
+      },
+      "result": {
+        "file": "screen-result-en.png",
+        "sha256": "b2269d435ad9f51596755da06cf64ea12cc44c284660c9c12e4cb6938995af7e"
+      },
+      "receipt": {
+        "file": "receipt-tea-en.png",
+        "sha256": "51954930942a7ff0b78fc22f77b8569c84bd97a0d6c1db237e8745a4c2e9bdd4"
+      }
+    },
+    "ru": {
+      "home": {
+        "file": "screen-home-ru.png",
+        "sha256": "933571dd93870a7a03f865a18d7490ed034235243362f733168e392872ecd2a4"
+      },
+      "result": {
+        "file": "screen-result-ru.png",
+        "sha256": "314c7211aae8663110fc949e2bd49233a6e7c93ff0d62da70f6d43b224ded32d"
+      },
+      "receipt": {
+        "file": "receipt-tea-ru.png",
+        "sha256": "270976dfbf0b6de25432e6c087aa7fd3d5252d49f4ea684444e7dd62e387f772"
+      }
+    },
+    "zh": {
+      "home": {
+        "file": "screen-home-zh.png",
+        "sha256": "80ce20e0e7dfa4ece92962f2fa8061fec69be74a8839405a36bb698d8d4c6d9c"
+      },
+      "result": {
+        "file": "screen-result-zh.png",
+        "sha256": "d522c31b2a829e37d2a4f85a20864d8ab2e4bbf9dcf6e6b408c4fed318e5f319"
+      },
+      "receipt": {
+        "file": "receipt-tea-zh.png",
+        "sha256": "28e257c19ec5d10d3b30969d5a6991fa70b2a4357070228388a043c5833bd426"
+      }
+    }
+  }
+}

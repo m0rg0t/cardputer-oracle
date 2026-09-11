@@ -1,0 +1,75 @@
+{
+  "DESCRIPTION": "Cardputer ADV 口袋神谕：120 条普通话趣味预言、神秘猫咪、AI 塔罗与可打印小票。",
+  "TITLE": "Oracle ADV — 按一下，看看未来",
+  "SKIP": "跳至正文",
+  "NAV_LABEL": "页面导航",
+  "NAV_EXAMPLES": "预言",
+  "NAV_INSIDE": "工作原理",
+  "NAV_BUILD": "安装",
+  "LANGUAGE_LABEL": "网站语言",
+  "HEADLINE": "按一下，\n看看未来。",
+  "LEAD": "一位有幽默感的口袋占卜师。洗一洗命运，读出你的预言；附近若有打印机，还能把未来带走。",
+  "CTA": "看看牌组",
+  "ASIDE": "星星尽力了，结果不保修。",
+  "CAT_ALT": "神态淡定的神谕猫守着金色水晶球",
+  "CAT_CAPTION": "不确定性首席顾问。",
+  "STATS_LABEL": "一览",
+  "STAT_FORTUNES": "条预先制作的预言",
+  "STAT_THEMES": "三个主题与 AI 塔罗",
+  "STAT_ART": "幅神秘插画",
+  "STAT_NETWORK": "次离线预言网络请求",
+  "EXAMPLES_EYEBROW": "来自真实牌组",
+  "EXAMPLES_TITLE": "每个主题，\n都有自己的预兆。",
+  "EXAMPLES_INTRO": "三个真实示例，使用中文版 microSD 资源包中的普通话录音和插画。",
+  "TAROT_EYEBROW": "第四个主题",
+  "TAROT_TITLE": "想问一个更具体的问题？",
+  "TAROT_BODY": "在 AI 塔罗中输入问题，神谕会抽出三张不同的大阿尔卡那牌，分别代表过去、现在和未来，再通过 LiteLLM 给出风趣的简体中文解读。需要 Wi-Fi 和自己的代理密钥。目前问题使用英文或拼音输入，尚无中文输入法；也可留空获取通用解读。离线预言有语音，在线塔罗提供文字与小票。",
+  "HOW_EYEBROW": "看得懂的魔法",
+  "HOW_TITLE": "一点人工智能，\n许多备好的命运。",
+  "STEPS": [
+    [
+      "选择主题",
+      "左右键切换牌组，首页的其他键开始抽取预言。"
+    ],
+    [
+      "洗一洗可能性",
+      "短动画配上设备实时合成的魔法音效。每个主题都有独立队列，抽完一轮之前不会重复。"
+    ],
+    [
+      "听一听，读一读",
+      "每次只从 SD 读取选中的卡片。先显示图片，再滚动展示文字。普通话语音已通过 ElevenLabs 预先生成。"
+    ],
+    [
+      "把未来带走",
+      "通过蓝牙向 BQ95 自动尝试打印一次。按 P 可再打印一份相同的预言。"
+    ]
+  ],
+  "HOME_ALT": "中文版 Oracle 首页，显示电量与主题",
+  "RESULT_ALT": "Cardputer 屏幕上的简体中文预言",
+  "SCREEN_CAPTION": "模拟器中的中文固件，电量数值为模拟值。",
+  "RESULT_CAPTION": "屏幕、普通话录音与小票使用同一份中文预言。",
+  "RECEIPT_ALT": "带有大幅插画的中文茶主题预言小票",
+  "RECEIPT_CAPTION": "小票宽 384 点，插画宽 336 点。这是中文打印数据的生成预览。",
+  "BUILD_EYEBROW": "做一个自己的神谕",
+  "BUILD_TITLE": "牌组、语音，\n还有源代码。",
+  "BUILD_INTRO": "需要 Cardputer ADV、FAT32 microSD 和 M5Apps。文字、WAV 录音、图片和小票都已包含在内，无需重新生成内容，离线预言也不需要密钥。",
+  "BUILD_STATUS": "默认构建为英文，也可选择俄文或简体中文。软件检查已通过；请在自己的设备上确认安装、声音与无线功能。中文资源包包含屏幕和打印所需的字库。",
+  "BUILD_LOCAL": "构建简体中文资源包",
+  "INSTALL_COPY": "通过 M5Apps → Installer → SD 安装。将同一个中文 ZIP 中的 BIN 和整个 ORACLE 文件夹复制到 microSD 根目录。源代码中的 sdcard/ 目录不是可直接安装的中文包。",
+  "INSTALL_LAUNCHER": "尚未安装 M5Apps 时，先用 USB 数据线安装启动器。之后更新 Oracle 只需读卡器。顶部应显示 SD；DEMO 表示完整牌组未成功加载。",
+  "INSTALL_PRIVATE": "更新时保留私有 ORACLE/config.json。ORACLE/print/ 和 ORACLE/fonts/ 内的文件是资源，不是安装固件。请保留 fonts/chinese12.bin。完整指南包含目录结构、Wi-Fi、更新与排错。",
+  "GUIDE_LABEL": "中文安装说明",
+  "REPOSITORY_LABEL": "在 GitHub 查看源代码",
+  "FOOTER": "未来难以预测，\nWAV 格式倒是很明确。",
+  "FOOTNOTE": "口袋里的 AI 实验",
+  "THEMES": [
+    "科技与日常",
+    "啤酒",
+    "茶"
+  ],
+  "CARDS_LABEL": "条预言",
+  "LISTEN": "听听这条预言",
+  "AUDIO_LABEL": "普通话语音",
+  "DOWNLOAD_AUDIO": "下载录音",
+  "ART_ALT": "牌组插画"
+}

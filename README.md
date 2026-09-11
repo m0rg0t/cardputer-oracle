@@ -141,7 +141,9 @@ local/          Private working notes and deployment checkout (ignored)
 
 ## Project page
 
-[Public project page](https://oracle-adv.antonlenev.chatgpt.site). The currently published page is the earlier Russian showcase; changes here do not automatically republish it.
+[Public project page](https://oracle-adv.antonlenev.chatgpt.site). Available in English, Russian and Simplified Chinese. Changes here do not automatically republish the Sites deployment.
+
+The website source provides English, Russian and Simplified Chinese at `/en/`, `/ru/` and `/zh/`, with matching fortune examples, recordings, firmware screenshots, receipt previews and installation guides. The entry page detects the browser language, falling back to English; the language switcher remembers a manual choice. Direct language links stay in the requested language. All content and language links still work without JavaScript.
 
 The optional GitHub Pages workflow is manual: see [Pages setup](docs/PAGES.md). It publishes only the allowlisted output of tools/build_site.py, never firmware configuration or private files.
 
