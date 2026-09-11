@@ -58,7 +58,11 @@ int main(int argc,char** argv){
     FakeOutput output;SoundPlayer<FakeOutput> fx(output);
     assert(fx.play(Sound::Ritual));fx.update();fx.update();assert(output.queued()==2);
     assert(!fx.play(Sound::Click));auto before=output.submitted;
-    for(int i=0;i<10;++i)fx.update();assert(output.submitted==before);output.verify();
+    for(int i=0;i<10;++i){
+        fx.update();
+    }
+    assert(output.submitted==before);
+    output.verify();
     // The old two live buffers must remain immutable until asynchronous stop completes.
     assert(fx.play(Sound::Reveal));fx.update();output.verify();assert(output.submitted==before);
     output.retire();fx.update();assert(output.submitted==before+1);
