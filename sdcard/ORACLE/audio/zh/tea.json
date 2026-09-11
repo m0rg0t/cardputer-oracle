@@ -1,0 +1,10 @@
+{
+  "sha256": "e7155718ab33b031c009348219ef8c87218c4b56068460544198ee3eb0370a09",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "答案就在杯底。喝完茶，再泡一杯。有些谜题，确实需要第二意见。",
+  "seconds": 6.687375,
+  "normalization_gain": 2.5
+}

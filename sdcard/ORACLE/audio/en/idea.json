@@ -1,0 +1,10 @@
+{
+  "sha256": "f81e11c53d5404216b9feb36679ba5e147c1015c43c7009905f16bc9e976d5d0",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "A brilliant idea will arrive at the worst possible moment. Write it down. Tomorrow, even a note about smart kettles and pigeons counts as progress.",
+  "seconds": 10.123875,
+  "normalization_gain": 1.1889518931772454
+}

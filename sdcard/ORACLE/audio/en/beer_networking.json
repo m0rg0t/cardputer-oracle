@@ -1,0 +1,10 @@
+{
+  "sha256": "659e2e0ae7c87c0c23541e4cfe6e87e7928175002c3fc920c2bf1ea7dc831255",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will have such a good conversation at the bar that you'll forget to swap contacts. Both of you will remember the person who never asked what you do for work.",
+  "seconds": 8.68425,
+  "normalization_gain": 1.8803789686844579
+}

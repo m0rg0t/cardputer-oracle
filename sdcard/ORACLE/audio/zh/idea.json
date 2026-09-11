@@ -1,0 +1,10 @@
+{
+  "sha256": "d37718ef8d6a658816d7d5e4794d3ead742e3ad464563b1ed49197c3dfdd7419",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "一个绝妙点子会在最不合时宜的时刻降临。赶紧记下来。明天，哪怕是“智能水壶和鸽子”，也算进步。",
+  "seconds": 9.0558125,
+  "normalization_gain": 2.5
+}

@@ -40,7 +40,7 @@ class PackTest(unittest.TestCase):
             self.assertEqual(meta['text'],card['text'])
     def test_media_not_silence(self):
         import wave, array, math
-        for path in (ROOT/'sdcard/ORACLE/audio').glob('*.wav'):
+        for path in (ROOT/'sdcard/ORACLE/audio').rglob('*.wav'):
             with wave.open(str(path),'rb') as f:
                 self.assertGreater(f.getnframes()/f.getframerate(),2)
                 samples=array.array('h',f.readframes(f.getnframes()))

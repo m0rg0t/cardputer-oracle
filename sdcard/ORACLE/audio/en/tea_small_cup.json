@@ -1,0 +1,10 @@
+{
+  "sha256": "1a85dc32e661c5fa3942958c109afef5dafbfb9b2633a2a1db5628df05ff4109",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "A small cup will give you more breaks than a large mug: more refills, looks out of the window and returns to the conversation. Convenience isn't always about getting up less often.",
+  "seconds": 11.3313125,
+  "normalization_gain": 1.7769272826681246
+}

@@ -1,0 +1,10 @@
+{
+  "sha256": "d561e7308fa4f6cd5a24be10b9f057b9987e54909d92be86f104fcb6bc392e26",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你定时三分钟，准备把茶泡到恰到好处。铃响时它提醒你：茶叶忘放了。不过这三分钟的安静，倒是完全按计划享受到了。",
+  "seconds": 11.192,
+  "normalization_gain": 2.5
+}

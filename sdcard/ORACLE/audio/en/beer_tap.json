@@ -1,0 +1,10 @@
+{
+  "sha256": "ebf0fad19e12afa075fa460de792bfb68d1f1fdfb42a981104b23db67afcfe12",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "A new opportunity will open in your life. For now, it's a free seat at the bar. Take it: good infrastructure doesn't find itself.",
+  "seconds": 8.5449375,
+  "normalization_gain": 1.5774784613517776
+}

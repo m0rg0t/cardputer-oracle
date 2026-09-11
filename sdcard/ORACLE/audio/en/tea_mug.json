@@ -1,0 +1,10 @@
+{
+  "sha256": "6d633a722d7f64ce4b71741f01f5fc685a46e8f6f689ebea6a4f8fa99d3312bf",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "Your lucky charm is nearby: the favourite mug nobody dares to touch. It will protect you from chaos again today. Other people's teaspoons remain outside the warranty.",
+  "seconds": 10.449,
+  "normalization_gain": 1.3835674755214986
+}

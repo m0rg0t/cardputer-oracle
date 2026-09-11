@@ -1,0 +1,10 @@
+{
+  "sha256": "d6002d0081897a0edb3129dbfc7b4745c81ebccfc894047de9623b912e9e1e0d",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你会先说这只是茶。一小时后，你将解释这些叶子为何值得再冲一泡。专业知识泡得真快。",
+  "seconds": 8.1734375,
+  "normalization_gain": 2.5
+}

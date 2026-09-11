@@ -1,0 +1,10 @@
+{
+  "sha256": "c86e5e01929ac09a455912f787364ae99198557271182ea27c209398fac60cfd",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "难题的完美答案会在水壶沸腾时出现。赶紧记下，否则第一口茶后，它可能又变得很哲学。",
+  "seconds": 7.6625625,
+  "normalization_gain": 2.5
+}

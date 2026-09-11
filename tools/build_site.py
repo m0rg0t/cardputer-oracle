@@ -62,6 +62,8 @@ def build(repository=''):
     copy(ROOT / 'assets/oracle-cat.png', 'oracle-cat.png')
     copy(ROOT / 'docs/media/screen-home.png', 'screen-home.png')
     copy(ROOT / 'docs/media/receipt-tea.png', 'receipt-tea.png')
+    for guide in ('INSTALL.en.md', 'INSTALL.md', 'INSTALL.zh.md'):
+        copy(ROOT / 'docs' / guide, guide)
     examples = []
     for ident, label, theme in EXAMPLES:
         card = cards[ident]; image = art[Path(card['image']).stem]

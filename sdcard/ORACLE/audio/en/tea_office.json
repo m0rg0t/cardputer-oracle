@@ -1,0 +1,10 @@
+{
+  "sha256": "673b900dc752add3e408bdac37e714d4537a68e4e8a45f9762c0e10b3621b08b",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You'll offer tea to two arguing colleagues. While they explain which kind they want, they'll forget the argument. Sometimes the best mediator carries a kettle and asks: black or green?",
+  "seconds": 11.2384375,
+  "normalization_gain": 1.489288578302211
+}

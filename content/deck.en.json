@@ -1,0 +1,1086 @@
+{
+  "schema": 1,
+  "cards": [
+    {
+      "id": "coat",
+      "title": "Hidden Wealth",
+      "topic": "life",
+      "motif": 0,
+      "text": "Unexpected wealth awaits. Check your winter coat pockets. If all you find is a receipt, consider it an ancient scroll describing a more prosperous age.",
+      "audio": "/ORACLE/audio/en/coat.wav",
+      "image": "/ORACLE/images/oracle.jpg"
+    },
+    {
+      "id": "sofa",
+      "title": "The Great Journey",
+      "topic": "life",
+      "motif": 1,
+      "text": "A long journey lies ahead: from the kitchen to the sofa. Along the way, you will face a test of character: remembering why you got up.",
+      "audio": "/ORACLE/audio/en/sofa.wav",
+      "image": "/ORACLE/images/moon-nap.jpg"
+    },
+    {
+      "id": "cat",
+      "title": "The Supreme Magician",
+      "topic": "life",
+      "motif": 2,
+      "text": "Someone influential will take an interest in you today. Probably the cat. Negotiations will begin half an hour before your alarm.",
+      "audio": "/ORACLE/audio/en/cat.wav",
+      "image": "/ORACLE/images/oracle.jpg"
+    },
+    {
+      "id": "tea",
+      "title": "Potion of Clarity",
+      "topic": "life",
+      "motif": 3,
+      "text": "The answer lies at the bottom of your cup. Finish your tea. Now make another. Some mysteries require a second opinion.",
+      "audio": "/ORACLE/audio/en/tea.wav",
+      "image": "/ORACLE/images/tea-alchemy.jpg"
+    },
+    {
+      "id": "parcel",
+      "title": "A Gift from Fate",
+      "topic": "life",
+      "motif": 0,
+      "text": "A gift is coming from someone who knows exactly what you want. It's you. The parcel is already on its way.",
+      "audio": "/ORACLE/audio/en/parcel.wav",
+      "image": "/ORACLE/images/oracle.jpg"
+    },
+    {
+      "id": "monday",
+      "title": "A Fresh Start",
+      "topic": "life",
+      "motif": 1,
+      "text": "You will start a new life on Monday. The stars wisely decline to specify which one. Your supply of Mondays is looking excellent.",
+      "audio": "/ORACLE/audio/en/monday.wav",
+      "image": "/ORACLE/images/moon-nap.jpg"
+    },
+    {
+      "id": "fridge",
+      "title": "Doors of Opportunity",
+      "topic": "life",
+      "motif": 2,
+      "text": "A door to new possibilities is close at hand. You open it every twenty minutes. So far it contains cheese, but hope remains strong.",
+      "audio": "/ORACLE/audio/en/fridge.wav",
+      "image": "/ORACLE/images/tea-alchemy.jpg"
+    },
+    {
+      "id": "socks",
+      "title": "The Missing Half",
+      "topic": "life",
+      "motif": 3,
+      "text": "Your missing other half will return. It's a sock. The universe's romance department is working reduced hours today.",
+      "audio": "/ORACLE/audio/en/socks.wav",
+      "image": "/ORACLE/images/oracle.jpg"
+    },
+    {
+      "id": "calendar",
+      "title": "A Rare Gift",
+      "topic": "life",
+      "motif": 0,
+      "text": "A luxurious gift awaits: a cancelled meeting. Spend the spare hour wisely. Perhaps telling everyone how busy you are.",
+      "audio": "/ORACLE/audio/en/calendar.wav",
+      "image": "/ORACLE/images/moon-nap.jpg"
+    },
+    {
+      "id": "password",
+      "title": "The Secret Word",
+      "topic": "it",
+      "motif": 1,
+      "text": "An ancient secret will reveal itself on your third attempt. On the fourth, you'll be asked to reset your password. Thus begins enlightenment.",
+      "image": "/ORACLE/images/terminal-cat.jpg",
+      "audio": "/ORACLE/audio/en/password.wav"
+    },
+    {
+      "id": "deadline",
+      "title": "Master of Time",
+      "topic": "it",
+      "motif": 2,
+      "text": "You will gain power over time. The deadline will move again. Use this gift carefully: the deadline is also learning to manage you.",
+      "image": "/ORACLE/images/terminal-cat.jpg",
+      "audio": "/ORACLE/audio/en/deadline.wav"
+    },
+    {
+      "id": "bug",
+      "title": "A Sign from Above",
+      "topic": "it",
+      "motif": 3,
+      "text": "Your code will send you a sign. A red one. In the console. Don't panic: the universe would like a word about one small bracket.",
+      "image": "/ORACLE/images/terminal-cat.jpg",
+      "audio": "/ORACLE/audio/en/bug.wav"
+    },
+    {
+      "id": "manager",
+      "title": "A Fateful Meeting",
+      "topic": "it",
+      "motif": 0,
+      "text": "You will meet someone who changes your life. Probably the new project manager. They already have a quick call in mind.",
+      "image": "/ORACLE/images/terminal-cat.jpg",
+      "audio": "/ORACLE/audio/en/manager.wav"
+    },
+    {
+      "id": "backup",
+      "title": "A Powerful Charm",
+      "topic": "it",
+      "motif": 1,
+      "text": "Today is a good day to make a protective charm. Call it backup and keep it somewhere safe. Its magic grows much stronger when you test the restore.",
+      "image": "/ORACLE/images/terminal-cat.jpg",
+      "audio": "/ORACLE/audio/en/backup.wav"
+    },
+    {
+      "id": "tabs",
+      "title": "Parallel Universes",
+      "topic": "it",
+      "motif": 2,
+      "text": "Many possibilities will open before you. About forty browser tabs. One is playing music. Finding it is today's main quest.",
+      "image": "/ORACLE/images/terminal-cat.jpg",
+      "audio": "/ORACLE/audio/en/tabs.wav"
+    },
+    {
+      "id": "restart",
+      "title": "Rebirth",
+      "topic": "it",
+      "motif": 3,
+      "text": "Sometimes a fresh start is all you need. Try restarting the device first. The decision to move to another country can wait.",
+      "image": "/ORACLE/images/terminal-cat.jpg",
+      "audio": "/ORACLE/audio/en/restart.wav"
+    },
+    {
+      "id": "umbrella",
+      "title": "Weather Control",
+      "topic": "life",
+      "motif": 0,
+      "text": "You will learn to control the weather. Bring an umbrella and it won't rain. Leave it behind and your experiment will receive immediate confirmation.",
+      "image": "/ORACLE/images/oracle.jpg",
+      "audio": "/ORACLE/audio/en/umbrella.wav"
+    },
+    {
+      "id": "plant",
+      "title": "A Green Alliance",
+      "topic": "life",
+      "motif": 1,
+      "text": "A living thing nearby needs your care. It's the plant on the windowsill. It has been auditioning for the dried flower collection all week.",
+      "image": "/ORACLE/images/oracle.jpg",
+      "audio": "/ORACLE/audio/en/plant.wav"
+    },
+    {
+      "id": "queue",
+      "title": "The Art of Zen",
+      "topic": "life",
+      "motif": 2,
+      "text": "The universe will give you time alone with your thoughts. In a queue. The next queue will move faster to deepen the experience.",
+      "image": "/ORACLE/images/moon-nap.jpg",
+      "audio": "/ORACLE/audio/en/queue.wav"
+    },
+    {
+      "id": "sleep",
+      "title": "A Night Vision",
+      "topic": "life",
+      "motif": 3,
+      "text": "A great revelation will come to you in a dream. Try going to bed early. Watching short videos until two in the morning is not part of the ritual.",
+      "image": "/ORACLE/images/moon-nap.jpg",
+      "audio": "/ORACLE/audio/en/sleep.wav"
+    },
+    {
+      "id": "charger",
+      "title": "Source of Power",
+      "topic": "life",
+      "motif": 0,
+      "text": "Your energy will soon return. First find a charger for your phone, then food for yourself. Try not to mix up the connectors.",
+      "image": "/ORACLE/images/terminal-cat.jpg",
+      "audio": "/ORACLE/audio/en/charger.wav"
+    },
+    {
+      "id": "recipe",
+      "title": "Dinner Alchemy",
+      "topic": "life",
+      "motif": 1,
+      "text": "A great alchemist will awaken within you. You will combine everything left in the fridge. Best name the dish after the tasting.",
+      "image": "/ORACLE/images/tea-alchemy.jpg",
+      "audio": "/ORACLE/audio/en/recipe.wav"
+    },
+    {
+      "id": "dance",
+      "title": "Follow the Music",
+      "topic": "life",
+      "motif": 2,
+      "text": "An unexpected melody will guide you. It's the microwave. Dinner is ready, and the universe strongly recommends cooperating.",
+      "image": "/ORACLE/images/tea-alchemy.jpg",
+      "audio": "/ORACLE/audio/en/dance.wav"
+    },
+    {
+      "id": "shopping",
+      "title": "A Wise Investment",
+      "topic": "life",
+      "motif": 3,
+      "text": "An ancient practice will save you money. Before buying anything, ask: where would I put it? The universe usually answers with a long sigh.",
+      "image": "/ORACLE/images/oracle.jpg",
+      "audio": "/ORACLE/audio/en/shopping.wav"
+    },
+    {
+      "id": "walk",
+      "title": "Beyond the Door",
+      "topic": "life",
+      "motif": 0,
+      "text": "A whole world awaits outside. Excellent graphics, unusual plot. No save points, but the walk is included in the free version.",
+      "image": "/ORACLE/images/moon-nap.jpg",
+      "audio": "/ORACLE/audio/en/walk.wav"
+    },
+    {
+      "id": "message",
+      "title": "Good News",
+      "topic": "life",
+      "motif": 1,
+      "text": "A long-awaited message will arrive. Possibly just a verification code. Still, it's nice that someone believes you are who you say you are.",
+      "image": "/ORACLE/images/terminal-cat.jpg",
+      "audio": "/ORACLE/audio/en/message.wav"
+    },
+    {
+      "id": "dust",
+      "title": "An Ancient Relic",
+      "topic": "life",
+      "motif": 2,
+      "text": "You will discover an object from a forgotten age under the sofa. Scholars will call it a remote control. You will remember owning a television.",
+      "image": "/ORACLE/images/oracle.jpg",
+      "audio": "/ORACLE/audio/en/dust.wav"
+    },
+    {
+      "id": "idea",
+      "title": "A Spark of Genius",
+      "topic": "life",
+      "motif": 3,
+      "text": "A brilliant idea will arrive at the worst possible moment. Write it down. Tomorrow, even a note about smart kettles and pigeons counts as progress.",
+      "image": "/ORACLE/images/terminal-cat.jpg",
+      "audio": "/ORACLE/audio/en/idea.wav"
+    },
+    {
+      "id": "fortune",
+      "title": "Perfect Accuracy",
+      "topic": "life",
+      "motif": 0,
+      "text": "You are about to read a remarkably accurate prediction: you will finish this sentence. The oracle's reputation remains spotless.",
+      "image": "/ORACLE/images/oracle.jpg",
+      "audio": "/ORACLE/audio/en/fortune.wav"
+    },
+    {
+      "id": "pause",
+      "title": "The Great Pause",
+      "topic": "life",
+      "motif": 1,
+      "text": "The stars grant you permission to rest. The permit never expires; the stamp is imaginary. Anyone who objects may contact the stars directly.",
+      "image": "/ORACLE/images/moon-nap.jpg",
+      "audio": "/ORACLE/audio/en/pause.wav"
+    },
+    {
+      "id": "beer_foam",
+      "title": "A Foamy Omen",
+      "topic": "beer",
+      "motif": 0,
+      "text": "You will see a sign of destiny in the foam. If it resembles a moustache, check the mirror first. Sometimes a prophecy is right under your nose.",
+      "image": "/ORACLE/images/beer-oracle.jpg",
+      "audio": "/ORACLE/audio/en/beer_foam.wav"
+    },
+    {
+      "id": "beer_menu",
+      "title": "A Difficult Choice",
+      "topic": "beer",
+      "motif": 1,
+      "text": "You will learn to distinguish subtle differences. First between lager and ale. Then between an informed decision and having whatever your friend ordered.",
+      "image": "/ORACLE/images/beer-oracle.jpg",
+      "audio": "/ORACLE/audio/en/beer_menu.wav"
+    },
+    {
+      "id": "beer_toast",
+      "title": "A Way with Words",
+      "topic": "beer",
+      "motif": 2,
+      "text": "You will make a toast that is warm, funny and genuinely short. Everyone will appreciate it. Especially the friend who was wondering when they could start eating.",
+      "image": "/ORACLE/images/cosmic-toast.jpg",
+      "audio": "/ORACLE/audio/en/beer_toast.wav"
+    },
+    {
+      "id": "beer_coaster",
+      "title": "The Next Big Thing",
+      "topic": "beer",
+      "motif": 3,
+      "text": "A brilliant business idea will be born on a napkin. The glass ring can serve as the logo. All you need now is a problem it actually solves.",
+      "image": "/ORACLE/images/hop-wizard.jpg",
+      "audio": "/ORACLE/audio/en/beer_coaster.wav"
+    },
+    {
+      "id": "beer_bartender",
+      "title": "Keeper of Wisdom",
+      "topic": "beer",
+      "motif": 0,
+      "text": "You will meet a sage who can answer any question. The bartender. If the answer sounds like a beer name, your question was philosophical enough.",
+      "image": "/ORACLE/images/hop-wizard.jpg",
+      "audio": "/ORACLE/audio/en/beer_bartender.wav"
+    },
+    {
+      "id": "beer_snacks",
+      "title": "Mutual Attraction",
+      "topic": "beer",
+      "motif": 1,
+      "text": "Your friends will grow even closer. Especially when the sharing platter arrives. The last chip will reveal the true diplomat at the table.",
+      "image": "/ORACLE/images/beer-oracle.jpg",
+      "audio": "/ORACLE/audio/en/beer_snacks.wav"
+    },
+    {
+      "id": "beer_tap",
+      "title": "A New Opening",
+      "topic": "beer",
+      "motif": 2,
+      "text": "A new opportunity will open in your life. For now, it's a free seat at the bar. Take it: good infrastructure doesn't find itself.",
+      "image": "/ORACLE/images/hop-wizard.jpg",
+      "audio": "/ORACLE/audio/en/beer_tap.wav"
+    },
+    {
+      "id": "beer_playlist",
+      "title": "A Familiar Tune",
+      "topic": "beer",
+      "motif": 3,
+      "text": "You will find common ground at the first note of a familiar song. A minute ago you were debating software architecture. Now you are a distributed choir.",
+      "image": "/ORACLE/images/cosmic-toast.jpg",
+      "audio": "/ORACLE/audio/en/beer_playlist.wav"
+    },
+    {
+      "id": "beer_zero",
+      "title": "Zero Magic",
+      "topic": "beer",
+      "motif": 0,
+      "text": "A pleasant discovery awaits: alcohol-free beer is fully compatible with great ideas. Zero alcohol, full participation. The oracle has checked the protocol.",
+      "image": "/ORACLE/images/beer-oracle.jpg",
+      "audio": "/ORACLE/audio/en/beer_zero.wav"
+    },
+    {
+      "id": "beer_ipa",
+      "title": "The Bitter Truth",
+      "topic": "beer",
+      "motif": 1,
+      "text": "You will learn to enjoy the bitter truth. This time it concerns hops. Today's life lessons come in a rather nice glass.",
+      "image": "/ORACLE/images/hop-wizard.jpg",
+      "audio": "/ORACLE/audio/en/beer_ipa.wav"
+    },
+    {
+      "id": "beer_friends",
+      "title": "A Lucky Encounter",
+      "topic": "beer",
+      "motif": 2,
+      "text": "The person at the next table will have exactly what you need: a charger, a good story or a spare chair. Today the universe is working through the pub.",
+      "image": "/ORACLE/images/cosmic-toast.jpg",
+      "audio": "/ORACLE/audio/en/beer_friends.wav"
+    },
+    {
+      "id": "beer_lastslide",
+      "title": "One More Go",
+      "topic": "beer",
+      "motif": 3,
+      "text": "Your little gadget will attract a curious crowd. Someone will ask to press the button again. At last, a product review you can understand without a dashboard.",
+      "image": "/ORACLE/images/cosmic-toast.jpg",
+      "audio": "/ORACLE/audio/en/beer_lastslide.wav"
+    },
+    {
+      "id": "tea_leaves",
+      "title": "Signs in the Cup",
+      "topic": "tea",
+      "motif": 0,
+      "text": "The tea leaves will form a map of great change. See a dragon? Adventure awaits. See only tea leaves? The adventure starts with the second cup.",
+      "image": "/ORACLE/images/tea-leaf-oracle.jpg",
+      "audio": "/ORACLE/audio/en/tea_leaves.wav"
+    },
+    {
+      "id": "tea_kettle",
+      "title": "Kettle Wisdom",
+      "topic": "tea",
+      "motif": 1,
+      "text": "The perfect answer to a difficult question will arrive while the kettle boils. Write it down quickly. After the first sip it may become philosophical again.",
+      "image": "/ORACLE/images/teapot-wizard.jpg",
+      "audio": "/ORACLE/audio/en/tea_kettle.wav"
+    },
+    {
+      "id": "tea_bag",
+      "title": "A Strong Connection",
+      "topic": "tea",
+      "motif": 2,
+      "text": "You will feel that everything is connected. Especially the tea bag and its little paper tag. Protect that connection, or you'll be fishing for answers with a spoon.",
+      "image": "/ORACLE/images/tea-leaf-oracle.jpg",
+      "audio": "/ORACLE/audio/en/tea_bag.wav"
+    },
+    {
+      "id": "tea_biscuit",
+      "title": "Hidden Reserves",
+      "topic": "tea",
+      "motif": 3,
+      "text": "An unexpected windfall awaits behind the tea: a forgotten packet of biscuits. Finance calls this a hidden reserve. The oracle recommends an immediate taste test.",
+      "image": "/ORACLE/images/tea-alchemy.jpg",
+      "audio": "/ORACLE/audio/en/tea_biscuit.wav"
+    },
+    {
+      "id": "tea_oolong",
+      "title": "A New Level",
+      "topic": "tea",
+      "motif": 0,
+      "text": "You will start by saying it's just tea. An hour later you'll explain why these leaves deserve another infusion. Expertise brews surprisingly fast.",
+      "image": "/ORACLE/images/tea-leaf-oracle.jpg",
+      "audio": "/ORACLE/audio/en/tea_oolong.wav"
+    },
+    {
+      "id": "tea_puer",
+      "title": "Well Aged",
+      "topic": "tea",
+      "motif": 1,
+      "text": "Pu-erh will remind you that age can be an asset. At last, a respectable explanation for your old laptop and that project you still haven't finished.",
+      "image": "/ORACLE/images/teapot-wizard.jpg",
+      "audio": "/ORACLE/audio/en/tea_puer.wav"
+    },
+    {
+      "id": "tea_bergamot",
+      "title": "A Hint of Intrigue",
+      "topic": "tea",
+      "motif": 2,
+      "text": "An unexpected twist will enter a familiar story. Probably bergamot. You may tell your friends you sensed the aroma of great change. It sounds more impressive.",
+      "image": "/ORACLE/images/tea-leaf-oracle.jpg",
+      "audio": "/ORACLE/audio/en/tea_bergamot.wav"
+    },
+    {
+      "id": "tea_lemon",
+      "title": "Personal Sunshine",
+      "topic": "tea",
+      "motif": 3,
+      "text": "Even on a grey day, you will have your own little sun floating in a mug. Don't ask the lemon to solve everything. It's only on decorative duty.",
+      "image": "/ORACLE/images/tea-alchemy.jpg",
+      "audio": "/ORACLE/audio/en/tea_lemon.wav"
+    },
+    {
+      "id": "tea_ceremony",
+      "title": "Time for Tea",
+      "topic": "tea",
+      "motif": 0,
+      "text": "You will discover how to slow down time: suggest a quiet cup of tea. An hour later, you will have discussed everything except why you met. A successful ceremony.",
+      "image": "/ORACLE/images/teapot-wizard.jpg",
+      "audio": "/ORACLE/audio/en/tea_ceremony.wav"
+    },
+    {
+      "id": "tea_mug",
+      "title": "A Faithful Charm",
+      "topic": "tea",
+      "motif": 1,
+      "text": "Your lucky charm is nearby: the favourite mug nobody dares to touch. It will protect you from chaos again today. Other people's teaspoons remain outside the warranty.",
+      "image": "/ORACLE/images/tea-alchemy.jpg",
+      "audio": "/ORACLE/audio/en/tea_mug.wav"
+    },
+    {
+      "id": "tea_thermos",
+      "title": "Warmth in Reserve",
+      "topic": "tea",
+      "motif": 2,
+      "text": "A flask of tea will make you the most prepared person in the group. While everyone else searches for a cafe, you will smile mysteriously and unscrew the lid.",
+      "image": "/ORACLE/images/teapot-wizard.jpg",
+      "audio": "/ORACLE/audio/en/tea_thermos.wav"
+    },
+    {
+      "id": "tea_refill",
+      "title": "To Be Continued",
+      "topic": "tea",
+      "motif": 3,
+      "text": "A good story will get another chapter when someone asks if you'd like more tea. Say yes if you fancy a cup. The kettle has an excellent sense of timing.",
+      "image": "/ORACLE/images/tea-alchemy.jpg",
+      "audio": "/ORACLE/audio/en/tea_refill.wav"
+    },
+    {
+      "id": "it_estimate",
+      "title": "An Exact Estimate",
+      "topic": "it",
+      "motif": 0,
+      "text": "Your task will take exactly as long as you predicted. You just need to find the message where you said three days, two weeks or a month, and pick the right one.",
+      "audio": "/ORACLE/audio/en/it_estimate.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_documentation",
+      "title": "A Past-Life Message",
+      "topic": "it",
+      "motif": 1,
+      "text": "A wise person from the past will help you. It's you, on the day you left a useful comment. For once, you'll want to shake the author's hand.",
+      "audio": "/ORACLE/audio/en/it_documentation.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_rename",
+      "title": "One Small Change",
+      "topic": "it",
+      "motif": 2,
+      "text": "Someone will ask you to rename a button. By evening the product will have a new audience, business model and mission. The button will remain unchanged. It was fine.",
+      "audio": "/ORACLE/audio/en/it_rename.wav",
+      "image": "/ORACLE/images/moon-nap.jpg"
+    },
+    {
+      "id": "it_mute",
+      "title": "The Voice of Reason",
+      "topic": "it",
+      "motif": 3,
+      "text": "You will express a perfect thought on your next call. They will even let you finish. Then they will ask you to unmute and repeat it, and it will become an ordinary thought.",
+      "audio": "/ORACLE/audio/en/it_mute.wav",
+      "image": "/ORACLE/images/oracle.jpg"
+    },
+    {
+      "id": "it_demo",
+      "title": "Quiet Reliability",
+      "topic": "it",
+      "motif": 0,
+      "text": "Your code will work on the first run. You will run it again, just to be sure. Trust is important, but apparently it needs a second test.",
+      "audio": "/ORACLE/audio/en/it_demo.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_cache",
+      "title": "Old Wisdom",
+      "topic": "it",
+      "motif": 1,
+      "text": "You will learn to let go of the past, starting with your browser cache. It turns out you've spent two hours arguing with a version of yourself who finished before lunch.",
+      "audio": "/ORACLE/audio/en/it_cache.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_name",
+      "title": "The Perfect Name",
+      "topic": "it",
+      "motif": 2,
+      "text": "You will find the perfect variable name. Half the comments will become unnecessary. Keep the other half: they explain why everything is so complicated.",
+      "audio": "/ORACLE/audio/en/it_name.wav",
+      "image": "/ORACLE/images/moon-nap.jpg"
+    },
+    {
+      "id": "it_ai_agrees",
+      "title": "A Polite Adviser",
+      "topic": "it",
+      "motif": 3,
+      "text": "The AI will warmly support your brilliant idea. Then it will support the opposite just as convincingly. You'll finally understand a manager dealing with two architects.",
+      "audio": "/ORACLE/audio/en/it_ai_agrees.wav",
+      "image": "/ORACLE/images/oracle.jpg"
+    },
+    {
+      "id": "it_ai_review",
+      "title": "A Second Opinion",
+      "topic": "it",
+      "motif": 0,
+      "text": "You will ask AI to review code written by AI. It will find flaws and suggest improvements. By the end, you'll be the only member of the team who missed lunch.",
+      "audio": "/ORACLE/audio/en/it_ai_review.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_git_blame",
+      "title": "Meeting the Author",
+      "topic": "it",
+      "motif": 1,
+      "text": "You will meet the author of a baffling decision. The change history will give your name. Be kind: that person also intended to come back and sort it out.",
+      "audio": "/ORACLE/audio/en/it_git_blame.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_readonly",
+      "title": "The Power of Calm",
+      "topic": "it",
+      "motif": 2,
+      "text": "A rare calm will settle over your working day. You'll receive read-only access. Responsibility for the world remains, but the buttons that could break it have disappeared.",
+      "audio": "/ORACLE/audio/en/it_readonly.wav",
+      "image": "/ORACLE/images/moon-nap.jpg"
+    },
+    {
+      "id": "it_short_call",
+      "title": "A Quick Call",
+      "topic": "it",
+      "motif": 3,
+      "text": "Someone will ask for five minutes and actually take five minutes. You'll stare at the closed meeting window for a while, wondering which condition you missed.",
+      "audio": "/ORACLE/audio/en/it_short_call.wav",
+      "image": "/ORACLE/images/oracle.jpg"
+    },
+    {
+      "id": "it_ai_prompt",
+      "title": "Finding the Words",
+      "topic": "it",
+      "motif": 0,
+      "text": "You will explain a task to AI so clearly that you'll work out the solution yourself. It will send a long answer anyway. Nod respectfully. You both did good work.",
+      "audio": "/ORACLE/audio/en/it_ai_prompt.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_delete",
+      "title": "Less Is More",
+      "topic": "it",
+      "motif": 1,
+      "text": "You will delete two hundred lines and improve the program. Your productivity report will look suspicious. Explain that you weren't losing work; you were finding the solution.",
+      "audio": "/ORACLE/audio/en/it_delete.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_feature",
+      "title": "A Secret Feature",
+      "topic": "it",
+      "motif": 2,
+      "text": "A user will discover your most carefully hidden feature. It was exactly what they needed all along. You will both feel like members of a very small secret society.",
+      "audio": "/ORACLE/audio/en/it_feature.wav",
+      "image": "/ORACLE/images/moon-nap.jpg"
+    },
+    {
+      "id": "it_percent",
+      "title": "The Last Percent",
+      "topic": "it",
+      "motif": 3,
+      "text": "Progress will move from ninety-nine percent to one hundred. The final percent will have taken ninety-nine percent of the time. You now have a personal opinion about percentages.",
+      "audio": "/ORACLE/audio/en/it_percent.wav",
+      "image": "/ORACLE/images/oracle.jpg"
+    },
+    {
+      "id": "it_legacy",
+      "title": "An Experienced System",
+      "topic": "it",
+      "motif": 0,
+      "text": "The old project will surprise you by still working. Reading the code will only deepen your surprise. Thank the stranger who was afraid to touch it before you.",
+      "audio": "/ORACLE/audio/en/it_legacy.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_handoff",
+      "title": "A Brief Handover",
+      "topic": "it",
+      "motif": 1,
+      "text": "You will hand over a project in half an hour. Twenty-five minutes will explain why the folder is called old_new_final. Five minutes is plenty for the actual project. It's much clearer.",
+      "audio": "/ORACLE/audio/en/it_handoff.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_rubber_duck",
+      "title": "The Silent Expert",
+      "topic": "it",
+      "motif": 2,
+      "text": "A rubber duck will help you find a bug without interrupting, proposing a rewrite or scheduling a meeting. You may want to promote it. Don't ruin a good specialist.",
+      "audio": "/ORACLE/audio/en/it_rubber_duck.wav",
+      "image": "/ORACLE/images/moon-nap.jpg"
+    },
+    {
+      "id": "it_config",
+      "title": "A Small Lever",
+      "topic": "it",
+      "motif": 3,
+      "text": "You will fix a major problem with one line of configuration. It will look like a minute's work. The three hours spent finding that line can go in your memoirs.",
+      "audio": "/ORACLE/audio/en/it_config.wav",
+      "image": "/ORACLE/images/oracle.jpg"
+    },
+    {
+      "id": "it_done",
+      "title": "Actually Finished",
+      "topic": "it",
+      "motif": 0,
+      "text": "You will finish a task and receive no request for one tiny extra thing. You'll start looking for improvements yourself. Hold on. This unfamiliar feeling is called done.",
+      "audio": "/ORACLE/audio/en/it_done.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_keyboard",
+      "title": "Muscle Memory",
+      "topic": "it",
+      "motif": 1,
+      "text": "Your fingers will remember a shortcut before your brain does. You will feel like a master. Then you'll forget why you opened the terminal, restoring balance to the universe.",
+      "audio": "/ORACLE/audio/en/it_keyboard.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_lunch",
+      "title": "Food for Thought",
+      "topic": "it",
+      "motif": 2,
+      "text": "Lunch will solve the problem your laptop couldn't solve in three hours. The difficult part will be convincing yourself that a second lunch won't fix everything else.",
+      "audio": "/ORACLE/audio/en/it_lunch.wav",
+      "image": "/ORACLE/images/moon-nap.jpg"
+    },
+    {
+      "id": "it_review_praise",
+      "title": "No Comments",
+      "topic": "it",
+      "motif": 3,
+      "text": "Your work will be approved with the words: looks good. Your first instinct will be to ask whether anyone actually read it. Try accepting praise without requesting further evidence.",
+      "audio": "/ORACLE/audio/en/it_review_praise.wav",
+      "image": "/ORACLE/images/oracle.jpg"
+    },
+    {
+      "id": "it_api_contract",
+      "title": "A Shared Understanding",
+      "topic": "it",
+      "motif": 0,
+      "text": "Two teams will interpret the documentation the same way. Integration will work first time. The meeting booked to settle the argument can become a friendly introduction.",
+      "audio": "/ORACLE/audio/en/it_api_contract.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_settings",
+      "title": "Back to Default",
+      "topic": "it",
+      "motif": 1,
+      "text": "You will perfect your workspace settings, then accidentally reset them and notice almost no difference. The real improvement was finally sitting comfortably.",
+      "audio": "/ORACLE/audio/en/it_settings.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_no_notifications",
+      "title": "A Quiet Hour",
+      "topic": "it",
+      "motif": 2,
+      "text": "Your phone will stop sending notifications for an hour. The world will cope without you. You may feel slightly offended, but that will pass faster than most group chats.",
+      "audio": "/ORACLE/audio/en/it_no_notifications.wav",
+      "image": "/ORACLE/images/moon-nap.jpg"
+    },
+    {
+      "id": "it_side_project",
+      "title": "Your Own Little World",
+      "topic": "it",
+      "motif": 3,
+      "text": "Your side project will gain its first user. They will immediately request a feature you never planned. Congratulations: your little hobby just held its first client meeting.",
+      "audio": "/ORACLE/audio/en/it_side_project.wav",
+      "image": "/ORACLE/images/oracle.jpg"
+    },
+    {
+      "id": "it_search_history",
+      "title": "The Master's Path",
+      "topic": "it",
+      "motif": 0,
+      "text": "Your search history will answer a difficult question. It's reassuring that you were already this clever six months ago. Slightly less reassuring that you've forgotten since.",
+      "audio": "/ORACLE/audio/en/it_search_history.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_printed_future",
+      "title": "Paper Evidence",
+      "topic": "it",
+      "motif": 1,
+      "text": "Your future will arrive on paper. Reassuring: most plans only have a document link. Keep the receipt, or the oracle will have to explain why backups are now your responsibility.",
+      "audio": "/ORACLE/audio/en/it_printed_future.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "beer_tasting_notes",
+      "title": "Subtle Notes",
+      "topic": "beer",
+      "motif": 2,
+      "text": "You will detect bread crust, citrus and a little caramel. Your friend will detect beer. A lovely evening awaits as you learn to respect different depths of research.",
+      "audio": "/ORACLE/audio/en/beer_tasting_notes.wav",
+      "image": "/ORACLE/images/beer-oracle.jpg"
+    },
+    {
+      "id": "beer_networking",
+      "title": "A Useful Connection",
+      "topic": "beer",
+      "motif": 3,
+      "text": "You will have such a good conversation at the bar that you'll forget to swap contacts. Both of you will remember the person who never asked what you do for work.",
+      "audio": "/ORACLE/audio/en/beer_networking.wav",
+      "image": "/ORACLE/images/hop-wizard.jpg"
+    },
+    {
+      "id": "beer_table_fix",
+      "title": "A Solid Foundation",
+      "topic": "beer",
+      "motif": 0,
+      "text": "You will fix a problem affecting the whole group with a folded coaster under a wobbly table. No architecture decision this week will receive such sincere thanks.",
+      "audio": "/ORACLE/audio/en/beer_table_fix.wav",
+      "image": "/ORACLE/images/cosmic-toast.jpg"
+    },
+    {
+      "id": "beer_long_title",
+      "title": "A Short Order",
+      "topic": "beer",
+      "motif": 1,
+      "text": "You will choose a beer with a three-line name and a two-page backstory. The bartender will nod: the pale one, got it. Marketing's best translator works behind the bar.",
+      "audio": "/ORACLE/audio/en/beer_long_title.wav",
+      "image": "/ORACLE/images/beer-oracle.jpg"
+    },
+    {
+      "id": "beer_timebox",
+      "title": "Just Half an Hour",
+      "topic": "beer",
+      "motif": 2,
+      "text": "You will drop into the pub for half an hour and meet someone you've wanted to talk to for ages. Your calendar will call it a delay. You'll remember why you freed up the evening.",
+      "audio": "/ORACLE/audio/en/beer_timebox.wav",
+      "image": "/ORACLE/images/hop-wizard.jpg"
+    },
+    {
+      "id": "beer_quiet_corner",
+      "title": "A Place of Power",
+      "topic": "beer",
+      "motif": 3,
+      "text": "You will find a table where you can hear your friends and avoid the draught. They will value that more than any exotic flavour. Good acoustics is a rare item on the menu.",
+      "audio": "/ORACLE/audio/en/beer_quiet_corner.wav",
+      "image": "/ORACLE/images/cosmic-toast.jpg"
+    },
+    {
+      "id": "beer_small_batch",
+      "title": "A Limited Edition",
+      "topic": "beer",
+      "motif": 0,
+      "text": "You will get the last glass of a rare beer and try hard to remember the taste. Next week you'll only recall the lovely label and the even better company.",
+      "audio": "/ORACLE/audio/en/beer_small_batch.wav",
+      "image": "/ORACLE/images/beer-oracle.jpg"
+    },
+    {
+      "id": "beer_lecture",
+      "title": "An Absorbing Story",
+      "topic": "beer",
+      "motif": 1,
+      "text": "Someone will ask about your favourite hobby. You'll become so absorbed in answering that you'll forget the glass in your hand. Your friend will notice its angle before you do.",
+      "audio": "/ORACLE/audio/en/beer_lecture.wav",
+      "image": "/ORACLE/images/hop-wizard.jpg"
+    },
+    {
+      "id": "beer_truce",
+      "title": "Peace at the Table",
+      "topic": "beer",
+      "motif": 2,
+      "text": "A long debate about the best programming language will end in sudden agreement when hot snacks arrive. Some values really do rank above the technology stack.",
+      "audio": "/ORACLE/audio/en/beer_truce.wav",
+      "image": "/ORACLE/images/cosmic-toast.jpg"
+    },
+    {
+      "id": "beer_round_table",
+      "title": "Common Ground",
+      "topic": "beer",
+      "motif": 3,
+      "text": "Everyone at your table will have a story about a strange client. By the end, you'll realise you were the client in two of them. Luckily, the stories were told with affection.",
+      "audio": "/ORACLE/audio/en/beer_round_table.wav",
+      "image": "/ORACLE/images/beer-oracle.jpg"
+    },
+    {
+      "id": "beer_expert_pause",
+      "title": "An Expert Pause",
+      "topic": "beer",
+      "motif": 0,
+      "text": "You will pause thoughtfully after your first sip. Everyone will think you're considering the aftertaste. No need to explain that you're wondering whether you closed the kitchen window.",
+      "audio": "/ORACLE/audio/en/beer_expert_pause.wav",
+      "image": "/ORACLE/images/hop-wizard.jpg"
+    },
+    {
+      "id": "beer_recommendation",
+      "title": "Just Your Taste",
+      "topic": "beer",
+      "motif": 1,
+      "text": "The bartender will find your ideal beer after two simple questions. You'll remember the forty-question form at work that helped nobody. Perhaps its author should visit this bar.",
+      "audio": "/ORACLE/audio/en/beer_recommendation.wav",
+      "image": "/ORACLE/images/cosmic-toast.jpg"
+    },
+    {
+      "id": "beer_receipt_math",
+      "title": "Perfect Arithmetic",
+      "topic": "beer",
+      "motif": 2,
+      "text": "The bill will split without an argument. The friend who claimed to be no good with numbers will work it out first. Every talent just needs the right occasion.",
+      "audio": "/ORACLE/audio/en/beer_receipt_math.wav",
+      "image": "/ORACLE/images/beer-oracle.jpg"
+    },
+    {
+      "id": "beer_water_break",
+      "title": "A Good Pause",
+      "topic": "beer",
+      "motif": 3,
+      "text": "A glass of water will be your best order between conversations. Nobody will spend ten minutes debating the flavour. Sometimes a drink is perfect because it requires no commentary.",
+      "audio": "/ORACLE/audio/en/beer_water_break.wav",
+      "image": "/ORACLE/images/hop-wizard.jpg"
+    },
+    {
+      "id": "beer_known_face",
+      "title": "A Familiar Face",
+      "topic": "beer",
+      "motif": 0,
+      "text": "They will recognise you at your favourite pub and ask how your little project is going. Apparently you talked about it all evening last time. Your hobby now has regular customers.",
+      "audio": "/ORACLE/audio/en/beer_known_face.wav",
+      "image": "/ORACLE/images/cosmic-toast.jpg"
+    },
+    {
+      "id": "beer_first_sip",
+      "title": "An Honest Review",
+      "topic": "beer",
+      "motif": 1,
+      "text": "You will try a fashionable beer and admit you don't like it. The world will survive. They will bring something you enjoy, and the tasting will finally become enjoyable.",
+      "audio": "/ORACLE/audio/en/beer_first_sip.wav",
+      "image": "/ORACLE/images/beer-oracle.jpg"
+    },
+    {
+      "id": "beer_jacket",
+      "title": "The Long Goodbye",
+      "topic": "beer",
+      "motif": 2,
+      "text": "You'll put on your jackets and discover the best conversation of the evening. It will continue standing up. Good pubs really need a special rate for people who are already leaving.",
+      "audio": "/ORACLE/audio/en/beer_jacket.wav",
+      "image": "/ORACLE/images/hop-wizard.jpg"
+    },
+    {
+      "id": "beer_foam_art",
+      "title": "A Picture of the Night",
+      "topic": "beer",
+      "motif": 3,
+      "text": "You'll try to photograph your glass beautifully. The foam will settle while your friends start laughing. The result: a blurred glass and a wonderful evening. Keep that one.",
+      "audio": "/ORACLE/audio/en/beer_foam_art.wav",
+      "image": "/ORACLE/images/cosmic-toast.jpg"
+    },
+    {
+      "id": "tea_temperature",
+      "title": "Perfect Timing",
+      "topic": "tea",
+      "motif": 0,
+      "text": "Your tea will reach the perfect temperature just as someone asks a question. Today you'll finally say: give me a minute. Let one important appointment start on time.",
+      "audio": "/ORACLE/audio/en/tea_temperature.wav",
+      "image": "/ORACLE/images/tea-leaf-oracle.jpg"
+    },
+    {
+      "id": "tea_guest",
+      "title": "A Brief Visit",
+      "topic": "tea",
+      "motif": 1,
+      "text": "Someone will pop in for a minute, and you'll offer tea. An hour later, the minute will turn out to have been approximate. Some people improve a schedule by ignoring it.",
+      "audio": "/ORACLE/audio/en/tea_guest.wav",
+      "image": "/ORACLE/images/teapot-wizard.jpg"
+    },
+    {
+      "id": "tea_shelf",
+      "title": "A Private Collection",
+      "topic": "tea",
+      "motif": 2,
+      "text": "Tidying the tea shelf will reveal four varieties saved for a special occasion. Declare today special. It's the only date all four can agree on.",
+      "audio": "/ORACLE/audio/en/tea_shelf.wav",
+      "image": "/ORACLE/images/tea-alchemy.jpg"
+    },
+    {
+      "id": "tea_timer",
+      "title": "Exact Timing",
+      "topic": "tea",
+      "motif": 3,
+      "text": "You will set a timer to brew tea properly. Three minutes later it will remind you that you forgot the leaves. Still, you enjoyed three minutes of peace exactly as instructed.",
+      "audio": "/ORACLE/audio/en/tea_timer.wav",
+      "image": "/ORACLE/images/tea-leaf-oracle.jpg"
+    },
+    {
+      "id": "tea_saucer",
+      "title": "Quiet Support",
+      "topic": "tea",
+      "motif": 0,
+      "text": "A small saucer will save the table from a large stain. Nobody will notice the disaster that didn't happen. You will suddenly understand everyone who does invisible work well.",
+      "audio": "/ORACLE/audio/en/tea_saucer.wav",
+      "image": "/ORACLE/images/teapot-wizard.jpg"
+    },
+    {
+      "id": "tea_loose_leaf",
+      "title": "Freedom from Bags",
+      "topic": "tea",
+      "motif": 1,
+      "text": "Loose-leaf tea will free you from tea bags. Then you'll start choosing a strainer, a pot and scales. Freedom apparently has quite an extensive accessories department.",
+      "audio": "/ORACLE/audio/en/tea_loose_leaf.wav",
+      "image": "/ORACLE/images/tea-alchemy.jpg"
+    },
+    {
+      "id": "tea_sugar",
+      "title": "The Right Amount",
+      "topic": "tea",
+      "motif": 2,
+      "text": "You will guess exactly how much sugar your guest means by a little. A serious professional achievement. At work, understanding vague requirements usually earns you more vague requirements.",
+      "audio": "/ORACLE/audio/en/tea_sugar.wav",
+      "image": "/ORACLE/images/tea-leaf-oracle.jpg"
+    },
+    {
+      "id": "tea_empty_cup",
+      "title": "A Pleasant Discovery",
+      "topic": "tea",
+      "motif": 3,
+      "text": "Your cup will empty before the conversation runs out. A good sign. In a bad conversation, you'd have noticed the cup, the clock and every crack in the ceiling long ago.",
+      "audio": "/ORACLE/audio/en/tea_empty_cup.wav",
+      "image": "/ORACLE/images/teapot-wizard.jpg"
+    },
+    {
+      "id": "tea_mint",
+      "title": "Permission to Rest",
+      "topic": "tea",
+      "motif": 0,
+      "text": "Mint tea will help you sit quietly for ten minutes. No mystery: you finally put down your phone. Let the mint take some credit. It did its best.",
+      "audio": "/ORACLE/audio/en/tea_mint.wav",
+      "image": "/ORACLE/images/tea-alchemy.jpg"
+    },
+    {
+      "id": "tea_spill",
+      "title": "A Thoughtful Move",
+      "topic": "tea",
+      "motif": 1,
+      "text": "Before your first sip, you'll move the cup away from your laptop. It will be the most mature decision of the day. Great stories need adventure; good working days can manage without it.",
+      "audio": "/ORACLE/audio/en/tea_spill.wav",
+      "image": "/ORACLE/images/tea-leaf-oracle.jpg"
+    },
+    {
+      "id": "tea_package",
+      "title": "A New Aroma",
+      "topic": "tea",
+      "motif": 2,
+      "text": "The tea packet will promise morning mist, mountain breezes and harmony. You'll brew it in your ordinary kitchen, wearing slippers. To marketing's surprise, that will be quite enough.",
+      "audio": "/ORACLE/audio/en/tea_package.wav",
+      "image": "/ORACLE/images/teapot-wizard.jpg"
+    },
+    {
+      "id": "tea_second_brew",
+      "title": "A Second Chance",
+      "topic": "tea",
+      "motif": 3,
+      "text": "The second infusion will taste better than the first. You'll decide to give things another chance. Apply this to cold pizza and TV shows if you like. Evening work calls can wait.",
+      "audio": "/ORACLE/audio/en/tea_second_brew.wav",
+      "image": "/ORACLE/images/tea-alchemy.jpg"
+    },
+    {
+      "id": "tea_office",
+      "title": "The Tea Diplomat",
+      "topic": "tea",
+      "motif": 0,
+      "text": "You'll offer tea to two arguing colleagues. While they explain which kind they want, they'll forget the argument. Sometimes the best mediator carries a kettle and asks: black or green?",
+      "audio": "/ORACLE/audio/en/tea_office.wav",
+      "image": "/ORACLE/images/tea-leaf-oracle.jpg"
+    },
+    {
+      "id": "tea_stain",
+      "title": "A Circle of Thought",
+      "topic": "tea",
+      "motif": 1,
+      "text": "Your cup will leave a ring on a grand plan. You'll trace it and call it the central idea. For once, the diagram will improve because you were simply sitting there drinking tea.",
+      "audio": "/ORACLE/audio/en/tea_stain.wav",
+      "image": "/ORACLE/images/teapot-wizard.jpg"
+    },
+    {
+      "id": "tea_small_cup",
+      "title": "Small Cup, Big Break",
+      "topic": "tea",
+      "motif": 2,
+      "text": "A small cup will give you more breaks than a large mug: more refills, looks out of the window and returns to the conversation. Convenience isn't always about getting up less often.",
+      "audio": "/ORACLE/audio/en/tea_small_cup.wav",
+      "image": "/ORACLE/images/tea-alchemy.jpg"
+    },
+    {
+      "id": "tea_last_cookie",
+      "title": "The Polite Circle",
+      "topic": "tea",
+      "motif": 3,
+      "text": "The last biscuit will be offered three times and politely returned to the plate. On the fourth attempt, someone will eat it. Let it be you. Every ceremony needs someone who can bring it to a close.",
+      "audio": "/ORACLE/audio/en/tea_last_cookie.wav",
+      "image": "/ORACLE/images/tea-leaf-oracle.jpg"
+    },
+    {
+      "id": "tea_reading_book",
+      "title": "One More Chapter",
+      "topic": "tea",
+      "motif": 0,
+      "text": "You'll sit down with tea and a book for twenty minutes. The tea will cool and the minutes will become a chapter. A rare case where a forgotten drink is evidence of time well spent.",
+      "audio": "/ORACLE/audio/en/tea_reading_book.wav",
+      "image": "/ORACLE/images/teapot-wizard.jpg"
+    },
+    {
+      "id": "tea_choose_simple",
+      "title": "A Simple Answer",
+      "topic": "tea",
+      "motif": 1,
+      "text": "Asked which tea you prefer, you'll be happy to say: whatever is already brewing. Your taste has reached the level where good company matters more than the precise name of the leaves.",
+      "audio": "/ORACLE/audio/en/tea_choose_simple.wav",
+      "image": "/ORACLE/images/tea-alchemy.jpg"
+    }
+  ],
+  "language": "en"
+}

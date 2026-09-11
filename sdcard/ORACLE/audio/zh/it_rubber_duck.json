@@ -1,0 +1,10 @@
+{
+  "sha256": "5d340721f77dde1e413bf3362d6545b6c264f2acdddb86125146c01aeb81b1e1",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "橡皮鸭会帮你找出漏洞，不打断、不建议重写，也不安排会议。你可能想提拔它，别毁了这位好专家。",
+  "seconds": 8.777125,
+  "normalization_gain": 2.5
+}

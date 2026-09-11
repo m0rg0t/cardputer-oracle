@@ -1,0 +1,10 @@
+{
+  "sha256": "163583c33674e09cc3f63ae8b22fe10d89267edaea47c4e830a4357d7e263f0f",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你会在泡沫里看见命运的暗示。若像一撮胡子，先照照镜子。有时预言就在鼻子底下。",
+  "seconds": 8.2663125,
+  "normalization_gain": 2.5
+}

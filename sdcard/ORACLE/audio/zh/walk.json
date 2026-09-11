@@ -1,0 +1,10 @@
+{
+  "sha256": "545b8e341e42da1cf00e36ad6a7fc557e7ee2683523bac3d71ef32f2d3464667",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "门外有整个世界等着你。画面精美，剧情新奇；虽然没有存档点，但散步属于免费版内容。",
+  "seconds": 8.8235625,
+  "normalization_gain": 2.5
+}

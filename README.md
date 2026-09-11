@@ -1,75 +1,33 @@
-# Oracle ADV
+# Cardputer Oracle
 
-**Карманный оракул для M5Stack Cardputer ADV: предсказания с юмором, голосом, мистическими котами и чеком на память.**
+**A pocket fortune teller for M5Stack Cardputer ADV, with witty predictions, spoken fortunes, mystical cats and a printed keepsake.**
 
-Проект для доклада о нейросетях в баре. Нажимаешь кнопку — оракул тасует вероятности, показывает иллюстрацию, читает прогноз и пробует распечатать его на маленьком Bluetooth-принтере.
+Press a key, watch the ritual, hear your fortune and take it away on a thermal receipt. Designed for everyday use, meetups and a little entertainment with friends.
 
-<img src="assets/oracle-cat.png" alt="Кот-оракул" width="320"> <img src="docs/media/screen-home.png" alt="Экран Oracle 0.5.3" width="480">
+<img src="assets/oracle-cat.png" alt="The oracle cat" width="320">
 
-*Справа — интерфейс приложения в симуляторе. Значение батареи в снимке демонстрационное.*
+<img src="docs/media/screen-home-en.png" alt="English home screen in the simulator; the battery value is simulated" width="480">
 
-## Возможности
+## Four themes
 
-| Тема | Содержимое | Интернет |
+| Theme | Content | Internet |
 | --- | --- | --- |
-| Айти и юмор | 60 готовых предсказаний про работу и жизнь | Не нужен |
-| Пивная | 30 предсказаний для вечера в баре | Не нужен |
-| Чайная | 30 предсказаний про чай и маленькие ритуалы | Не нужен |
-| Таро / AI | Вопрос с клавиатуры, три разных аркана и новое толкование | Wi-Fi + LiteLLM |
+| Tech & everyday | 60 fortunes about work and life | No |
+| Beer | 30 fortunes for a relaxed evening | No |
+| Tea | 30 fortunes about tea and small rituals | No |
+| Tarot / AI | Your question, three different cards and a fresh reading | Wi-Fi + LiteLLM |
 
-- Все **120 текстов, 120 WAV, девять картинок и 120 растров чеков** включены в репозиторий.
-- В каждой автономной теме своя очередь без повторов. С SD читается только выбранная карточка.
-- Магические эффекты синтезируются на устройстве; речь подготовлена заранее в ElevenLabs.
-- Текст прокручивается автоматически или с клавиатуры. В шапке — процент батареи, обновление каждые пять секунд.
-- Печать на **BQ95 / FunPrint** по Bluetooth LE: иллюстрация шириной 336 точек на бумаге шириной 384 точки.
-- Без SD доступны по шесть резервных текстов каждой автономной темы, без озвучки и печати.
+- **120 fortunes per language**, with pre-generated WAV narration. English, Russian and Simplified Chinese use the same stable card IDs and artwork.
+- **English by default**; choose Russian or Simplified Chinese at build time. The choice covers interface, fallback cards, SD text, narration, Tarot output and printed receipts.
+- Each offline theme has its own shuffled queue without repeats until the deck is exhausted. Only the selected card is read into memory.
+- Sound effects are synthesized on the device. Offline speech is prepared with ElevenLabs: Lily for English, Arina for Russian, Willow for Mandarin.
+- Automatic and manual scrolling, volume controls and a battery percentage in the header.
+- BQ95 / FunPrint Bluetooth LE printing: 336-dot artwork on a 384-dot receipt.
+- Without SD: six silent fallback cards per offline theme. AI Tarot needs a network; there is no on-device neural model yet.
 
-Локальная нейросеть на ESP32 пока не запускается. Автономные прогнозы подготовлены заранее, Таро обращается к модели через HTTPS. Маленькая локальная модель — возможный следующий этап.
+## Build a language release
 
-## Запуск на устройстве
-
-Нужны **Cardputer ADV**, microSD с FAT32 и установленный **M5Apps**. Проект ориентирован на ADV с ESP32-S3; обычный Cardputer этой прошивкой не поддерживается.
-
-1. Соберите прошивку или возьмите подготовленный пакет. Текущая версия — [0.5.3](VERSION).
-2. Скопируйте содержимое [sdcard](sdcard) в корень карты: получится каталог /ORACLE.
-3. Скопируйте application image firmware/.pio/build/oracle-adv/firmware.bin в корень SD под именем ORACLE.BIN.
-4. В M5Apps откройте **Installer → SD → ORACLE.BIN**. Не выбирайте служебный файл macOS с префиксом ._.
-5. Запустите приложение: в шапке должно быть **ORACLE / 05.3** и **SD**.
-
-Для трёх готовых колод ключи не нужны. Для Таро скопируйте sdcard/ORACLE/config.example.json в /ORACLE/config.json на карте и заполните свои настройки. Реальный config.json исключён из Git.
-
-[Установка](docs/INSTALL.md) · [Таро и Wi-Fi](docs/TAROT.md) · [Проверка устройства](docs/DEVICE_CHECK.md)
-
-## Управление
-
-| Где | Кнопки | Действие |
-| --- | --- | --- |
-| Главный экран | Лево / право, физические , и / без Fn | Переключить тему |
-| Главный экран | Остальные клавиши / Go | Прогноз или ввод вопроса для Таро |
-| Ввод вопроса | Tab / Shift / Backspace | RU–EN / регистр / удалить символ |
-| Ввод вопроса | Enter / Go | Отправить; пустой вопрос даёт общий расклад |
-| Результат | Enter / пробел / N | Новое предсказание |
-| Результат | ; или W / . или S | Прокрутить вверх / вниз |
-| Результат | P | Найти принтер и напечатать ещё одну копию |
-| Результат | R / I / A | Повторить голос / показать картинку / автопрокрутка |
-| После запуска | M / + / − | Выключить звук / изменить громкость |
-| Внутри приложения | Esc, физическая клавиша обратной кавычки | Назад / отменить |
-
-В теме Таро голос для нового текста пока не генерируется. Повторная печать использует полученный расклад и не отправляет новый запрос модели.
-
-## Печать
-
-На BQ95 откройте **FunPrint с QR-кодом** и отключите автовыключение. При раскрытии прогноза выполняется одна автоматическая попытка печати; **P** повторяет поиск или печатает дополнительную копию. Одновременно отправляется один чек. После обрыва он автоматически не повторяется.
-
-Драйвер привязан к проверенному экземпляру BQ95. Для другого устройства нужно адаптировать идентификатор в firmware/src/bq95_printer.cpp; совместимость со всеми китайскими принтерами не заявляется.
-
-<img src="docs/media/receipt-tea.png" alt="Чайный чек с крупной картинкой" width="240">
-
-[Протокол, ограничения и исправление NVS/M5Apps](docs/PRINTER_BQ95.md).
-
-## Сборка
-
-Python **3.10+**, PlatformIO. Команды ниже подходят для macOS/Linux.
+Python 3.10+, PlatformIO and the packages in requirements.txt are needed. On macOS/Linux:
 
 ~~~sh
 python3 -m venv .venv
@@ -77,98 +35,116 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 python -m pip install platformio
 
-python -m unittest discover -s tools -p test_pack.py
-cd firmware
-pio run -e oracle-adv
-cd ..
-python tools/package_demo.py
-python tools/validate_release.py
+# English: the default, including all matching SD resources.
+python tools/build_release.py
+
+# Russian: a separate firmware and resource package.
+python tools/build_release.py --language ru
+
+# Simplified Chinese: Chinese UI, fortunes, Mandarin speech and receipts.
+python tools/build_release.py --language zh
 ~~~
 
-Готовые BIN и ZIP появятся в release/, которая не коммитится. Упаковщик берёт только ресурсы активной колоды и публичные инструкции. Корневой [VERSION](VERSION) задаёт версию пакета; видимый номер прошивки обновляется отдельно при выпуске версии.
+The result is release/Oracle-ADV-0.6.0-en.zip, -ru.zip or -zh.zip, with the application BIN and matching ORACLE folder. No API credentials are needed to build or use the offline decks.
 
-Лимит application image для используемого слота M5Apps — **1 310 720 байт**. Сборка проверяет его автоматически. Прошивка 0.5.3 занимает **1 246 832 байта**, статическая RAM — **72 768 байт**.
+To prepare SD resources alone:
 
-[Среда разработки, симулятор и native-тесты](docs/DEVELOPMENT.md).
+~~~sh
+python tools/build_release.py --language en --resources-only
+~~~
 
-## Структура
+These appear under build/packs/{en,ru,zh}/ORACLE. Treat sdcard/ as the media source and legacy Russian pack, **not** the default installation directory. Copy the generated language pack or use the release ZIP.
+
+For firmware-only development, use pio run -e oracle-adv (English), -e oracle-adv-ru (Russian), or -e oracle-adv-zh (Chinese) inside firmware/. Never mix a BIN with the other language's SD resources. The application checks the catalog language; the packager also checks the firmware language marker.
+
+The Chinese build uses redistributable **/efont/ 12px bitmap glyphs**, enlarged to 24px for reading on screen. The UI and offline deck's glyphs are embedded; additional Tarot characters are loaded individually from ORACLE/fonts/chinese12.bin, without loading the whole font into RAM. The same glyphs are used on paper. Keep the fonts folder when installing. Font provenance is recorded in assets/fonts/manifest.json; its redistribution license is included in every Chinese ZIP. After changing Chinese text, the release builder regenerates the embedded subset and checks coverage.
+
+Chinese Tarot currently accepts **English/Pinyin typing**, or an empty question for a general reading; a Chinese IME is not implemented. Answers use Simplified Chinese. See [中文安装说明](docs/INSTALL.zh.md).
+
+## Install and use
+
+The target is **Cardputer ADV with ESP32-S3**, a FAT32 microSD and **M5Apps**. The original Cardputer is not supported by this build.
+
+Extract the selected release, copy its ORACLE folder and application BIN to the SD card, then select the BIN in **M5Apps → Installer → SD**. Preserve your private ORACLE/config.json when updating. Ignore macOS files beginning with ._.
+
+**Start with the [detailed installation guide](docs/INSTALL.en.md)**. It covers first-time M5Apps installation over USB, FAT32 preparation, the exact SD directory tree, every resource file, private Tarot configuration, updates, language changes and troubleshooting. Once M5Apps is installed, a card reader is enough for Oracle updates; no USB data cable is needed.
+
+The BIN installs the program into device flash; the `ORACLE` folder stays on the microSD for text, pictures, voices, fonts and receipt data. Copying only one of these two parts is not a complete installation. Each release ZIP includes its language's installation guide as `README.md`.
+
+| Screen | Keys | Action |
+| --- | --- | --- |
+| Home | Left/right (physical comma/slash without Fn) | Change theme |
+| Home | Other keys / Go | Draw a fortune or enter a Tarot question |
+| Question | Tab / Shift / Backspace | EN–RU typing layout / case / delete |
+| Question | Enter / Go | Submit; empty means a general reading |
+| Result | Enter / Space / N | New fortune |
+| Result | ; or W / . or S | Scroll up / down |
+| Result | P | Search for the printer / print another copy |
+| Result | R / I / A | Replay voice / show art / toggle auto-scroll |
+| Outside text input | M / + / - | Mute / adjust volume |
+| Within the app | Esc (physical backtick key) | Back / cancel |
+
+Switching the typing layout does not change the firmware's language.
+
+[English installation guide](docs/INSTALL.en.md) · [Русская инструкция](docs/INSTALL.md) · [中文安装说明](docs/INSTALL.zh.md)
+
+## AI Tarot and printing
+
+For Tarot, copy sdcard/ORACLE/config.example.json to ORACLE/config.json on your card and supply your own 2.4GHz Wi-Fi, HTTPS LiteLLM host, model and token. Private configuration is ignored by Git and excluded from public packages. The received result is frozen: screen and paper use the same reading, and reprinting does not call the model again. Online Tarot currently has no narration.
+
+For printing, open the BQ95's **FunPrint QR screen** and disable auto power-off. The app attempts one automatic print on reveal; **P** requests a copy or retries after you check the paper. The driver targets a tested BQ95 identifier; change it for a different unit. Compatibility with all toy printers is not claimed.
+
+[Tarot configuration](docs/TAROT.md) · [Printer protocol and NVS fix](docs/PRINTER_BQ95.md)
+
+## Content and narration
+
+English source: content/deck.en.json. Russian source: content/deck.json. Chinese source: content/deck.zh.json. Stable IDs are retained for resource compatibility, including a few historical names; the visible text no longer depends on a talk or presentation.
+
+To create or refresh recordings, set ELEVENLABS_API_KEY in your local environment:
+
+~~~sh
+python tools/generate_audio.py --language en --pause-seconds 3
+python tools/generate_audio.py --language ru --pause-seconds 3
+python tools/generate_audio.py --language zh --pause-seconds 3
+~~~
+
+This is the only step that calls the paid speech service. Unchanged text, voice and settings are cached. English recordings live in sdcard/ORACLE/audio/en, Mandarin (Willow) in sdcard/ORACLE/audio/zh; Russian recordings retain their original paths. Rebuild the language pack after editing text: stale narration is rejected. Adding a language requires a deck, UI strings, font coverage, voice choice and release tests; merely changing an API prompt is not enough.
+
+## Verification
+
+~~~sh
+python -m unittest discover -s tools -p 'test_*.py'
+python tools/run_native_tests.py
+python tools/validate_release.py --language en
+python tools/validate_release.py --language ru
+python tools/validate_release.py --language zh
+~~~
+
+The native suite runs in all three languages, including Chinese glyph lookup and double-width UTF-8 wrapping. Tarot request/response tests run when the PlatformIO ArduinoJson dependency is installed. Release checks validate media, receipt CRCs, language agreement, ESP32-S3 image headers, M5Apps size limits and public archive contents.
+
+The M5Apps application limit is **1,310,720 bytes**, enforced during builds. This is a working hardware project: software checks do not replace a physical check of Wi-Fi, battery reporting, speaker playback and Bluetooth printing on the new release.
+
+## Repository layout
 
 ~~~text
-firmware/       C++17: экран, карточки, звук, Wi-Fi, Таро и BLE
-content/        исходная колода
-assets/         оригиналы иллюстраций, промпты и назначения карточкам
-sdcard/ORACLE/  готовые карточки, WAV, JPEG, чеки и пример настроек
-tools/          подготовка ресурсов, проверки, упаковка и сборка сайта
-site/           HTML-шаблон и CSS страницы проекта
-docs/           инструкции и выбранные иллюстрации документации
-third_party/    лицензии заимствованных компонентов
-.github/        проверки и ручная публикация GitHub Pages
-local/          личные заметки, диагностика и инструменты — вне Git
-release/        пакеты и приватные настройки — вне Git
-build/          промежуточные файлы и готовый сайт — вне Git
+firmware/       C++17 UI, card selection, sound, Wi-Fi, Tarot and BLE
+content/        English, Russian and Chinese source decks
+assets/         Original artwork and its manifest
+sdcard/         Shared media, language-specific audio and legacy Russian resources
+tools/          Build, generation and validation commands
+docs/           Installation, development and protocol notes
+site/           Static project-page source
+build/          Generated language packs, previews and build output (ignored)
+release/        Public ZIP/BIN packages and private local config (ignored)
+local/          Private working notes and deployment checkout (ignored)
 ~~~
 
-Источники и готовый набор SD хранятся вместе намеренно: чистого клона достаточно для работы без платной генерации. Все 120 WAV входят в Git как обычные бинарные файлы; Git LFS не требуется.
+## Project page
 
-## Контент
+[Public project page](https://oracle-adv.antonlenev.chatgpt.site). The currently published page is the earlier Russian showcase; changes here do not automatically republish it.
 
-[content/deck.json](content/deck.json) — источник текстов; [assets/artwork.json](assets/artwork.json) связывает их с картинками. [Происхождение иллюстраций](assets/PROVENANCE.md) содержит промпты генерации.
+The optional GitHub Pages workflow is manual: see [Pages setup](docs/PAGES.md). It publishes only the allowlisted output of tools/build_site.py, never firmware configuration or private files.
 
-~~~sh
-# После изменения иллюстраций:
-python tools/prepare_images.py
-# После изменения карточек:
-python tools/prepare_pack.py --ready-only --require-media
-python tools/prepare_receipts.py
-~~~
+## Credits and scope
 
-Генерация новых голосов требует переменной окружения ELEVENLABS_API_KEY и расходует лимит ElevenLabs. Скрипт продолжает работу по хешам содержимого, пропуская готовые записи:
-
-~~~sh
-python tools/generate_audio.py --pause-seconds 15
-~~~
-
-.env сам по себе не загружается скриптами: передайте ключ через окружение терминала или менеджера секретов. Сборка существующей колоды ElevenLabs не вызывает.
-
-[Добавление карточек и требования к ресурсам](docs/CONTENT.md).
-
-## Сайт и GitHub Pages
-
-Статическая страница с оригинальными иллюстрациями, тремя реальными примерами озвучки и чеком. Сайт не обращается к LiteLLM и не получает ключи устройства.
-
-~~~sh
-python tools/build_site.py
-python -m http.server 8765 --bind 127.0.0.1 --directory build/site
-~~~
-
-Открыть http://127.0.0.1:8765/. Для ссылки на свой репозиторий передайте --repository OWNER/REPOSITORY. Пути относительные: работают корневой домен и адрес OWNER.github.io/REPOSITORY/.
-
-После загрузки репозитория на GitHub:
-
-1. **Settings → Pages → Source → GitHub Actions**.
-2. **Actions → Deploy GitHub Pages → Run workflow**.
-3. Адрес публикации появится в результате задания.
-
-Публикация ручная. При push / pull request выполняются проверки контента, состава Git и сборки сайта; публикации нет. Workflow отправляет только build/site. [Подробнее](docs/PAGES.md).
-
-## Приватные данные
-
-Исключены .env* (кроме пустого примера), настоящие config.json, ключи, заметки, прошивки, дампы, резервные копии и логи. Публичный roots.pem содержит сертификаты удостоверяющих центров, не приватные ключи.
-
-~~~sh
-python tools/check_repo.py
-# Необязательно: включить проверку как локальный pre-commit hook.
-git config core.hooksPath .githooks
-~~~
-
-Проверка читает именно Git-индекс и не выводит значения секретов. Если локальный приватный конфиг существует, его реальные токен и пароли также проверяются в коммитируемых файлах.
-
-## Состояние
-
-Прототип. Логика, контент, сборка, интерфейс симулятора и протокол печати проверены. Физически подтверждён полный чек BQ95, отправленный с Mac. Версия 0.5.3 записана на SD; исправление печати на Cardputer, реальная батарея и переходы BLE → Wi-Fi → BLE ещё требуют проверки на устройстве.
-
-[ROADMAP.md](ROADMAP.md): настройка Wi-Fi с клавиатуры и сохранением только успешных подключений, новые способы генерации и аппаратная проверка.
-
-## Заимствования
-
-Кириллический шрифт и UTF-8-хелперы происходят из Hermes Terminal (MIT). Уведомления NimBLE, Apache NimBLE и TinyCrypt сохранены в [third_party](third_party). Лицензия собственного кода проекта пока не выбрана.
+See [third_party](third_party) for retained dependency licences and [content notes](docs/CONTENT.md) for generated media. No licence for the project's original source has been selected yet; third-party notices remain intact.

@@ -1,0 +1,10 @@
+{
+  "sha256": "d3927e393ac7caacc1799d85b0571eb022257587c6927e3fe57eb116418b024a",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你会喝到稀有啤酒的最后一杯，并努力记住味道。下周你只记得可爱的酒标，以及更可爱的同桌。",
+  "seconds": 8.31275,
+  "normalization_gain": 2.5
+}

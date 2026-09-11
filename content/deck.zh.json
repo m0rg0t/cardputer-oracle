@@ -1,0 +1,1086 @@
+{
+  "schema": 1,
+  "language": "zh",
+  "cards": [
+    {
+      "id": "coat",
+      "title": "隐藏的财富",
+      "topic": "life",
+      "motif": 0,
+      "text": "意外之财正在等你。快检查冬衣口袋吧。要是只摸出一张小票，就把它当作记载繁荣年代的古卷。",
+      "audio": "/ORACLE/audio/zh/coat.wav",
+      "image": "/ORACLE/images/oracle.jpg"
+    },
+    {
+      "id": "sofa",
+      "title": "伟大旅程",
+      "topic": "life",
+      "motif": 1,
+      "text": "前方有一段漫长旅程：从厨房走到沙发。途中还要接受品格考验：想起自己为何起身。",
+      "audio": "/ORACLE/audio/zh/sofa.wav",
+      "image": "/ORACLE/images/moon-nap.jpg"
+    },
+    {
+      "id": "cat",
+      "title": "至尊魔法师",
+      "topic": "life",
+      "motif": 2,
+      "text": "今天会有大人物关注你。多半是猫。它会在闹钟响前半小时，正式开启谈判。",
+      "audio": "/ORACLE/audio/zh/cat.wav",
+      "image": "/ORACLE/images/oracle.jpg"
+    },
+    {
+      "id": "tea",
+      "title": "清醒药剂",
+      "topic": "life",
+      "motif": 3,
+      "text": "答案就在杯底。喝完茶，再泡一杯。有些谜题，确实需要第二意见。",
+      "audio": "/ORACLE/audio/zh/tea.wav",
+      "image": "/ORACLE/images/tea-alchemy.jpg"
+    },
+    {
+      "id": "parcel",
+      "title": "命运的礼物",
+      "topic": "life",
+      "motif": 0,
+      "text": "懂你心意的人正寄来一份礼物。那个人就是你。包裹已经在路上了。",
+      "audio": "/ORACLE/audio/zh/parcel.wav",
+      "image": "/ORACLE/images/oracle.jpg"
+    },
+    {
+      "id": "monday",
+      "title": "全新开始",
+      "topic": "life",
+      "motif": 1,
+      "text": "你将在星期一开始新生活。星星很明智，没说是哪一种。你的星期一储备相当充足。",
+      "audio": "/ORACLE/audio/zh/monday.wav",
+      "image": "/ORACLE/images/moon-nap.jpg"
+    },
+    {
+      "id": "fridge",
+      "title": "机遇之门",
+      "topic": "life",
+      "motif": 2,
+      "text": "通往新可能的大门近在手边。你每隔二十分钟就打开一次。目前里面只有奶酪，但希望依然旺盛。",
+      "audio": "/ORACLE/audio/zh/fridge.wav",
+      "image": "/ORACLE/images/tea-alchemy.jpg"
+    },
+    {
+      "id": "socks",
+      "title": "失踪的另一半",
+      "topic": "life",
+      "motif": 3,
+      "text": "你失踪的另一半会回来。它是一只袜子。宇宙的爱情部门今天缩短了营业时间。",
+      "audio": "/ORACLE/audio/zh/socks.wav",
+      "image": "/ORACLE/images/oracle.jpg"
+    },
+    {
+      "id": "calendar",
+      "title": "稀有礼物",
+      "topic": "life",
+      "motif": 0,
+      "text": "一份奢华礼物正等着你：取消的会议。好好利用这空闲一小时，比如告诉大家你有多忙。",
+      "audio": "/ORACLE/audio/zh/calendar.wav",
+      "image": "/ORACLE/images/moon-nap.jpg"
+    },
+    {
+      "id": "password",
+      "title": "秘密咒语",
+      "topic": "it",
+      "motif": 1,
+      "text": "古老秘密会在你第三次尝试时现身。第四次时，系统会让你重置密码。启蒙就此开始。",
+      "image": "/ORACLE/images/terminal-cat.jpg",
+      "audio": "/ORACLE/audio/zh/password.wav"
+    },
+    {
+      "id": "deadline",
+      "title": "时间大师",
+      "topic": "it",
+      "motif": 2,
+      "text": "你将获得掌控时间的力量。截止日期又延期了。请谨慎使用：它也在学习如何管理你。",
+      "image": "/ORACLE/images/terminal-cat.jpg",
+      "audio": "/ORACLE/audio/zh/deadline.wav"
+    },
+    {
+      "id": "bug",
+      "title": "天降征兆",
+      "topic": "it",
+      "motif": 3,
+      "text": "你的代码会给你一个征兆。红色的，在控制台里。别慌，宇宙只是想和你聊聊那个小括号。",
+      "image": "/ORACLE/images/terminal-cat.jpg",
+      "audio": "/ORACLE/audio/zh/bug.wav"
+    },
+    {
+      "id": "manager",
+      "title": "命运会面",
+      "topic": "it",
+      "motif": 0,
+      "text": "你会遇见改变人生的人。多半是新项目经理。他已经想好要和你快速通话了。",
+      "image": "/ORACLE/images/terminal-cat.jpg",
+      "audio": "/ORACLE/audio/zh/manager.wav"
+    },
+    {
+      "id": "backup",
+      "title": "护身符",
+      "topic": "it",
+      "motif": 1,
+      "text": "今天适合制作护身符。就叫它备份，并放在安全处。等你测试恢复功能，它的魔力会大增。",
+      "image": "/ORACLE/images/terminal-cat.jpg",
+      "audio": "/ORACLE/audio/zh/backup.wav"
+    },
+    {
+      "id": "tabs",
+      "title": "平行宇宙",
+      "topic": "it",
+      "motif": 2,
+      "text": "无数可能性会在你面前打开：大约四十个浏览器标签。某个标签正在放歌，找到它就是今日主线任务。",
+      "image": "/ORACLE/images/terminal-cat.jpg",
+      "audio": "/ORACLE/audio/zh/tabs.wav"
+    },
+    {
+      "id": "restart",
+      "title": "重生",
+      "topic": "it",
+      "motif": 3,
+      "text": "有时你只需要重新开始。先试试重启设备吧。移居别国的决定，可以稍后再说。",
+      "image": "/ORACLE/images/terminal-cat.jpg",
+      "audio": "/ORACLE/audio/zh/restart.wav"
+    },
+    {
+      "id": "umbrella",
+      "title": "天气控制",
+      "topic": "life",
+      "motif": 0,
+      "text": "你将学会控制天气。带伞就不会下雨，忘带伞则会立刻得到实验确认。",
+      "image": "/ORACLE/images/oracle.jpg",
+      "audio": "/ORACLE/audio/zh/umbrella.wav"
+    },
+    {
+      "id": "plant",
+      "title": "绿色同盟",
+      "topic": "life",
+      "motif": 1,
+      "text": "附近有个生命需要你的照料。就是窗台上的植物。它整周都在争取加入干花收藏。",
+      "image": "/ORACLE/images/oracle.jpg",
+      "audio": "/ORACLE/audio/zh/plant.wav"
+    },
+    {
+      "id": "queue",
+      "title": "禅意之道",
+      "topic": "life",
+      "motif": 2,
+      "text": "宇宙会给你独处思绪的时间。在队伍里。下一队会移动得更快，让体验更加深刻。",
+      "image": "/ORACLE/images/moon-nap.jpg",
+      "audio": "/ORACLE/audio/zh/queue.wav"
+    },
+    {
+      "id": "sleep",
+      "title": "夜间预见",
+      "topic": "life",
+      "motif": 3,
+      "text": "伟大的启示会在梦中降临。试着早点睡。刷短视频刷到凌晨两点，不算仪式的一部分。",
+      "image": "/ORACLE/images/moon-nap.jpg",
+      "audio": "/ORACLE/audio/zh/sleep.wav"
+    },
+    {
+      "id": "charger",
+      "title": "能量补给",
+      "topic": "life",
+      "motif": 0,
+      "text": "你的能量很快就会回来。先给手机找充电器，再给自己找点吃的。可别把接口弄混了。",
+      "image": "/ORACLE/images/terminal-cat.jpg",
+      "audio": "/ORACLE/audio/zh/charger.wav"
+    },
+    {
+      "id": "recipe",
+      "title": "晚餐炼金术",
+      "topic": "life",
+      "motif": 1,
+      "text": "你体内的大炼金师即将苏醒，把冰箱里剩下的东西全都混在一起。尝过之后再给这道菜起名吧。",
+      "image": "/ORACLE/images/tea-alchemy.jpg",
+      "audio": "/ORACLE/audio/zh/recipe.wav"
+    },
+    {
+      "id": "dance",
+      "title": "跟着音乐走",
+      "topic": "life",
+      "motif": 2,
+      "text": "一段意外的旋律会为你指路。原来是微波炉在响：晚餐好了，宇宙强烈建议你配合。",
+      "image": "/ORACLE/images/tea-alchemy.jpg",
+      "audio": "/ORACLE/audio/zh/dance.wav"
+    },
+    {
+      "id": "shopping",
+      "title": "明智投资",
+      "topic": "life",
+      "motif": 3,
+      "text": "一种古老习惯会帮你省钱。买东西前先问：我打算把它放哪儿？宇宙通常只会长叹一声。",
+      "image": "/ORACLE/images/oracle.jpg",
+      "audio": "/ORACLE/audio/zh/shopping.wav"
+    },
+    {
+      "id": "walk",
+      "title": "门外世界",
+      "topic": "life",
+      "motif": 0,
+      "text": "门外有整个世界等着你。画面精美，剧情新奇；虽然没有存档点，但散步属于免费版内容。",
+      "image": "/ORACLE/images/moon-nap.jpg",
+      "audio": "/ORACLE/audio/zh/walk.wav"
+    },
+    {
+      "id": "message",
+      "title": "好消息",
+      "topic": "life",
+      "motif": 1,
+      "text": "一条期待已久的消息即将到来。也可能只是验证码。不过有人相信你就是你，感觉也不错。",
+      "image": "/ORACLE/images/terminal-cat.jpg",
+      "audio": "/ORACLE/audio/zh/message.wav"
+    },
+    {
+      "id": "dust",
+      "title": "远古遗物",
+      "topic": "life",
+      "motif": 2,
+      "text": "你会在沙发底下发现被遗忘时代的物件。学者称它为遥控器，你则想起自己曾经有台电视。",
+      "image": "/ORACLE/images/oracle.jpg",
+      "audio": "/ORACLE/audio/zh/dust.wav"
+    },
+    {
+      "id": "idea",
+      "title": "天才火花",
+      "topic": "life",
+      "motif": 3,
+      "text": "一个绝妙点子会在最不合时宜的时刻降临。赶紧记下来。明天，哪怕是“智能水壶和鸽子”，也算进步。",
+      "image": "/ORACLE/images/terminal-cat.jpg",
+      "audio": "/ORACLE/audio/zh/idea.wav"
+    },
+    {
+      "id": "fortune",
+      "title": "精准预言",
+      "topic": "life",
+      "motif": 0,
+      "text": "你即将读到一则极其准确的预言：你会读完这句话。预言家的名声依旧无可挑剔。",
+      "image": "/ORACLE/images/oracle.jpg",
+      "audio": "/ORACLE/audio/zh/fortune.wav"
+    },
+    {
+      "id": "pause",
+      "title": "伟大暂停",
+      "topic": "life",
+      "motif": 1,
+      "text": "星星准许你休息。许可永不过期，印章是想象的。谁有意见，直接联系星星。",
+      "image": "/ORACLE/images/moon-nap.jpg",
+      "audio": "/ORACLE/audio/zh/pause.wav"
+    },
+    {
+      "id": "beer_foam",
+      "title": "泡沫预兆",
+      "topic": "beer",
+      "motif": 0,
+      "text": "你会在泡沫里看见命运的暗示。若像一撮胡子，先照照镜子。有时预言就在鼻子底下。",
+      "image": "/ORACLE/images/beer-oracle.jpg",
+      "audio": "/ORACLE/audio/zh/beer_foam.wav"
+    },
+    {
+      "id": "beer_menu",
+      "title": "艰难选择",
+      "topic": "beer",
+      "motif": 1,
+      "text": "你将学会分辨细微差别：先分清拉格和艾尔，再分清深思熟虑与“朋友点啥我就点啥”。",
+      "image": "/ORACLE/images/beer-oracle.jpg",
+      "audio": "/ORACLE/audio/zh/beer_menu.wav"
+    },
+    {
+      "id": "beer_toast",
+      "title": "妙语连珠",
+      "topic": "beer",
+      "motif": 2,
+      "text": "你会发表一段热情、幽默又真正简短的祝酒词。大家都会感激你，尤其是等着开吃的朋友。",
+      "image": "/ORACLE/images/cosmic-toast.jpg",
+      "audio": "/ORACLE/audio/zh/beer_toast.wav"
+    },
+    {
+      "id": "beer_coaster",
+      "title": "下一个风口",
+      "topic": "beer",
+      "motif": 3,
+      "text": "一项绝妙的商业点子会诞生在餐巾纸上。杯圈可以当标志。现在只差一个它真能解决的问题。",
+      "image": "/ORACLE/images/hop-wizard.jpg",
+      "audio": "/ORACLE/audio/zh/beer_coaster.wav"
+    },
+    {
+      "id": "beer_bartender",
+      "title": "智慧守门人",
+      "topic": "beer",
+      "motif": 0,
+      "text": "你会遇到一位能回答任何问题的智者：酒保。如果答案听起来像啤酒名，说明你的问题足够哲学。",
+      "image": "/ORACLE/images/hop-wizard.jpg",
+      "audio": "/ORACLE/audio/zh/beer_bartender.wav"
+    },
+    {
+      "id": "beer_snacks",
+      "title": "彼此吸引",
+      "topic": "beer",
+      "motif": 1,
+      "text": "朋友们会变得更亲近，尤其是分享拼盘端上来之后。最后一块薯片将揭示桌上的真正外交家。",
+      "image": "/ORACLE/images/beer-oracle.jpg",
+      "audio": "/ORACLE/audio/zh/beer_snacks.wav"
+    },
+    {
+      "id": "beer_tap",
+      "title": "新的开端",
+      "topic": "beer",
+      "motif": 2,
+      "text": "人生中会开启一个新机会。眼下，它是吧台边的一张空座。坐下吧，好基础设施不会自己找上门。",
+      "image": "/ORACLE/images/hop-wizard.jpg",
+      "audio": "/ORACLE/audio/zh/beer_tap.wav"
+    },
+    {
+      "id": "beer_playlist",
+      "title": "熟悉旋律",
+      "topic": "beer",
+      "motif": 3,
+      "text": "熟悉歌曲响起的第一音符，你们就会找到共同语言。刚才还在争论软件架构，现在已成了分布式合唱团。",
+      "image": "/ORACLE/images/cosmic-toast.jpg",
+      "audio": "/ORACLE/audio/zh/beer_playlist.wav"
+    },
+    {
+      "id": "beer_zero",
+      "title": "零酒精魔法",
+      "topic": "beer",
+      "motif": 0,
+      "text": "一个愉快的发现等着你：无酒精啤酒完全不妨碍好点子。酒精为零，参与感满格，预言家已核验协议。",
+      "image": "/ORACLE/images/beer-oracle.jpg",
+      "audio": "/ORACLE/audio/zh/beer_zero.wav"
+    },
+    {
+      "id": "beer_ipa",
+      "title": "苦涩真相",
+      "topic": "beer",
+      "motif": 1,
+      "text": "你将学会享受苦涩的真相。这次说的是啤酒花。今天的人生课，装在一只相当漂亮的杯子里。",
+      "image": "/ORACLE/images/hop-wizard.jpg",
+      "audio": "/ORACLE/audio/zh/beer_ipa.wav"
+    },
+    {
+      "id": "beer_friends",
+      "title": "幸运相逢",
+      "topic": "beer",
+      "motif": 2,
+      "text": "邻桌那位正好有你需要的东西：充电器、好故事，或一把空椅子。今天，宇宙借酒馆之手帮你。",
+      "image": "/ORACLE/images/cosmic-toast.jpg",
+      "audio": "/ORACLE/audio/zh/beer_friends.wav"
+    },
+    {
+      "id": "beer_lastslide",
+      "title": "再按一次",
+      "topic": "beer",
+      "motif": 3,
+      "text": "你的小玩意会吸引一群好奇的人。有人会要求再按一次按钮。终于有了不用看数据面板也能看懂的产品评价。",
+      "image": "/ORACLE/images/cosmic-toast.jpg",
+      "audio": "/ORACLE/audio/zh/beer_lastslide.wav"
+    },
+    {
+      "id": "tea_leaves",
+      "title": "杯中征兆",
+      "topic": "tea",
+      "motif": 0,
+      "text": "茶叶会拼出一张巨变地图。看见龙？冒险在等你。只看见茶叶？那就从第二杯开始冒险。",
+      "image": "/ORACLE/images/tea-leaf-oracle.jpg",
+      "audio": "/ORACLE/audio/zh/tea_leaves.wav"
+    },
+    {
+      "id": "tea_kettle",
+      "title": "壶中智慧",
+      "topic": "tea",
+      "motif": 1,
+      "text": "难题的完美答案会在水壶沸腾时出现。赶紧记下，否则第一口茶后，它可能又变得很哲学。",
+      "image": "/ORACLE/images/teapot-wizard.jpg",
+      "audio": "/ORACLE/audio/zh/tea_kettle.wav"
+    },
+    {
+      "id": "tea_bag",
+      "title": "牢固连接",
+      "topic": "tea",
+      "motif": 2,
+      "text": "你会觉得万物相连，尤其是茶包和那根小纸签。保护好这段关系，否则只能拿勺子捞答案。",
+      "image": "/ORACLE/images/tea-leaf-oracle.jpg",
+      "audio": "/ORACLE/audio/zh/tea_bag.wav"
+    },
+    {
+      "id": "tea_biscuit",
+      "title": "隐藏储备",
+      "topic": "tea",
+      "motif": 3,
+      "text": "茶后藏着意外横财：一包被遗忘的饼干。财务称之为隐藏储备；神谕建议立刻试吃。",
+      "image": "/ORACLE/images/tea-alchemy.jpg",
+      "audio": "/ORACLE/audio/zh/tea_biscuit.wav"
+    },
+    {
+      "id": "tea_oolong",
+      "title": "更上一层",
+      "topic": "tea",
+      "motif": 0,
+      "text": "你会先说这只是茶。一小时后，你将解释这些叶子为何值得再冲一泡。专业知识泡得真快。",
+      "image": "/ORACLE/images/tea-leaf-oracle.jpg",
+      "audio": "/ORACLE/audio/zh/tea_oolong.wav"
+    },
+    {
+      "id": "tea_puer",
+      "title": "越陈越香",
+      "topic": "tea",
+      "motif": 1,
+      "text": "普洱提醒你，年纪也能成为资产。终于，你的旧电脑和那个迟迟没做完的项目都有体面说法了。",
+      "image": "/ORACLE/images/teapot-wizard.jpg",
+      "audio": "/ORACLE/audio/zh/tea_puer.wav"
+    },
+    {
+      "id": "tea_bergamot",
+      "title": "一丝神秘",
+      "topic": "tea",
+      "motif": 2,
+      "text": "熟悉的故事会突然拐弯。大概是佛手柑。你可以告诉朋友，自己闻到了巨变的气息，听起来更厉害。",
+      "image": "/ORACLE/images/tea-leaf-oracle.jpg",
+      "audio": "/ORACLE/audio/zh/tea_bergamot.wav"
+    },
+    {
+      "id": "tea_lemon",
+      "title": "杯中小太阳",
+      "topic": "tea",
+      "motif": 3,
+      "text": "即使天色灰暗，你的杯中也有一轮小太阳。别指望柠檬解决一切，它只负责好看。",
+      "image": "/ORACLE/images/tea-alchemy.jpg",
+      "audio": "/ORACLE/audio/zh/tea_lemon.wav"
+    },
+    {
+      "id": "tea_ceremony",
+      "title": "喝茶正好",
+      "topic": "tea",
+      "motif": 0,
+      "text": "你会发现让时间变慢的方法：提议安静喝杯茶。一小时后，除了为何相聚，什么都聊完了。仪式很成功。",
+      "image": "/ORACLE/images/teapot-wizard.jpg",
+      "audio": "/ORACLE/audio/zh/tea_ceremony.wav"
+    },
+    {
+      "id": "tea_mug",
+      "title": "忠诚护符",
+      "topic": "tea",
+      "motif": 1,
+      "text": "你的幸运护符就在附近：那只没人敢碰的爱用杯。它今天又会替你挡住混乱。别人的茶匙不在保修范围内。",
+      "image": "/ORACLE/images/tea-alchemy.jpg",
+      "audio": "/ORACLE/audio/zh/tea_mug.wav"
+    },
+    {
+      "id": "tea_thermos",
+      "title": "温暖有余",
+      "topic": "tea",
+      "motif": 2,
+      "text": "一壶茶会让你成为全组最有准备的人。大家还在找咖啡馆时，你会神秘一笑，拧开壶盖。",
+      "image": "/ORACLE/images/teapot-wizard.jpg",
+      "audio": "/ORACLE/audio/zh/tea_thermos.wav"
+    },
+    {
+      "id": "tea_refill",
+      "title": "未完待续",
+      "topic": "tea",
+      "motif": 3,
+      "text": "有人问你要不要续茶时，好故事也会翻开下一章。想喝就说好，水壶特别会挑时候。",
+      "image": "/ORACLE/images/tea-alchemy.jpg",
+      "audio": "/ORACLE/audio/zh/tea_refill.wav"
+    },
+    {
+      "id": "it_estimate",
+      "title": "精准估算",
+      "topic": "it",
+      "motif": 0,
+      "text": "任务会恰好花费你预估的时间。先找到那条写着三天、两周或一个月的消息，再选对那条。",
+      "audio": "/ORACLE/audio/zh/it_estimate.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_documentation",
+      "title": "前世留言",
+      "topic": "it",
+      "motif": 1,
+      "text": "过去的智者会来帮你。其实是留下有用评论那天的你。难得一次，你会想和作者握手。",
+      "audio": "/ORACLE/audio/zh/it_documentation.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_rename",
+      "title": "小小改动",
+      "topic": "it",
+      "motif": 2,
+      "text": "有人让你改个按钮名称。到晚上，产品多了新用户、新商业模式和新使命，按钮却没变。它本来就挺好。",
+      "audio": "/ORACLE/audio/zh/it_rename.wav",
+      "image": "/ORACLE/images/moon-nap.jpg"
+    },
+    {
+      "id": "it_mute",
+      "title": "理性之声",
+      "topic": "it",
+      "motif": 3,
+      "text": "下次通话你会说出完美想法，还能让人听完。然后他们会让你取消静音再说一遍，于是它变成了普通想法。",
+      "audio": "/ORACLE/audio/zh/it_mute.wav",
+      "image": "/ORACLE/images/oracle.jpg"
+    },
+    {
+      "id": "it_demo",
+      "title": "安静可靠",
+      "topic": "it",
+      "motif": 0,
+      "text": "代码第一次运行就成功。你还是会再跑一遍，以求安心。信任很重要，但显然还得复测一次。",
+      "audio": "/ORACLE/audio/zh/it_demo.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_cache",
+      "title": "旧日智慧",
+      "topic": "it",
+      "motif": 1,
+      "text": "你会学着放下过去，先从浏览器缓存开始。原来你花两小时，正和午饭前完成任务的自己争论。",
+      "audio": "/ORACLE/audio/zh/it_cache.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_name",
+      "title": "完美命名",
+      "topic": "it",
+      "motif": 2,
+      "text": "你会找到完美的变量名，省掉一半注释。另一半请留着：它们解释了事情为何如此复杂。",
+      "audio": "/ORACLE/audio/zh/it_name.wav",
+      "image": "/ORACLE/images/moon-nap.jpg"
+    },
+    {
+      "id": "it_ai_agrees",
+      "title": "礼貌顾问",
+      "topic": "it",
+      "motif": 3,
+      "text": "AI会热情支持你的绝妙想法，也能同样有理有据地支持相反意见。你终于懂了夹在两位架构师之间的经理。",
+      "audio": "/ORACLE/audio/zh/it_ai_agrees.wav",
+      "image": "/ORACLE/images/oracle.jpg"
+    },
+    {
+      "id": "it_ai_review",
+      "title": "再听一遍",
+      "topic": "it",
+      "motif": 0,
+      "text": "你会让AI审查AI写的代码，它会找出问题并提出改进。到最后，团队里唯一没吃上午饭的就是你。",
+      "audio": "/ORACLE/audio/zh/it_ai_review.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_git_blame",
+      "title": "找到作者",
+      "topic": "it",
+      "motif": 1,
+      "text": "你会找到那个做出迷惑决定的人，变更记录显示正是你自己。别生气：那时的你也打算回来收拾残局。",
+      "audio": "/ORACLE/audio/zh/it_git_blame.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_readonly",
+      "title": "平静的力量",
+      "topic": "it",
+      "motif": 2,
+      "text": "工作日会难得地风平浪静，因为你拿到的是只读权限。世界仍归你负责，只是会把它弄坏的按钮消失了。",
+      "audio": "/ORACLE/audio/zh/it_readonly.wav",
+      "image": "/ORACLE/images/moon-nap.jpg"
+    },
+    {
+      "id": "it_short_call",
+      "title": "五分钟电话",
+      "topic": "it",
+      "motif": 3,
+      "text": "有人说只占用五分钟，居然真的只用了五分钟。你盯着关闭的会议窗口发呆，怀疑自己漏掉了哪个条件。",
+      "audio": "/ORACLE/audio/zh/it_short_call.wav",
+      "image": "/ORACLE/images/oracle.jpg"
+    },
+    {
+      "id": "it_ai_prompt",
+      "title": "说清楚了",
+      "topic": "it",
+      "motif": 0,
+      "text": "你会把任务解释得足够清楚，结果自己先想出了答案。AI还是会发来长篇回复，恭敬点头吧，你们都干得不错。",
+      "audio": "/ORACLE/audio/zh/it_ai_prompt.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_delete",
+      "title": "少即是多",
+      "topic": "it",
+      "motif": 1,
+      "text": "你删掉两百行代码，程序反而更好了。效率报告看起来很可疑，就说你不是在丢工作，而是在找到答案。",
+      "audio": "/ORACLE/audio/zh/it_delete.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_feature",
+      "title": "隐藏惊喜",
+      "topic": "it",
+      "motif": 2,
+      "text": "用户会发现你藏得最深的功能，而它正是对方一直需要的。你们都会觉得自己加入了一个小得不能再小的秘密社团。",
+      "audio": "/ORACLE/audio/zh/it_feature.wav",
+      "image": "/ORACLE/images/moon-nap.jpg"
+    },
+    {
+      "id": "it_percent",
+      "title": "最后百分之一",
+      "topic": "it",
+      "motif": 3,
+      "text": "进度会从百分之九十九跳到百分之百，最后这一格却耗掉九成九时间。现在，你对百分比有了私人看法。",
+      "audio": "/ORACLE/audio/zh/it_percent.wav",
+      "image": "/ORACLE/images/oracle.jpg"
+    },
+    {
+      "id": "it_legacy",
+      "title": "资深系统",
+      "topic": "it",
+      "motif": 0,
+      "text": "老项目居然还在运行，令你惊讶；读完代码，更加惊讶。感谢那位不敢碰它的陌生人，替你保住了这份奇迹。",
+      "audio": "/ORACLE/audio/zh/it_legacy.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_handoff",
+      "title": "半小时交接",
+      "topic": "it",
+      "motif": 1,
+      "text": "你会用半小时交接项目，其中二十五分钟解释文件夹为何叫“旧_新_最终版”。剩下五分钟讲项目本身，绰绰有余，清楚多了。",
+      "audio": "/ORACLE/audio/zh/it_handoff.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_rubber_duck",
+      "title": "安静专家",
+      "topic": "it",
+      "motif": 2,
+      "text": "橡皮鸭会帮你找出漏洞，不打断、不建议重写，也不安排会议。你可能想提拔它，别毁了这位好专家。",
+      "audio": "/ORACLE/audio/zh/it_rubber_duck.wav",
+      "image": "/ORACLE/images/moon-nap.jpg"
+    },
+    {
+      "id": "it_config",
+      "title": "小小拨杆",
+      "topic": "it",
+      "motif": 3,
+      "text": "你会用一行配置修好大问题，看起来只花了一分钟。找出那一行的三个小时，正好写进回忆录。",
+      "audio": "/ORACLE/audio/zh/it_config.wav",
+      "image": "/ORACLE/images/oracle.jpg"
+    },
+    {
+      "id": "it_done",
+      "title": "真的完成了",
+      "topic": "it",
+      "motif": 0,
+      "text": "你完成任务后，居然没人再提一个小小的追加要求。你反而开始主动找改进，等等，这种陌生感觉叫“完成”。",
+      "audio": "/ORACLE/audio/zh/it_done.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_keyboard",
+      "title": "肌肉记忆",
+      "topic": "it",
+      "motif": 1,
+      "text": "你的手指会比大脑更早记起快捷键，你会觉得自己是高手。随后你忘了为何打开终端，宇宙终于恢复平衡。",
+      "audio": "/ORACLE/audio/zh/it_keyboard.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_lunch",
+      "title": "午餐灵感",
+      "topic": "it",
+      "motif": 2,
+      "text": "电脑三小时没解决的问题，午餐替你解决了。真正困难的是说服自己：第二顿午餐不会顺便解决其他一切。",
+      "audio": "/ORACLE/audio/zh/it_lunch.wav",
+      "image": "/ORACLE/images/moon-nap.jpg"
+    },
+    {
+      "id": "it_review_praise",
+      "title": "没有意见",
+      "topic": "it",
+      "motif": 3,
+      "text": "你的成果获批，评语只有“看起来不错”。你本能地想问：真的有人看过吗？试着接受夸奖，别再索要证据。",
+      "audio": "/ORACLE/audio/zh/it_review_praise.wav",
+      "image": "/ORACLE/images/oracle.jpg"
+    },
+    {
+      "id": "it_api_contract",
+      "title": "共同理解",
+      "topic": "it",
+      "motif": 0,
+      "text": "两个团队会以同一种方式理解文档，接口首次接入就能成功。原本用来争论的会议，可以改成友好认识会。",
+      "audio": "/ORACLE/audio/zh/it_api_contract.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_settings",
+      "title": "恢复默认",
+      "topic": "it",
+      "motif": 1,
+      "text": "你精心调好工作区，却意外重置，结果几乎没看出差别。真正的改进，是你终于坐得舒服了。",
+      "audio": "/ORACLE/audio/zh/it_settings.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_no_notifications",
+      "title": "安静一小时",
+      "topic": "it",
+      "motif": 2,
+      "text": "你的手机将安静一小时，不再弹通知。世界离了你也能运转；你或许有点受伤，但这情绪消散得比群聊冷场还快。",
+      "audio": "/ORACLE/audio/zh/it_no_notifications.wav",
+      "image": "/ORACLE/images/moon-nap.jpg"
+    },
+    {
+      "id": "it_side_project",
+      "title": "你的小天地",
+      "topic": "it",
+      "motif": 3,
+      "text": "你的副业项目将迎来第一个用户。对方立刻提出一个你从没计划过的功能。恭喜，小爱好刚开完第一次客户会。",
+      "audio": "/ORACLE/audio/zh/it_side_project.wav",
+      "image": "/ORACLE/images/oracle.jpg"
+    },
+    {
+      "id": "it_search_history",
+      "title": "大师之路",
+      "topic": "it",
+      "motif": 0,
+      "text": "你的搜索记录将解答一个难题。得知自己半年前就这么聪明，真让人安心；不太安心的是，你居然忘了。",
+      "audio": "/ORACLE/audio/zh/it_search_history.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "it_printed_future",
+      "title": "纸上凭证",
+      "topic": "it",
+      "motif": 1,
+      "text": "你的未来将以纸张形式到来。挺安心：多数计划只有一个文档链接。收好凭条，否则预言家还得解释备份为何归你负责。",
+      "audio": "/ORACLE/audio/zh/it_printed_future.wav",
+      "image": "/ORACLE/images/terminal-cat.jpg"
+    },
+    {
+      "id": "beer_tasting_notes",
+      "title": "微妙风味",
+      "topic": "beer",
+      "motif": 2,
+      "text": "你会尝出面包皮、柑橘和一丝焦糖。你的朋友只尝出啤酒。美好夜晚正等着你学会尊重不同深度的研究。",
+      "audio": "/ORACLE/audio/zh/beer_tasting_notes.wav",
+      "image": "/ORACLE/images/beer-oracle.jpg"
+    },
+    {
+      "id": "beer_networking",
+      "title": "有用相遇",
+      "topic": "beer",
+      "motif": 3,
+      "text": "你会在酒吧聊得尽兴，尽兴到忘了交换联系方式。你们都会记住那个从没问彼此做什么工作的人。",
+      "audio": "/ORACLE/audio/zh/beer_networking.wav",
+      "image": "/ORACLE/images/hop-wizard.jpg"
+    },
+    {
+      "id": "beer_table_fix",
+      "title": "稳固根基",
+      "topic": "beer",
+      "motif": 0,
+      "text": "你会用折叠杯垫垫住晃动的桌子，解决全桌人的烦恼。本周没有哪项架构决策能收获如此真诚的感谢。",
+      "audio": "/ORACLE/audio/zh/beer_table_fix.wav",
+      "image": "/ORACLE/images/cosmic-toast.jpg"
+    },
+    {
+      "id": "beer_long_title",
+      "title": "简短点单",
+      "topic": "beer",
+      "motif": 1,
+      "text": "你会选一款名字三行、背景故事两页的啤酒。酒保点头：淡色的，懂了。最好的营销翻译官，原来在吧台后面。",
+      "audio": "/ORACLE/audio/zh/beer_long_title.wav",
+      "image": "/ORACLE/images/beer-oracle.jpg"
+    },
+    {
+      "id": "beer_timebox",
+      "title": "就半小时",
+      "topic": "beer",
+      "motif": 2,
+      "text": "你去酒吧坐半小时，遇见一个想聊很久的人。日历会把它标成耽搁，而你会想起自己为何给今晚留了空。",
+      "audio": "/ORACLE/audio/zh/beer_timebox.wav",
+      "image": "/ORACLE/images/hop-wizard.jpg"
+    },
+    {
+      "id": "beer_quiet_corner",
+      "title": "力量角落",
+      "topic": "beer",
+      "motif": 3,
+      "text": "你会找到一张既听得清朋友说话、又躲得开穿堂风的桌子。他们会比任何奇异风味都珍惜它。好音效，菜单上的稀缺品。",
+      "audio": "/ORACLE/audio/zh/beer_quiet_corner.wav",
+      "image": "/ORACLE/images/cosmic-toast.jpg"
+    },
+    {
+      "id": "beer_small_batch",
+      "title": "限量一杯",
+      "topic": "beer",
+      "motif": 0,
+      "text": "你会喝到稀有啤酒的最后一杯，并努力记住味道。下周你只记得可爱的酒标，以及更可爱的同桌。",
+      "audio": "/ORACLE/audio/zh/beer_small_batch.wav",
+      "image": "/ORACLE/images/beer-oracle.jpg"
+    },
+    {
+      "id": "beer_lecture",
+      "title": "引人入胜",
+      "topic": "beer",
+      "motif": 1,
+      "text": "有人问起你最喜欢的爱好。你讲得太入神，忘了手里还端着杯子。朋友会先注意到杯子的倾斜角度。",
+      "audio": "/ORACLE/audio/zh/beer_lecture.wav",
+      "image": "/ORACLE/images/hop-wizard.jpg"
+    },
+    {
+      "id": "beer_truce",
+      "title": "桌边和平",
+      "topic": "beer",
+      "motif": 2,
+      "text": "关于最佳编程语言的漫长争论，会在热食上桌时突然达成共识。有些价值，确实高于技术栈。",
+      "audio": "/ORACLE/audio/zh/beer_truce.wav",
+      "image": "/ORACLE/images/cosmic-toast.jpg"
+    },
+    {
+      "id": "beer_round_table",
+      "title": "共同话题",
+      "topic": "beer",
+      "motif": 3,
+      "text": "你们桌上每个人都有一个奇葩客户的故事。聊到最后，你会发现其中两个故事的客户正是你。幸好，讲故事的人都带着善意。",
+      "audio": "/ORACLE/audio/zh/beer_round_table.wav",
+      "image": "/ORACLE/images/beer-oracle.jpg"
+    },
+    {
+      "id": "beer_expert_pause",
+      "title": "专家停顿",
+      "topic": "beer",
+      "motif": 0,
+      "text": "第一口下肚后，你会若有所思地停顿。大家以为你在品回味，其实你只是在想：厨房窗户关了吗？",
+      "audio": "/ORACLE/audio/zh/beer_expert_pause.wav",
+      "image": "/ORACLE/images/hop-wizard.jpg"
+    },
+    {
+      "id": "beer_recommendation",
+      "title": "合你口味",
+      "topic": "beer",
+      "motif": 1,
+      "text": "酒保问两个简单问题，就能找到你的理想啤酒。你会想起工作中那份四十题问卷，帮谁都没帮上。它的作者该来这儿坐坐。",
+      "audio": "/ORACLE/audio/zh/beer_recommendation.wav",
+      "image": "/ORACLE/images/cosmic-toast.jpg"
+    },
+    {
+      "id": "beer_receipt_math",
+      "title": "完美算术",
+      "topic": "beer",
+      "motif": 2,
+      "text": "账单将和平分摊。那个自称数学苦手的朋友，反而第一个算清。任何天赋，都需要合适的场合。",
+      "audio": "/ORACLE/audio/zh/beer_receipt_math.wav",
+      "image": "/ORACLE/images/beer-oracle.jpg"
+    },
+    {
+      "id": "beer_water_break",
+      "title": "恰到好处",
+      "topic": "beer",
+      "motif": 3,
+      "text": "聊天间隙，一杯水会成为你最好的选择。没人会花十分钟讨论它的风味。有时饮品完美，只因无需评论。",
+      "audio": "/ORACLE/audio/zh/beer_water_break.wav",
+      "image": "/ORACLE/images/hop-wizard.jpg"
+    },
+    {
+      "id": "beer_known_face",
+      "title": "熟悉面孔",
+      "topic": "beer",
+      "motif": 0,
+      "text": "常去的酒吧会认出你，还问小项目进展如何。看来你上次聊了一整晚。你的爱好如今已有回头客。",
+      "audio": "/ORACLE/audio/zh/beer_known_face.wav",
+      "image": "/ORACLE/images/cosmic-toast.jpg"
+    },
+    {
+      "id": "beer_first_sip",
+      "title": "诚实评价",
+      "topic": "beer",
+      "motif": 1,
+      "text": "你会尝试一款时髦啤酒，然后承认自己不喜欢。世界不会因此崩塌；他们会换来一杯你喜欢的，品尝这才真正愉快。",
+      "audio": "/ORACLE/audio/zh/beer_first_sip.wav",
+      "image": "/ORACLE/images/beer-oracle.jpg"
+    },
+    {
+      "id": "beer_jacket",
+      "title": "迟迟不散",
+      "topic": "beer",
+      "motif": 2,
+      "text": "你穿上外套时，才发现今晚最精彩的聊天刚开始，而且大家已经站起来了。好酒馆该给“正在离开的人”设个特别价。",
+      "audio": "/ORACLE/audio/zh/beer_jacket.wav",
+      "image": "/ORACLE/images/hop-wizard.jpg"
+    },
+    {
+      "id": "beer_foam_art",
+      "title": "今晚的画像",
+      "topic": "beer",
+      "motif": 3,
+      "text": "你想把杯子拍得很漂亮，泡沫却在朋友笑起来时慢慢消失。成片只有模糊的酒杯，却留下了精彩的夜晚。留着吧。",
+      "audio": "/ORACLE/audio/zh/beer_foam_art.wav",
+      "image": "/ORACLE/images/cosmic-toast.jpg"
+    },
+    {
+      "id": "tea_temperature",
+      "title": "恰逢其时",
+      "topic": "tea",
+      "motif": 0,
+      "text": "茶刚好凉到最合适的温度，就有人来提问。今天你终于会说：“等我一分钟。”让一个重要约会准时开始吧。",
+      "audio": "/ORACLE/audio/zh/tea_temperature.wav",
+      "image": "/ORACLE/images/tea-leaf-oracle.jpg"
+    },
+    {
+      "id": "tea_guest",
+      "title": "短暂来访",
+      "topic": "tea",
+      "motif": 1,
+      "text": "有人说顺路待一分钟，你便泡了茶。一小时后才发现，那“一分钟”只是大概。有人靠无视日程表，让安排变得更灵活。",
+      "audio": "/ORACLE/audio/zh/tea_guest.wav",
+      "image": "/ORACLE/images/teapot-wizard.jpg"
+    },
+    {
+      "id": "tea_shelf",
+      "title": "私藏茶单",
+      "topic": "tea",
+      "motif": 2,
+      "text": "整理茶架时，你发现四种茶都留给特殊日子。宣布今天就是特殊日子吧，这是四种茶唯一都同意的日期。",
+      "audio": "/ORACLE/audio/zh/tea_shelf.wav",
+      "image": "/ORACLE/images/tea-alchemy.jpg"
+    },
+    {
+      "id": "tea_timer",
+      "title": "精准计时",
+      "topic": "tea",
+      "motif": 3,
+      "text": "你定时三分钟，准备把茶泡到恰到好处。铃响时它提醒你：茶叶忘放了。不过这三分钟的安静，倒是完全按计划享受到了。",
+      "audio": "/ORACLE/audio/zh/tea_timer.wav",
+      "image": "/ORACLE/images/tea-leaf-oracle.jpg"
+    },
+    {
+      "id": "tea_saucer",
+      "title": "安静的功劳",
+      "topic": "tea",
+      "motif": 0,
+      "text": "一只小碟子替桌面挡住了一大片污渍。没人会注意那场没发生的灾难，你忽然懂了那些默默把事做妥的人。",
+      "audio": "/ORACLE/audio/zh/tea_saucer.wav",
+      "image": "/ORACLE/images/teapot-wizard.jpg"
+    },
+    {
+      "id": "tea_loose_leaf",
+      "title": "告别茶包",
+      "topic": "tea",
+      "motif": 1,
+      "text": "散茶让你摆脱了茶包，接着你开始挑滤网、茶壶和电子秤。看来，自由也有相当完整的配件专区。",
+      "audio": "/ORACLE/audio/zh/tea_loose_leaf.wav",
+      "image": "/ORACLE/images/tea-alchemy.jpg"
+    },
+    {
+      "id": "tea_sugar",
+      "title": "恰到好处",
+      "topic": "tea",
+      "motif": 2,
+      "text": "客人说加一点糖，你竟猜中了那个“一点”究竟是多少。这是专业级成就；工作中听懂含糊要求，通常只会换来更多含糊要求。",
+      "audio": "/ORACLE/audio/zh/tea_sugar.wav",
+      "image": "/ORACLE/images/tea-leaf-oracle.jpg"
+    },
+    {
+      "id": "tea_empty_cup",
+      "title": "愉快发现",
+      "topic": "tea",
+      "motif": 3,
+      "text": "茶喝完了，聊天还没结束，这是好兆头。要是聊天糟透了，你早就数完茶杯、时钟和天花板上的裂缝了。",
+      "audio": "/ORACLE/audio/zh/tea_empty_cup.wav",
+      "image": "/ORACLE/images/teapot-wizard.jpg"
+    },
+    {
+      "id": "tea_mint",
+      "title": "获准休息",
+      "topic": "tea",
+      "motif": 0,
+      "text": "薄荷茶让你安静坐了十分钟。没什么玄妙，只是你终于放下了手机。薄荷也该分点功劳，毕竟它已经尽力了。",
+      "audio": "/ORACLE/audio/zh/tea_mint.wav",
+      "image": "/ORACLE/images/tea-alchemy.jpg"
+    },
+    {
+      "id": "tea_spill",
+      "title": "明智一步",
+      "topic": "tea",
+      "motif": 1,
+      "text": "第一口茶前，你把杯子移离电脑。这会是今天最成熟的决定。好故事需要冒险，顺利的工作日可以不要。",
+      "audio": "/ORACLE/audio/zh/tea_spill.wav",
+      "image": "/ORACLE/images/tea-leaf-oracle.jpg"
+    },
+    {
+      "id": "tea_package",
+      "title": "全新香气",
+      "topic": "tea",
+      "motif": 2,
+      "text": "茶包承诺清晨薄雾、山间微风与和谐。你穿着拖鞋，在普通厨房里泡开它。出乎营销人员意料，这样就已经很够了。",
+      "audio": "/ORACLE/audio/zh/tea_package.wav",
+      "image": "/ORACLE/images/teapot-wizard.jpg"
+    },
+    {
+      "id": "tea_second_brew",
+      "title": "再给一次机会",
+      "topic": "tea",
+      "motif": 3,
+      "text": "第二泡比第一泡更好喝。你决定凡事再给一次机会，冷披萨和电视剧也可以试试。晚上的工作电话就算了。",
+      "audio": "/ORACLE/audio/zh/tea_second_brew.wav",
+      "image": "/ORACLE/images/tea-alchemy.jpg"
+    },
+    {
+      "id": "tea_office",
+      "title": "茶水外交官",
+      "topic": "tea",
+      "motif": 0,
+      "text": "你给两位争论中的同事泡茶。他们解释想喝哪种茶时，竟忘了刚才在吵什么。有时最好的调解员只需拎着水壶问：红茶还是绿茶？",
+      "audio": "/ORACLE/audio/zh/tea_office.wav",
+      "image": "/ORACLE/images/tea-leaf-oracle.jpg"
+    },
+    {
+      "id": "tea_stain",
+      "title": "思绪成圈",
+      "topic": "tea",
+      "motif": 1,
+      "text": "茶杯在宏伟计划上留下一个圆印。你沿着它描一圈，称之为核心思路。难得一次，图表因你只是坐着喝茶而变得更好了。",
+      "audio": "/ORACLE/audio/zh/tea_stain.wav",
+      "image": "/ORACLE/images/teapot-wizard.jpg"
+    },
+    {
+      "id": "tea_small_cup",
+      "title": "小杯大休息",
+      "topic": "tea",
+      "motif": 2,
+      "text": "小杯茶比大马克杯带来更多休息：多续几次水，多看看窗外，也多回到聊天中。方便不一定意味着少站起来。",
+      "audio": "/ORACLE/audio/zh/tea_small_cup.wav",
+      "image": "/ORACLE/images/tea-alchemy.jpg"
+    },
+    {
+      "id": "tea_last_cookie",
+      "title": "礼貌循环",
+      "topic": "tea",
+      "motif": 3,
+      "text": "最后一块饼干被客气地推让三次，又放回盘中。第四次总有人会吃掉它。就让你来吧，每场仪式都需要有人负责收尾。",
+      "audio": "/ORACLE/audio/zh/tea_last_cookie.wav",
+      "image": "/ORACLE/images/tea-leaf-oracle.jpg"
+    },
+    {
+      "id": "tea_reading_book",
+      "title": "再读一章",
+      "topic": "tea",
+      "motif": 0,
+      "text": "你端茶读书，说好只坐二十分钟。茶凉了，二十分钟变成了一章。难得有一次，忘喝茶反而证明时间花得很值。",
+      "audio": "/ORACLE/audio/zh/tea_reading_book.wav",
+      "image": "/ORACLE/images/teapot-wizard.jpg"
+    },
+    {
+      "id": "tea_choose_simple",
+      "title": "简单答案",
+      "topic": "tea",
+      "motif": 1,
+      "text": "有人问你喜欢哪种茶，你很乐意回答：正在泡的那种。你的品味已进阶到这个地步：好陪伴比叶子的准确名字更重要。",
+      "audio": "/ORACLE/audio/zh/tea_choose_simple.wav",
+      "image": "/ORACLE/images/tea-alchemy.jpg"
+    }
+  ]
+}

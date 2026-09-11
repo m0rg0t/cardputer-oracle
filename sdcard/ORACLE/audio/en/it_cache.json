@@ -1,0 +1,10 @@
+{
+  "sha256": "0a3d51206c65e7206447be86b89eec8684270ad2bad21c497b466f0ded23917d",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will learn to let go of the past, starting with your browser cache. It turns out you've spent two hours arguing with a version of yourself who finished before lunch.",
+  "seconds": 10.031,
+  "normalization_gain": 1.6353229762878168
+}

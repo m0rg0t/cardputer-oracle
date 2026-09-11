@@ -1,0 +1,10 @@
+{
+  "sha256": "eba1aab890e45dc7338de0f46bd1165d8af08a7391a96a2894288c6eced3adcd",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "有时你只需要重新开始。先试试重启设备吧。移居别国的决定，可以稍后再说。",
+  "seconds": 7.52325,
+  "normalization_gain": 2.5
+}

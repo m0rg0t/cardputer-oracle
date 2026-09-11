@@ -6,12 +6,15 @@ ORP1: magic, u16 width/height, u32 raster length/CRC32/content CRC32, then
 The content checksum binds the printed title/text/image path to the shown card.
 """
 from pathlib import Path
+import argparse
 import hashlib
 import json
 import os
 import struct
 import zlib
 from PIL import Image, ImageDraw, ImageFont, ImageOps
+from languages import LANGUAGES, pack_root
+from chinese_font import BitmapFont, draw_text
 
 ROOT = Path(__file__).resolve().parents[1]
 WIDTH, MAX_HEIGHT = 384, 1024
@@ -42,6 +45,19 @@ def validate_receipt(data, card):
     return height
 
 def wrapped(text, font, width):
+    if isinstance(font,BitmapFont):
+        lines=[]
+        for paragraph in text.splitlines():
+            line=''
+            for character in paragraph:
+                if font.getlength(line+character)>width and line:
+                    if character in '。，、！？：；）》」』”’' and len(line)>1:
+                        lines.append(line[:-1]); line=line[-1]
+                    else:
+                        lines.append(line); line=''
+                line+=character
+            lines.append(line)
+        return lines
     lines=[]
     for paragraph in text.splitlines():
         line=''
@@ -57,12 +73,19 @@ def wrapped(text, font, width):
         lines.append(line)
     return lines
 
-def render(card):
-    regular=ImageFont.truetype(font_path(),23)
-    title=ImageFont.truetype(font_path(True),25)
-    small=ImageFont.truetype(font_path(),16)
-    banner=ImageFont.truetype(font_path(True),24)
-    theme={'life':'АЙТИ И ЮМОР','it':'АЙТИ И ЮМОР','beer':'ПИВНАЯ','tea':'ЧАЙНАЯ'}[card['topic']]
+def render(card, language='en'):
+    if language not in LANGUAGES: raise ValueError('Unsupported language')
+    if language=='zh':
+        regular=title=banner=BitmapFont(2); small=BitmapFont(1)
+    else:
+        regular=ImageFont.truetype(font_path(),23)
+        title=ImageFont.truetype(font_path(True),25)
+        small=ImageFont.truetype(font_path(),16)
+        banner=ImageFont.truetype(font_path(True),24)
+    labels=({'life':'TECH & EVERYDAY','it':'TECH & EVERYDAY','beer':'BEER','tea':'TEA'} if language=='en'
+            else {'life':'АЙТИ И ЮМОР','it':'АЙТИ И ЮМОР','beer':'ПИВНАЯ','tea':'ЧАЙНАЯ'})
+    if language=='zh': labels={'life':'科技与日常','it':'科技与日常','beer':'啤酒','tea':'茶语'}
+    theme=labels[card['topic']]
     title_lines=wrapped(card['title'],title,336)
     body_lines=wrapped(card['text'],regular,336)
     art_extra=ART_SIZE-112
@@ -74,7 +97,7 @@ def render(card):
     canvas=Image.new('L',(WIDTH,height),255)
     draw=ImageDraw.Draw(canvas)
     draw.rounded_rectangle((8,8,375,height-9),radius=12,outline=0,width=2)
-    draw.text((192,22),'БЮРО ПРОГНОЗОВ',font=banner,anchor='mt',fill=0)
+    draw_text(draw,(192,22),'命运事务所' if language=='zh' else 'FORTUNE BUREAU' if language=='en' else 'БЮРО ПРОГНОЗОВ',font=banner,anchor='mt',fill=0)
     # Invert luminance for low-ink thermal delivery of the dark screen artwork.
     # This is a format derivative; full-resolution generated originals are intact.
     manifest=json.loads((ROOT/'assets/artwork.json').read_text())
@@ -82,14 +105,14 @@ def render(card):
     with Image.open(ROOT/'assets'/original) as source:
         artwork=ImageOps.invert(ImageOps.autocontrast(source.convert('L'))).resize((ART_SIZE,ART_SIZE),Image.Resampling.LANCZOS)
         canvas.paste(artwork,((WIDTH-ART_SIZE)//2,57))
-    draw.text((192,174+art_extra),theme,font=small,anchor='mt',fill=0)
+    draw_text(draw,(192,174+art_extra),theme,font=small,anchor='mt',fill=0)
     for i,line in enumerate(title_lines):
-        draw.text((192,196+art_extra+i*30),line,font=title,anchor='mt',fill=0)
+        draw_text(draw,(192,196+art_extra+i*30),line,font=title,anchor='mt',fill=0)
     for i,line in enumerate(body_lines):
-        draw.text((24,body_y+i*29),line,font=regular,anchor='lt',fill=0)
+        draw_text(draw,(24,body_y+i*29),line,font=regular,anchor='lt',fill=0)
     draw.line((24,footer_y-6,359,footer_y-6),fill=0,width=1)
-    draw.text((192,footer_y+4),'Звёзды старались. Гарантий нет.',font=small,anchor='mt',fill=0)
-    draw.text((192,footer_y+28),'ORACLE / '+card['id'],font=small,anchor='mt',fill=0)
+    draw_text(draw,(192,footer_y+4),'星星尽力了，结果不保修。' if language=='zh' else 'The stars tried. No guarantees.' if language=='en' else 'Звёзды старались. Гарантий нет.',font=small,anchor='mt',fill=0)
+    draw_text(draw,(192,footer_y+28),'ORACLE / '+card['id'],font=small,anchor='mt',fill=0)
     return canvas.convert('1',dither=Image.Dither.FLOYDSTEINBERG)
 
 def encode(image, card):
@@ -102,24 +125,29 @@ def encode(image, card):
     validate_receipt(result,card)
     return result
 
-def main():
-    index=json.loads((ROOT/'sdcard/ORACLE/index.json').read_text())
-    out=ROOT/'sdcard/ORACLE/print'; out.mkdir(exist_ok=True)
-    previews=ROOT/'docs/printed-predictions'; previews.mkdir(exist_ok=True)
+def build(language='en'):
+    sd=pack_root(language)/'ORACLE'
+    index=json.loads((sd/'index.json').read_text())
+    if index.get('language')!=language: raise ValueError('SD pack language mismatch')
+    out=sd/'print'; out.mkdir(exist_ok=True)
+    previews=ROOT/f'build/previews/{language}'; previews.mkdir(parents=True,exist_ok=True)
     manifest=[]
     for ident in index['ids']:
-        card=json.loads((ROOT/'sdcard/ORACLE/cards'/f'{ident}.json').read_text())
-        image=render(card); data=encode(image,card)
+        card=json.loads((sd/'cards'/f'{ident}.json').read_text())
+        image=render(card,language); data=encode(image,card)
         (out/f'{ident}.bin').write_bytes(data)
         image.save(previews/f'{ident}.png')
         manifest.append({'id':ident,'width':WIDTH,'height':image.height,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest()})
-    (ROOT/'docs/receipt-manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
-    selected=['coat','beer_oracle','tea_ceremony']
+    (previews/'receipt-manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
+    selected=['coat','beer_foam','tea_ceremony']
     selected=[ident if (previews/f'{ident}.png').exists() else next(i for i in index['ids'] if i.startswith('beer')) for ident in selected]
     images=[Image.open(previews/f'{ident}.png').convert('RGB') for ident in selected]
     sheet=Image.new('RGB',(24+len(images)*408,max(im.height for im in images)+48),(33,28,50))
     for i,im in enumerate(images): sheet.paste(im,(24+i*408,24))
-    sheet.save(ROOT/'docs/prediction-receipts.png')
+    sheet.save(previews/'prediction-receipts.png')
     print(f'{len(manifest)} receipts; height {min(x["height"] for x in manifest)}..{max(x["height"] for x in manifest)}, total {sum(x["bytes"] for x in manifest):,} bytes')
 
-if __name__=='__main__': main()
+if __name__=='__main__':
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--language',choices=LANGUAGES,default='en')
+    build(parser.parse_args().language)

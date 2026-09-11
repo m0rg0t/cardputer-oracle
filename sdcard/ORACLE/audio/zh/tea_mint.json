@@ -1,0 +1,10 @@
+{
+  "sha256": "d35094435fca3aaef26d6230eae16bc86d7381db51ae3411fd5d5a7d6b42f905",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "薄荷茶让你安静坐了十分钟。没什么玄妙，只是你终于放下了手机。薄荷也该分点功劳，毕竟它已经尽力了。",
+  "seconds": 10.4954375,
+  "normalization_gain": 2.5
+}

@@ -1,0 +1,10 @@
+{
+  "sha256": "54006adf06e052cd27535e86982f5d2ba5e4e33e9ca22efcb1a98d7dc15fe055",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will pause thoughtfully after your first sip. Everyone will think you're considering the aftertaste. No need to explain that you're wondering whether you closed the kitchen window.",
+  "seconds": 9.7988125,
+  "normalization_gain": 1.3597615187490193
+}

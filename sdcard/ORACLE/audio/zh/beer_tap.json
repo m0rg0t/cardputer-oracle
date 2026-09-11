@@ -1,0 +1,10 @@
+{
+  "sha256": "8c93fd26d95576cde2a620c4b6578668a73a1de4dfe2226440b6358f58c5aa79",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "人生中会开启一个新机会。眼下，它是吧台边的一张空座。坐下吧，好基础设施不会自己找上门。",
+  "seconds": 8.591375,
+  "normalization_gain": 2.5
+}

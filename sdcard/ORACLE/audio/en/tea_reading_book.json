@@ -1,0 +1,10 @@
+{
+  "sha256": "738139258b71e3f684e01445ffbd930c04690c53237b76341965895920e58371",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You'll sit down with tea and a book for twenty minutes. The tea will cool and the minutes will become a chapter. A rare case where a forgotten drink is evidence of time well spent.",
+  "seconds": 11.099125,
+  "normalization_gain": 1.7919911778895858
+}

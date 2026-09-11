@@ -1,0 +1,10 @@
+{
+  "sha256": "cba825b5da25bc8022fc0065ed1206126404b99aabb811783331460536a2c749",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will learn to distinguish subtle differences. First between lager and ale. Then between an informed decision and having whatever your friend ordered.",
+  "seconds": 9.8916875,
+  "normalization_gain": 1.3586246538119873
+}

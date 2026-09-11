@@ -1,0 +1,8 @@
+{
+  "source": "https://raw.githubusercontent.com/olikraus/u8g2/master/tools/font/bdf/b12.bdf",
+  "source_sha256": "fa00cbbda8be39619683d6a9a73e1a073e258723c98754d531f33a5972b624d4",
+  "license": "third_party/Efont-LICENSE",
+  "size": 12,
+  "embedded_glyphs": 1049,
+  "sd_glyphs": 17429
+}

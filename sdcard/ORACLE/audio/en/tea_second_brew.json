@@ -1,0 +1,10 @@
+{
+  "sha256": "a6f01b13fede3b9c8d77462d64dab82872d40fed62dc699e51d3015642d12ae8",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "The second infusion will taste better than the first. You'll decide to give things another chance. Apply this to cold pizza and TV shows if you like. Evening work calls can wait.",
+  "seconds": 11.2384375,
+  "normalization_gain": 1.6512130064778356
+}

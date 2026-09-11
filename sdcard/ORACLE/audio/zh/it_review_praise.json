@@ -1,0 +1,10 @@
+{
+  "sha256": "e0c090020655c26dc6c3e9c53f7443fbd0a4999a7c7a29d25f790ffe397bb032",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你的成果获批，评语只有“看起来不错”。你本能地想问：真的有人看过吗？试着接受夸奖，别再索要证据。",
+  "seconds": 10.031,
+  "normalization_gain": 2.5
+}

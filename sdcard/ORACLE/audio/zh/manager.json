@@ -1,0 +1,10 @@
+{
+  "sha256": "11fb70806cee62ae523deabc0b66b04444c5f87fbd834fdd09d6b06c55094ede",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你会遇见改变人生的人。多半是新项目经理。他已经想好要和你快速通话了。",
+  "seconds": 6.966,
+  "normalization_gain": 2.5
+}

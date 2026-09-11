@@ -1,0 +1,10 @@
+{
+  "sha256": "b25e671650e8c027701c01079a6b141542cf54b50b9262396745a41c38aa7819",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will find the perfect variable name. Half the comments will become unnecessary. Keep the other half: they explain why everything is so complicated.",
+  "seconds": 9.380875,
+  "normalization_gain": 1.7023505532639298
+}

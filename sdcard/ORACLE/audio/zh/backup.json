@@ -1,0 +1,10 @@
+{
+  "sha256": "d981a5aabc200c0915603a8d0c2cd7dd95174b0ee607650de68f10119c83caf6",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "今天适合制作护身符。就叫它备份，并放在安全处。等你测试恢复功能，它的魔力会大增。",
+  "seconds": 8.1734375,
+  "normalization_gain": 2.5
+}

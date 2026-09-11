@@ -1,0 +1,10 @@
+{
+  "sha256": "f9f7fe2a4a4231cbf514f251defeadbecaea06fef0847f3a11636a5e72e6cc6b",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "老项目居然还在运行，令你惊讶；读完代码，更加惊讶。感谢那位不敢碰它的陌生人，替你保住了这份奇迹。",
+  "seconds": 10.0774375,
+  "normalization_gain": 2.5
+}

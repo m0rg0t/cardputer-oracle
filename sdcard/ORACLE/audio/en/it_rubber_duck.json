@@ -1,0 +1,10 @@
+{
+  "sha256": "ba408fcd02a2b911c24fa38b803d72334701c51a4e8ec0432441cb3859787b5e",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "A rubber duck will help you find a bug without interrupting, proposing a rewrite or scheduling a meeting. You may want to promote it. Don't ruin a good specialist.",
+  "seconds": 9.195125,
+  "normalization_gain": 1.621958827199002
+}

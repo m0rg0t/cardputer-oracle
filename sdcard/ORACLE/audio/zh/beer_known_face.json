@@ -1,0 +1,10 @@
+{
+  "sha256": "bc891f5338dcd5a780f194d66c9bd551c79ae510448659331dce0e88f868e5da",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "常去的酒吧会认出你，还问小项目进展如何。看来你上次聊了一整晚。你的爱好如今已有回头客。",
+  "seconds": 9.0558125,
+  "normalization_gain": 2.5
+}

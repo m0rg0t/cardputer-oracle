@@ -1,0 +1,10 @@
+{
+  "sha256": "201db500971372291fad67cf9712a954527a21aec40335fdc727673e431fb6bb",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will learn to control the weather. Bring an umbrella and it won't rain. Leave it behind and your experiment will receive immediate confirmation.",
+  "seconds": 9.1486875,
+  "normalization_gain": 1.584013646886804
+}

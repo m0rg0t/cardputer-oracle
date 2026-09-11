@@ -1,0 +1,10 @@
+{
+  "sha256": "1df52762915e930db4041b241157155aaf192dfc60a2ef1dd1f5c51aedd08df2",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "普洱提醒你，年纪也能成为资产。终于，你的旧电脑和那个迟迟没做完的项目都有体面说法了。",
+  "seconds": 8.0805625,
+  "normalization_gain": 2.5
+}

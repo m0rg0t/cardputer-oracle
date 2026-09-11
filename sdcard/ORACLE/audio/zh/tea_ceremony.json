@@ -1,0 +1,10 @@
+{
+  "sha256": "9d038ea7c60bcce3c81ac8c3686d12edb1938a26867f2620d1b02eedff742769",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你会发现让时间变慢的方法：提议安静喝杯茶。一小时后，除了为何相聚，什么都聊完了。仪式很成功。",
+  "seconds": 10.4954375,
+  "normalization_gain": 2.5
+}

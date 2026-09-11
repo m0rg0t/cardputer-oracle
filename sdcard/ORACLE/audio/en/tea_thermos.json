@@ -1,0 +1,10 @@
+{
+  "sha256": "da2e3fdc10f8ced5c6c76aabe14364a3dc6729526cea6072c12a462310c25c66",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "A flask of tea will make you the most prepared person in the group. While everyone else searches for a cafe, you will smile mysteriously and unscrew the lid.",
+  "seconds": 9.938125,
+  "normalization_gain": 1.547711173284124
+}

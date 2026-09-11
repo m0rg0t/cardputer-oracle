@@ -1,0 +1,10 @@
+{
+  "sha256": "984242aaafa229d3e78b5459e3c2fdc8e28930d6312e392bd2f5669b615acca2",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will set a timer to brew tea properly. Three minutes later it will remind you that you forgot the leaves. Still, you enjoyed three minutes of peace exactly as instructed.",
+  "seconds": 10.7740625,
+  "normalization_gain": 1.5835312747426762
+}

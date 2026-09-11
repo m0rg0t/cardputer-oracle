@@ -1,0 +1,10 @@
+{
+  "sha256": "08c9cd68e4eac7103689f23ac25a06c99e35529ebef2e483c4a745159f237fdb",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "关于最佳编程语言的漫长争论，会在热食上桌时突然达成共识。有些价值，确实高于技术栈。",
+  "seconds": 8.31275,
+  "normalization_gain": 2.5
+}

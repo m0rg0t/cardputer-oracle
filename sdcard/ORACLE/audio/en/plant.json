@@ -1,0 +1,10 @@
+{
+  "sha256": "f218b735376252f153675fe66a92ceb04bc2949bd903dca4dc4a0bf40e72b2a1",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "A living thing nearby needs your care. It's the plant on the windowsill. It has been auditioning for the dried flower collection all week.",
+  "seconds": 9.4273125,
+  "normalization_gain": 1.6432815067627353
+}

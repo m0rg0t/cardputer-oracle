@@ -1,0 +1,10 @@
+{
+  "sha256": "9b9fa6b6021149cb9978b7a908c3d10684e3048d1e1b3a854425d65f2b6ac393",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "有人说顺路待一分钟，你便泡了茶。一小时后才发现，那“一分钟”只是大概。有人靠无视日程表，让安排变得更灵活。",
+  "seconds": 9.84525,
+  "normalization_gain": 2.5
+}

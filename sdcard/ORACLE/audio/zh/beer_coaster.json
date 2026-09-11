@@ -1,0 +1,10 @@
+{
+  "sha256": "7d4bc4ae450fdbfba6ec948e8e9da116773df0801ebdf6bffc6884c9bd4cc73d",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "一项绝妙的商业点子会诞生在餐巾纸上。杯圈可以当标志。现在只差一个它真能解决的问题。",
+  "seconds": 8.962875,
+  "normalization_gain": 2.5
+}

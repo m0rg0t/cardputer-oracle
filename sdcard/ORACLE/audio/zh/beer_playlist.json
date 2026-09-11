@@ -1,0 +1,10 @@
+{
+  "sha256": "c0b3b5988688690d9fc89a0b70c66032cd217cff1871bc1d7fc13a5ffbc12693",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "熟悉歌曲响起的第一音符，你们就会找到共同语言。刚才还在争论软件架构，现在已成了分布式合唱团。",
+  "seconds": 9.380875,
+  "normalization_gain": 2.5
+}

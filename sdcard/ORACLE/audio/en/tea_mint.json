@@ -1,0 +1,10 @@
+{
+  "sha256": "98d41780398f28e354bfdfee0f5444654aa677e7f3f4d60b0e94a1a291cd9ebd",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "Mint tea will help you sit quietly for ten minutes. No mystery: you finally put down your phone. Let the mint take some credit. It did its best.",
+  "seconds": 10.3096875,
+  "normalization_gain": 1.5229615745079663
+}

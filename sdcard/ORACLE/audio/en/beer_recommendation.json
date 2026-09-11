@@ -1,0 +1,10 @@
+{
+  "sha256": "c305a2c9bc8d57d81f6ebac896c020f337f658ec7fecf994fc1287f2a7e87557",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "The bartender will find your ideal beer after two simple questions. You'll remember the forty-question form at work that helped nobody. Perhaps its author should visit this bar.",
+  "seconds": 10.26325,
+  "normalization_gain": 1.5874954206862866
+}

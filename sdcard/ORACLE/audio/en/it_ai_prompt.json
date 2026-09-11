@@ -1,0 +1,10 @@
+{
+  "sha256": "988a41ea0ade1604b0591839d3ef117c048b14fc4ca57f10b979f970fd82586f",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will explain a task to AI so clearly that you'll work out the solution yourself. It will send a long answer anyway. Nod respectfully. You both did good work.",
+  "seconds": 11.099125,
+  "normalization_gain": 1.92193968066233
+}

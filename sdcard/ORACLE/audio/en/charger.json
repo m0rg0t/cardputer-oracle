@@ -1,0 +1,10 @@
+{
+  "sha256": "4222551b8f2cf8aa10c08f72102e0d53c9a89bc1d7ae02e1e2044aa4541e43db",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "Your energy will soon return. First find a charger for your phone, then food for yourself. Try not to mix up the connectors.",
+  "seconds": 7.801875,
+  "normalization_gain": 1.7048062422136254
+}

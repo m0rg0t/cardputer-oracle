@@ -1,0 +1,10 @@
+{
+  "sha256": "d3d46e1efa4a1222b75edca3099f2d36d9f5776237fd61eacf6e6dbd75af111c",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "整理茶架时，你发现四种茶都留给特殊日子。宣布今天就是特殊日子吧，这是四种茶唯一都同意的日期。",
+  "seconds": 9.6130625,
+  "normalization_gain": 2.5
+}

@@ -1,0 +1,10 @@
+{
+  "sha256": "cc6d40e7630aeef7ac2022efad642f0a1524b1fd3623996573b6b2b962cf1603",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你体内的大炼金师即将苏醒，把冰箱里剩下的东西全都混在一起。尝过之后再给这道菜起名吧。",
+  "seconds": 8.7306875,
+  "normalization_gain": 2.5
+}

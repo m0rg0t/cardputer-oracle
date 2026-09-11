@@ -8,6 +8,8 @@
 #include <iterator>
 #include <cassert>
 #include "oracle/core.h"
+#include "oracle/chinese_font.h"
+#include "oracle/chinese_font_file.h"
 #include "oracle/draw.h"
 #include "oracle/tarot_api.h"
 #include "oracle/tarot_receipt.h"
@@ -30,6 +32,14 @@ void save(const std::string& name) {
     fclose(f);
 }
 int run(bool* running) {
+    if(oracle::kChinese) oracle::setChineseGlyphReader([](std::uint16_t code,std::uint16_t* rows) {
+        FILE* file=fopen("sdcard/ORACLE/fonts/chinese12.bin","rb");
+        if(!file) return false;
+        const bool found=oracle::readChineseFontFile(code,rows,[&](unsigned offset,std::uint8_t* bytes,unsigned size) {
+            return fseek(file,offset,SEEK_SET)==0 && fread(bytes,1,size,file)==size;
+        });
+        fclose(file); return found;
+    });
     display.init(); display.setRotation(1);
     canvas.setColorDepth(16); if(!canvas.createSprite(240,135)) return 1;
     oracle::BuiltinCatalog catalog;
@@ -55,8 +65,8 @@ int run(bool* running) {
         app.changeTheme(1);
         oracle::draw(canvas,app.view); save("11-idle-tarot");
         app.trigger(100); oracle::draw(canvas,app.view); save("12-question-empty");
-        app.view.question="Как пройдёт мой доклад?"; oracle::draw(canvas,app.view); save("13-question");
-        app.submitQuestion(100); app.view.notice="Ждём толкование OpenAI..."; app.tick(800);
+        app.view.question=ORACLE_I18N("How will my weekend go?", "Как пройдут выходные?", "我的周末会怎样？"); oracle::draw(canvas,app.view); save("13-question");
+        app.submitQuestion(100); app.view.notice=ORACLE_I18N("Waiting for the reading...", "Ждём толкование OpenAI...", "等待解读..."); app.tick(800);
         oracle::draw(canvas,app.view); save("14-generating");
         oracle::Prediction tarot;
         if(!tarotResponse.empty()) {
@@ -64,7 +74,7 @@ int run(bool* running) {
             std::string raw((std::istreambuf_iterator<char>(file)),{});
             assert(oracle::parseTarotResponse(raw,{1,17,19},app.view.question,42,tarot));
         } else {
-            assert(oracle::makeTarotPrediction({1,17,19},"Сегодня даже строгий слушатель улыбнётся: твоя магия сработает, особенно если не забудешь включить микрофон.",42,tarot,app.view.question));
+            assert(oracle::makeTarotPrediction({1,17,19},ORACLE_I18N("A quiet afternoon is approaching. You will finish that book, provided the cat agrees to give up its place on the last chapter.", "Тебя ждёт тихий вечер с книгой. Ты наконец дочитаешь последнюю главу, если кот согласится освободить страницу.", "宁静的午后将至。只要猫咪同意让出最后一章的位置，你就能读完那本书。"),42,tarot,app.view.question));
         }
         assert(app.acceptRemote(tarot,1000)); app.tick(3700); oracle::draw(canvas,app.view); save("15-tarot-cards");
         app.tick(5400); oracle::draw(canvas,app.view); save("16-tarot-reading");
@@ -85,16 +95,16 @@ int run(bool* running) {
         app.tick(5000); oracle::draw(canvas,app.view,artReady?&art:nullptr); save("04-result");
         app.scroll(999); oracle::draw(canvas,app.view,artReady?&art:nullptr); save("05-last-lines");
         app.view.notice.clear(); app.view.printStatus=oracle::PrintStatus::Sending;
-        app.view.printNotice="Печать: 42%"; oracle::draw(canvas,app.view,artReady?&art:nullptr); save("06-printing");
-        app.view.printStatus=oracle::PrintStatus::Uncertain;app.view.printNotice="Проверь бумагу. P: повтор";
+        app.view.printNotice=ORACLE_I18N("Printing: 42%", "Печать: 42%", "正在打印：42%"); oracle::draw(canvas,app.view,artReady?&art:nullptr); save("06-printing");
+        app.view.printStatus=oracle::PrintStatus::Uncertain;app.view.printNotice=ORACLE_I18N("Check paper. P: retry", "Проверь бумагу. P: повтор", "检查纸张。P：重试");
         oracle::draw(canvas,app.view,artReady?&art:nullptr);save("06b-print-uncertain");
         app.view.printNotice.clear();app.view.printStatus=oracle::PrintStatus::Unavailable;
-        app.view.screen=oracle::Screen::Error; app.view.notice="Колода недоступна"; oracle::draw(canvas,app.view,artReady?&art:nullptr); save("07-error");
+        app.view.screen=oracle::Screen::Error; app.view.notice=ORACLE_I18N("Deck unavailable", "Колода недоступна", "牌组不可用"); oracle::draw(canvas,app.view,artReady?&art:nullptr); save("07-error");
         app.back(); app.changeTheme(1); app.trigger(10000); app.tick(15000);
         oracle::draw(canvas,app.view,artReady?&art:nullptr); save("08-beer-result");
         app.back(); app.changeTheme(1); app.trigger(20000); app.tick(25000);
         oracle::draw(canvas,app.view,artReady?&art:nullptr); save("09-tea-result");
-        app.view.notice="Громкость: 100%";oracle::draw(canvas,app.view,artReady?&art:nullptr);save("10-volume");
+        app.view.notice=ORACLE_I18N("Volume: 100%", "Громкость: 100%", "音量：100%");oracle::draw(canvas,app.view,artReady?&art:nullptr);save("10-volume");
         app.view.screen=oracle::Screen::Idle; app.view.printStatus=oracle::PrintStatus::Sending;
         app.view.playing=true; app.view.sd=false; app.view.batteryPercent=100;
         oracle::draw(canvas,app.view); save("18-battery-full-busy");
@@ -127,8 +137,8 @@ int run(bool* running) {
             if(hit(SDL_SCANCODE_DOWN)) app.scroll(1);
             if(hit(SDL_SCANCODE_I)) app.view.showArt=!app.view.showArt;
             if(hit(SDL_SCANCODE_M)) app.view.muted=!app.view.muted;
-            if(hit(SDL_SCANCODE_P)) app.view.notice="BLE проверяется на устройстве";
-            if(hit(SDL_SCANCODE_R)) app.view.notice="Голос проверяется на устройстве";
+            if(hit(SDL_SCANCODE_P)) app.view.notice=ORACLE_I18N("Test BLE on the device", "BLE проверяется на устройстве", "在设备上测试 BLE");
+            if(hit(SDL_SCANCODE_R)) app.view.notice=ORACLE_I18N("Test voice on the device", "Голос проверяется на устройстве", "在设备上测试语音");
         }
         std::memcpy(previous,keys,sizeof(previous));
         app.tick(SDL_GetTicks());

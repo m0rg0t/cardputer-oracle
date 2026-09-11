@@ -1,0 +1,10 @@
+{
+  "sha256": "6d87834716bde2f7ac3c7b2f49f9322f701026bf10355b83b842150fef4ec821",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "Asked which tea you prefer, you'll be happy to say: whatever is already brewing. Your taste has reached the level where good company matters more than the precise name of the leaves.",
+  "seconds": 10.9598125,
+  "normalization_gain": 1.6471333544504276
+}

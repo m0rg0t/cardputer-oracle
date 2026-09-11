@@ -1,0 +1,10 @@
+{
+  "sha256": "99fb93b0b4f5f9a296e7b45c248914f2c62306b9068908f0b793102001096c66",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "Your phone will stop sending notifications for an hour. The world will cope without you. You may feel slightly offended, but that will pass faster than most group chats.",
+  "seconds": 9.7988125,
+  "normalization_gain": 1.5147101660355373
+}

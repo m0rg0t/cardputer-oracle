@@ -1,0 +1,10 @@
+{
+  "sha256": "1f218b587a751ee988a2589d44d0676549b66cb1bb87c4e22dafba1f454826f2",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "The stars grant you permission to rest. The permit never expires; the stamp is imaginary. Anyone who objects may contact the stars directly.",
+  "seconds": 10.26325,
+  "normalization_gain": 1.5381884872507838
+}

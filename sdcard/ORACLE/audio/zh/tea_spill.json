@@ -1,0 +1,10 @@
+{
+  "sha256": "f6707ab719ba3cc1634c39c64d781b6c10d8f252809aa8d830aa456650f24301",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "第一口茶前，你把杯子移离电脑。这会是今天最成熟的决定。好故事需要冒险，顺利的工作日可以不要。",
+  "seconds": 8.777125,
+  "normalization_gain": 2.5
+}

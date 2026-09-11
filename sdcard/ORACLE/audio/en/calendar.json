@@ -1,0 +1,10 @@
+{
+  "sha256": "1c091f3f25b9adbfcb7909b67ac6cf770618cb384f8cf8a9046781c3f6fcf1eb",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "A luxurious gift awaits: a cancelled meeting. Spend the spare hour wisely. Perhaps telling everyone how busy you are.",
+  "seconds": 7.848375,
+  "normalization_gain": 1.3069924093902379
+}

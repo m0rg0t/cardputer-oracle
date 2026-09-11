@@ -1,0 +1,10 @@
+{
+  "sha256": "571be5459bd4b6e2a2504291676ffdef334645bfe794c74e15ad2514d7184e42",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will discover how to slow down time: suggest a quiet cup of tea. An hour later, you will have discussed everything except why you met. A successful ceremony.",
+  "seconds": 10.5883125,
+  "normalization_gain": 1.7031311410978645
+}

@@ -1,0 +1,10 @@
+{
+  "sha256": "8a34076b8089e1be41e9e570eba36ae37904134ca849d0acbff8c28056da0157",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "附近有个生命需要你的照料。就是窗台上的植物。它整周都在争取加入干花收藏。",
+  "seconds": 7.801875,
+  "normalization_gain": 2.5
+}

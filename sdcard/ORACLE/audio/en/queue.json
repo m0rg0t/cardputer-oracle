@@ -1,0 +1,10 @@
+{
+  "sha256": "06f11eea5476a2b7ff5f73afb2e6697bfb29acc0a332d508fc0a5fac1093c11c",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "The universe will give you time alone with your thoughts. In a queue. The next queue will move faster to deepen the experience.",
+  "seconds": 8.3591875,
+  "normalization_gain": 1.755096530309167
+}

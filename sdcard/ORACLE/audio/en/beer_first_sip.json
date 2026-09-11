@@ -1,0 +1,10 @@
+{
+  "sha256": "688ea15e71b0691d986078d083d14fb405279385fb6e061af0690cdd44ca8994",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will try a fashionable beer and admit you don't like it. The world will survive. They will bring something you enjoy, and the tasting will finally become enjoyable.",
+  "seconds": 9.84525,
+  "normalization_gain": 1.5174506828528074
+}

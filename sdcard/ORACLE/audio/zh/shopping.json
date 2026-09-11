@@ -1,0 +1,10 @@
+{
+  "sha256": "e12dcdce793a27632c511aec49db679c15150f37bfe35fb08bb9c9e7adcb8023",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "一种古老习惯会帮你省钱。买东西前先问：我打算把它放哪儿？宇宙通常只会长叹一声。",
+  "seconds": 8.68425,
+  "normalization_gain": 2.5
+}

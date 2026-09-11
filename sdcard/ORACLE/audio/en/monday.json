@@ -1,0 +1,10 @@
+{
+  "sha256": "440f6cfe9edfd0a8f2f5045f5a7b3ac5bd1712ff777b9f60150c8e0ed68b4f2c",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will start a new life on Monday. The stars wisely decline to specify which one. Your supply of Mondays is looking excellent.",
+  "seconds": 8.591375,
+  "normalization_gain": 1.6528925619834711
+}

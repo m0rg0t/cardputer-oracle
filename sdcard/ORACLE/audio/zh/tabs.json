@@ -1,0 +1,10 @@
+{
+  "sha256": "c552115f216f034784de6b9c8f2246afdcff9d64e8dc6bfa839d8299854e0b91",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "无数可能性会在你面前打开：大约四十个浏览器标签。某个标签正在放歌，找到它就是今日主线任务。",
+  "seconds": 8.962875,
+  "normalization_gain": 2.5
+}

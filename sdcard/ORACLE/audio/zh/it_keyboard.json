@@ -1,0 +1,10 @@
+{
+  "sha256": "169b5e0daae4e82bec3a709c546d53bfd7b14f23dcac6147ec27a1577ac1def2",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你的手指会比大脑更早记起快捷键，你会觉得自己是高手。随后你忘了为何打开终端，宇宙终于恢复平衡。",
+  "seconds": 9.9845625,
+  "normalization_gain": 2.5
+}

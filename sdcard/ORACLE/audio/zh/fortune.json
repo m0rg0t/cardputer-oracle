@@ -1,0 +1,10 @@
+{
+  "sha256": "34fe3bf37bcfa91bd5af2fe66967486ac3aab569c3923770d6bfd536c32420a1",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你即将读到一则极其准确的预言：你会读完这句话。预言家的名声依旧无可挑剔。",
+  "seconds": 7.1981875,
+  "normalization_gain": 2.5
+}

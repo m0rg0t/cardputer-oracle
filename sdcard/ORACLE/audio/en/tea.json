@@ -1,0 +1,10 @@
+{
+  "sha256": "ac524ccb2526abcc0d92f849719301a21dddbf6e51ec28a3f846ca043d57775e",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "The answer lies at the bottom of your cup. Finish your tea. Now make another. Some mysteries require a second opinion.",
+  "seconds": 8.127,
+  "normalization_gain": 1.7606826031015101
+}

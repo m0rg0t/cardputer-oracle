@@ -1,0 +1,10 @@
+{
+  "sha256": "bed96ead037237a876cedd41eeb4fd13f3c762181295a273040ba63e7c612ea2",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你端茶读书，说好只坐二十分钟。茶凉了，二十分钟变成了一章。难得有一次，忘喝茶反而证明时间花得很值。",
+  "seconds": 10.8669375,
+  "normalization_gain": 2.5
+}

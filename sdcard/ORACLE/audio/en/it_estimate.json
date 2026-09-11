@@ -1,0 +1,10 @@
+{
+  "sha256": "9a42d95283a650e5543bc4b2fc6fb2e1e894d978739c1ee6abeba1cbfbf3d5fb",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "Your task will take exactly as long as you predicted. You just need to find the message where you said three days, two weeks or a month, and pick the right one.",
+  "seconds": 9.6595,
+  "normalization_gain": 1.353532198448644
+}

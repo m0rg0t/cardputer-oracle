@@ -1,0 +1,10 @@
+{
+  "sha256": "b9f6ab45da6df177496373cadd419a83ae657ab2b27e3d19b2ad095f8c195a5e",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "Progress will move from ninety-nine percent to one hundred. The final percent will have taken ninety-nine percent of the time. You now have a personal opinion about percentages.",
+  "seconds": 11.099125,
+  "normalization_gain": 1.2830002467308166
+}

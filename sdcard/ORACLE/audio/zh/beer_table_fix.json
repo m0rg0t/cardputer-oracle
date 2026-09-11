@@ -1,0 +1,10 @@
+{
+  "sha256": "e02a7c63abd6337500534e87dfb9478b062b324e5187933eb4481f0f796cdc13",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你会用折叠杯垫垫住晃动的桌子，解决全桌人的烦恼。本周没有哪项架构决策能收获如此真诚的感谢。",
+  "seconds": 8.8235625,
+  "normalization_gain": 2.5
+}

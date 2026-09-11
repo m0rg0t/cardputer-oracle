@@ -1,0 +1,10 @@
+{
+  "sha256": "a41b88a9ad957515beaaff0f50dc211ebba323083d77f3b4cccc1ef9411a2e75",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will fix a problem affecting the whole group with a folded coaster under a wobbly table. No architecture decision this week will receive such sincere thanks.",
+  "seconds": 10.26325,
+  "normalization_gain": 1.6854660962012187
+}

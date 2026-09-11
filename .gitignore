@@ -41,6 +41,10 @@ __pycache__/
 *.wav
 *.WAV
 !sdcard/ORACLE/audio/*.wav
+!sdcard/ORACLE/audio/en/*.wav
+!sdcard/ORACLE/audio/zh/*.wav
+/sdcard/ORACLE/audio/**/*.tmp
+/content/*.tmp
 /sdcard/ORACLE/diagnostic.txt
 /sdcard/ORACLE/*.tmp
 # Operating system / editor files.

@@ -1,0 +1,10 @@
+{
+  "sha256": "1499d2383c97c6913c040307647634eb0b3b9a09514cb44d1ceee73488f24fbf",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你会用一行配置修好大问题，看起来只花了一分钟。找出那一行的三个小时，正好写进回忆录。",
+  "seconds": 8.68425,
+  "normalization_gain": 2.5
+}

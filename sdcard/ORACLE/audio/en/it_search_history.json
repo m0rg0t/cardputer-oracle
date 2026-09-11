@@ -1,0 +1,10 @@
+{
+  "sha256": "e2a23aa079843ee28a30bb2d374ee3e77dd0da6f425828c9c14f6cfac1de241b",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "Your search history will answer a difficult question. It's reassuring that you were already this clever six months ago. Slightly less reassuring that you've forgotten since.",
+  "seconds": 9.1486875,
+  "normalization_gain": 1.59567939118694
+}

@@ -1,6 +1,6 @@
 # Карточки и медиа
 
-Источник — content/deck.json: 60 life/it, 30 beer, 30 tea. Поля: id, title, text, topic, motif, image и audio.
+Источники — content/deck.en.json (английский) и content/deck.json (русский). В каждом языке: 60 life/it, 30 beer, 30 tea. Поля: id, title, text, topic, motif, image и audio.
 
 ## Ограничения
 
@@ -14,11 +14,11 @@
 
 ## Изменение набора
 
-1. Изменить content/deck.json и назначение рисунка в assets/artwork.json.
+1. Изменить выбранную колоду; при смене рисунка обновить обе колоды и assets/artwork.json.
 2. При необходимости выполнить prepare_images.py.
-3. Для изменённого текста сгенерировать WAV: generate_audio.py --pause-seconds 15. Нужен ELEVENLABS_API_KEY; это платные запросы.
-4. Выполнить prepare_pack.py --ready-only --require-media, затем prepare_receipts.py.
-5. Запустить test_pack.py и упаковать релиз.
+3. Для изменённого текста сгенерировать WAV: generate_audio.py --language en --pause-seconds 3 (или --language ru). Нужен ELEVENLABS_API_KEY; это платные запросы.
+4. Выполнить python tools/build_release.py --language en (или --language ru). Язык по умолчанию — английский.
+5. Запустить test_pack.py, test_languages.py и validate_release.py --language en/ru.
 
 Метаданные рядом с WAV содержат хеш текста и параметров генерации. Старые записи переиспользуются без API. Встроенная резервная колода — по шесть текстов каждой темы; полный набор находится на SD.
 
@@ -26,8 +26,10 @@
 
 Для перегенерации используются Arial/Arial Bold на macOS либо DejaVu Sans на Linux. Можно указать ORACLE_FONT_REGULAR и ORACLE_FONT_BOLD. На Debian/Ubuntu стандартные шрифты доступны в fonts-dejavu-core.
 
-Другой шрифт может изменить переносы и высоту чека; генератор проверит лимит. Чтобы воспроизвести проверенные отпечатки без изменений, используйте готовые sdcard/ORACLE/print/*.bin.
+Другой шрифт может изменить переносы и высоту чека; генератор проверит лимит. Чтобы воспроизвести проверенные отпечатки без изменений, используйте готовые ORACLE/print/*.bin из соответствующего языкового ZIP.
 
 ## Происхождение
 
 Иллюстрации созданы imagegen; оригиналы и промпты в assets. Голоса подготовлены ElevenLabs, эффекты синтезируются C++-кодом. Отдельная открытая лицензия на медиа здесь не установлена.
+
+Английский голос — Lily, русский — Arina. Всего 240 записей: по 120 на язык. Сборка копирует только выбранный язык. Названия, текст, язык WAV и контрольные суммы чеков проверяются вместе; устаревшая озвучка блокирует пакет.

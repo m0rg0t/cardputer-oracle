@@ -1,0 +1,10 @@
+{
+  "sha256": "df2aa29ed0b9138a85b9f8eb70f841fe4de1ef9ce43706cb5abf39147ee34da9",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "工作日会难得地风平浪静，因为你拿到的是只读权限。世界仍归你负责，只是会把它弄坏的按钮消失了。",
+  "seconds": 9.0093125,
+  "normalization_gain": 2.5
+}

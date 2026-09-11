@@ -1,0 +1,10 @@
+{
+  "sha256": "4c2584cc0012edd1de7a4003cb9778923e8ba5dcb014765d14bc23f18eff753a",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "AI会热情支持你的绝妙想法，也能同样有理有据地支持相反意见。你终于懂了夹在两位架构师之间的经理。",
+  "seconds": 9.84525,
+  "normalization_gain": 2.5
+}

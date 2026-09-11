@@ -1,0 +1,10 @@
+{
+  "sha256": "fc0f1dce937b90d991575aa5ec3a183e57436b0cb0f571b9d15c86708d1183d4",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "茶刚好凉到最合适的温度，就有人来提问。今天你终于会说：“等我一分钟。”让一个重要约会准时开始吧。",
+  "seconds": 9.6130625,
+  "normalization_gain": 2.5
+}

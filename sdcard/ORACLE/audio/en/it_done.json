@@ -1,0 +1,10 @@
+{
+  "sha256": "7b4bda6ccd76b8fb833856dced1adfccedaab1a69f01a4d99714b46795a4cbd1",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will finish a task and receive no request for one tiny extra thing. You'll start looking for improvements yourself. Hold on. This unfamiliar feeling is called done.",
+  "seconds": 10.3096875,
+  "normalization_gain": 1.540193116521533
+}

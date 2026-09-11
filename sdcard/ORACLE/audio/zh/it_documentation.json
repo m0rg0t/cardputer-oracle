@@ -1,0 +1,10 @@
+{
+  "sha256": "0bd0c27f89f4a3a29f090d91dbba5af7b15d77a02d452897bb3b49fb64698599",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "过去的智者会来帮你。其实是留下有用评论那天的你。难得一次，你会想和作者握手。",
+  "seconds": 8.127,
+  "normalization_gain": 2.5
+}

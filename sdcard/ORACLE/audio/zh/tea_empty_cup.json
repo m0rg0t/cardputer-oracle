@@ -1,0 +1,10 @@
+{
+  "sha256": "d1695c6b2a76db04779f4da139bba78ea86c705360087a66d001e4d426d0891b",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "茶喝完了，聊天还没结束，这是好兆头。要是聊天糟透了，你早就数完茶杯、时钟和天花板上的裂缝了。",
+  "seconds": 9.752375,
+  "normalization_gain": 2.5
+}

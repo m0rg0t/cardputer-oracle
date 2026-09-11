@@ -1,0 +1,10 @@
+{
+  "sha256": "2b9c64ca7de0994ed879f5967c46730f915085d441dc16e844cb94614f228227",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "An unexpected windfall awaits behind the tea: a forgotten packet of biscuits. Finance calls this a hidden reserve. The oracle recommends an immediate taste test.",
+  "seconds": 10.63475,
+  "normalization_gain": 1.6058303996047187
+}

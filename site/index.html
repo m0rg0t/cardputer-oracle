@@ -29,13 +29,14 @@
 <figure class="screen"><img src="assets/screen-home.png" alt="Главный экран Oracle 0.5.3: батарея, тема и приглашение получить прогноз" width="240" height="135" loading="lazy"><figcaption>Экран приложения, снимок симулятора. Заряд обновляется раз в пять секунд.</figcaption></figure>
 </div><figure class="paper"><img src="assets/receipt-tea.png" alt="Полный чайный чек с крупной иллюстрацией и предсказанием" width="384" height="770" loading="lazy"><figcaption>Чек шириной 384 точки. Иллюстрация занимает почти всю ширину.</figcaption></figure></div>
 </div></section>
-<section class="section wrap build" id="build" aria-labelledby="build-title"><div><p class="eyebrow">Собрать своего оракула</p><h2 id="build-title">Колода, голос<br>и код — вместе.</h2><p>Нужны Cardputer ADV, microSD с FAT32 и M5Apps. В проекте уже есть все тексты, WAV, картинки и готовые растры чеков. Повторно генерировать контент не требуется.</p><p>Проект начинался как демонстрация к докладу в баре. Сейчас это рабочий прототип: печать с компьютера проверена, последнюю прошивку и переходы между Bluetooth и Wi-Fi ещё нужно проверить на Cardputer.</p>@@REPOSITORY_LINK@@</div>
+<section class="section wrap build" id="build" aria-labelledby="build-title"><div><p class="eyebrow">Собрать своего оракула</p><h2 id="build-title">Колода, голос<br>и код — вместе.</h2><p>Нужны Cardputer ADV, microSD с FAT32 и M5Apps. В проекте уже есть все тексты, WAV, картинки и готовые растры чеков. Повторно генерировать контент не требуется.</p><p>Сборки доступны на английском, русском и упрощённом китайском. Проверки на компьютере выполнены; установку, звук и радио нужно проверить на своём Cardputer ADV.</p>@@REPOSITORY_LINK@@</div>
 <div class="build-notes"><h3>Локальная сборка</h3><pre><code>python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
 python -m pip install platformio
-cd firmware
-pio run -e oracle-adv</code></pre><p>Установка — M5Apps → Installer → SD. Рядом с BIN должна лежать папка <code>ORACLE</code> из каталога <code>sdcard</code>.</p><p>Подробности, управление и настройка Таро — в README проекта. Пароли и ключи хранятся в приватном конфиге на microSD.</p></div></section>
+python tools/build_release.py
+# Русский: --language ru
+# 中文: --language zh</code></pre><p>Установка — M5Apps → Installer → SD. В корень microSD скопируйте BIN и целиком папку <code>ORACLE</code> из одного языкового ZIP. Исходный <code>sdcard/</code> не является готовым английским или китайским набором.</p><p>Если M5Apps ещё нет, сначала установите его по USB с кабелем данных. Для дальнейших установок Oracle достаточно кардридера. Формат карты — FAT32. После установки в шапке должно быть SD; DEMO означает, что полный набор не загрузился.</p><p>Сохраняйте личный <code>ORACLE/config.json</code> при обновлении. Файлы <code>ORACLE/print/*.bin</code> и <code>ORACLE/fonts/chinese12.bin</code> — ресурсы, не прошивки. Полные инструкции: подготовка карты, дерево файлов, Wi-Fi, обновление и диагностика.</p><p><a href="assets/INSTALL.en.md" download>Installation guide (EN)</a> · <a href="assets/INSTALL.md" download>Инструкция (RU)</a> · <a href="assets/INSTALL.zh.md" download>安装说明 (中文)</a></p></div></section>
 </main>
 <footer class="wrap foot"><a class="wordmark" href="#main">ORACLE <span>/ ADV</span></a><p>Будущее непредсказуемо.<br>Зато формат WAV вполне определён.</p><span>v@@VERSION@@ · эксперимент с нейросетями</span></footer>
 </body></html>

@@ -1,0 +1,10 @@
+{
+  "sha256": "aee5c27186b6f3d4e80d5a4bc4b5a23b28074314f09155c7e82a62dd685ae638",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "Everyone at your table will have a story about a strange client. By the end, you'll realise you were the client in two of them. Luckily, the stories were told with affection.",
+  "seconds": 10.8205,
+  "normalization_gain": 1.1882998171846435
+}

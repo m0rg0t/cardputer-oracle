@@ -3,6 +3,7 @@
 #include <cstdint>
 #include <string>
 #include <vector>
+#include "oracle/locale.h"
 
 namespace oracle {
 enum class Theme { HumorIT, Beer, Tea, Tarot };
@@ -74,7 +75,7 @@ struct View {
     std::vector<std::string> lines;
     std::string notice;
     std::string question;
-    bool russianInput=true;
+    bool russianInput=kRussian;
     std::string printNotice;
     PrintStatus printStatus = PrintStatus::Unavailable;
     bool sd = false, muted = false, playing = false, showArt = false;
@@ -97,7 +98,8 @@ public:
 private:
     PredictionSource& source_;
 };
-constexpr unsigned kVisibleLines = 4;
+constexpr unsigned kVisibleLines = kChinese ? 3 : 4;
+constexpr unsigned kLineHeight = kChinese ? 26 : 19;
 constexpr unsigned kColumns = 18;
 std::vector<std::string> wrap(const std::string& text, unsigned columns);
 }

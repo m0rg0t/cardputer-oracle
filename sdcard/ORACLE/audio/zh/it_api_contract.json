@@ -1,0 +1,10 @@
+{
+  "sha256": "83d97e8993f08c29bfc8f6874094ff8e8a33f2e180e5aba15a992890d474e14d",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "两个团队会以同一种方式理解文档，接口首次接入就能成功。原本用来争论的会议，可以改成友好认识会。",
+  "seconds": 9.288,
+  "normalization_gain": 2.5
+}

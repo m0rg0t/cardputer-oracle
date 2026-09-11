@@ -1,0 +1,10 @@
+{
+  "sha256": "f4b917256d489137ddf3276083ff581cee361e2c33a8b41a01cd3660d0b42fdc",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "The old project will surprise you by still working. Reading the code will only deepen your surprise. Thank the stranger who was afraid to touch it before you.",
+  "seconds": 9.5201875,
+  "normalization_gain": 1.1553501599715605
+}

@@ -1,0 +1,10 @@
+{
+  "sha256": "61690c5746f15a1c3402244f55cdafc685cf77d6abc88b68aa2af1d737a0c99c",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "朋友们会变得更亲近，尤其是分享拼盘端上来之后。最后一块薯片将揭示桌上的真正外交家。",
+  "seconds": 8.68425,
+  "normalization_gain": 2.5
+}

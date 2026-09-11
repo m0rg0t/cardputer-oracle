@@ -1,0 +1,10 @@
+{
+  "sha256": "ee25e6a473c9d9393160940e2717d5e048c5c86beedf6f8248e450f3860f44ee",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "邻桌那位正好有你需要的东西：充电器、好故事，或一把空椅子。今天，宇宙借酒馆之手帮你。",
+  "seconds": 9.1486875,
+  "normalization_gain": 2.5
+}

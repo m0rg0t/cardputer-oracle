@@ -1,0 +1,10 @@
+{
+  "sha256": "9457aee533b37e8620bacdfcc28859975b497916481f91e2b2c61f2eac3c4b5b",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "有人让你改个按钮名称。到晚上，产品多了新用户、新商业模式和新使命，按钮却没变。它本来就挺好。",
+  "seconds": 10.123875,
+  "normalization_gain": 2.5
+}

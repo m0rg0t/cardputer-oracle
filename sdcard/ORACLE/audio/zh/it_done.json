@@ -1,0 +1,10 @@
+{
+  "sha256": "4c4cb2c919126c0487b9dadb68f90a2cec40832dd2770d36fc1a3df32c95aadf",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你完成任务后，居然没人再提一个小小的追加要求。你反而开始主动找改进，等等，这种陌生感觉叫“完成”。",
+  "seconds": 9.566625,
+  "normalization_gain": 2.5
+}

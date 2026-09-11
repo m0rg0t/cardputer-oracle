@@ -1,0 +1,10 @@
+{
+  "sha256": "3ec605be9a4a64ed535cad8904dc01fa1ab97eadacc05600a6a3906110da304e",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你的幸运护符就在附近：那只没人敢碰的爱用杯。它今天又会替你挡住混乱。别人的茶匙不在保修范围内。",
+  "seconds": 9.7059375,
+  "normalization_gain": 2.5
+}

@@ -1,0 +1,10 @@
+{
+  "sha256": "fe8289d09ad93e5aedebade7038950b06d201b94b7e113b10d0ac5284887be7c",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "任务会恰好花费你预估的时间。先找到那条写着三天、两周或一个月的消息，再选对那条。",
+  "seconds": 8.405625,
+  "normalization_gain": 2.5
+}

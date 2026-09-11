@@ -1,0 +1,10 @@
+{
+  "sha256": "8bede3d472a29a607fe60e0829cb416fdd97fe0b4cd11d523824e3a3fde27067",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "一条期待已久的消息即将到来。也可能只是验证码。不过有人相信你就是你，感觉也不错。",
+  "seconds": 8.0805625,
+  "normalization_gain": 2.5
+}

@@ -1,0 +1,10 @@
+{
+  "sha256": "91195f95f905fee5bfcc14b244a8bd9e67ca9b0f5a6fdaa35dbb84c6856f78f7",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你的副业项目将迎来第一个用户。对方立刻提出一个你从没计划过的功能。恭喜，小爱好刚开完第一次客户会。",
+  "seconds": 10.356125,
+  "normalization_gain": 2.5
+}

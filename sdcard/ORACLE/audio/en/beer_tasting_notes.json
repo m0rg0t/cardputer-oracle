@@ -1,0 +1,10 @@
+{
+  "sha256": "9da53c2fdf70f96ac1b8d49d9a13e8ffc66992c40d6cacd41e59c20097c91d42",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will detect bread crust, citrus and a little caramel. Your friend will detect beer. A lovely evening awaits as you learn to respect different depths of research.",
+  "seconds": 10.7740625,
+  "normalization_gain": 1.8676819194023417
+}

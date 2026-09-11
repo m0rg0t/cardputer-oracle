@@ -1,0 +1,10 @@
+{
+  "sha256": "4f569909c9410a23320687f9c21b1d3b5d7bbe402076641ebace598bdce0924b",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will make a toast that is warm, funny and genuinely short. Everyone will appreciate it. Especially the friend who was wondering when they could start eating.",
+  "seconds": 9.7059375,
+  "normalization_gain": 1.324975793711461
+}

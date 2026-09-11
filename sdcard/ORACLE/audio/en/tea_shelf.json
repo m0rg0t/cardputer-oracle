@@ -1,0 +1,10 @@
+{
+  "sha256": "dbbf7c556ef6f8691f43fba1acbb1e53d484b114acdb31835368921f02352cb1",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "Tidying the tea shelf will reveal four varieties saved for a special occasion. Declare today special. It's the only date all four can agree on.",
+  "seconds": 9.566625,
+  "normalization_gain": 1.511364296924955
+}

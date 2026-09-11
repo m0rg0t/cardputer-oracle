@@ -1,0 +1,10 @@
+{
+  "sha256": "1bac505e055a8224a2ab5543a87cf6a52b552844c5c41a5ba3918a932389b8d5",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "An unexpected melody will guide you. It's the microwave. Dinner is ready, and the universe strongly recommends cooperating.",
+  "seconds": 8.127,
+  "normalization_gain": 1.3708019191226868
+}

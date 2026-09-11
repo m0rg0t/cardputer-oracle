@@ -1,0 +1,10 @@
+{
+  "sha256": "1b7eeb354a2aa13631cc6c6e55884b2f59703d2f964135e64de01ebe32ed13e2",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你给两位争论中的同事泡茶。他们解释想喝哪种茶时，竟忘了刚才在吵什么。有时最好的调解员只需拎着水壶问：红茶还是绿茶？",
+  "seconds": 12.5851875,
+  "normalization_gain": 2.5
+}

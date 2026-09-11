@@ -1,0 +1,10 @@
+{
+  "sha256": "f1358f213e440e09fb6befadf2aaae69bd3a0b87bbcb1e59d93bbcd5be2cd0d3",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "通往新可能的大门近在手边。你每隔二十分钟就打开一次。目前里面只有奶酪，但希望依然旺盛。",
+  "seconds": 9.10225,
+  "normalization_gain": 2.5
+}

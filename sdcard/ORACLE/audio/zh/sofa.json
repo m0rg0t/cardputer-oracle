@@ -1,0 +1,10 @@
+{
+  "sha256": "fbc6187a17e1051c48cf8bfb9758901eb05a3e7efeb6a4d0b74346218b9df8bc",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "前方有一段漫长旅程：从厨房走到沙发。途中还要接受品格考验：想起自己为何起身。",
+  "seconds": 8.4985,
+  "normalization_gain": 2.5
+}

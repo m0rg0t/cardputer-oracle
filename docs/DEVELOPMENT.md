@@ -54,8 +54,8 @@ BLE освобождается перед Таро и запускается з�
 ## Выпуск пакета
 
 ~~~sh
-python tools/package_demo.py
-python tools/validate_release.py
+python tools/build_release.py --language en
+python tools/validate_release.py --language en
 ~~~
 
 Проверка работает без приватного конфига и старых ZIP. Если release/private/config.json существует, его токен и пароли дополнительно сверяются с публичными артефактами без вывода значений.
@@ -65,3 +65,7 @@ python tools/validate_release.py
 При изменении версии обновить VERSION и видимый номер в draw.cpp / diagnostics.cpp. Пересобрать, проверить лимит M5Apps и обновить инструкции. Сайт читает версию из VERSION.
 
 Личные диагностические материалы и прежний адресный установщик SD сохранены в local; новому клону они не требуются.
+
+## Языковые сборки
+
+По умолчанию все команды выбирают английский. Русские PlatformIO-цели: oracle-adv-ru и native-sim-ru. Макрос ORACLE_LANG_RU выбирает строки на этапе компиляции. tools/build_release.py --language ru готовит отдельные ресурсы и прошивку. Native-тесты запускаются в обеих версиях; резервные заголовки обновляются командой python tools/prepare_pack.py --fallback-only.

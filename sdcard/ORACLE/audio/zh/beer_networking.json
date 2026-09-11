@@ -1,0 +1,10 @@
+{
+  "sha256": "d26e85035254b2edf22bee93cd348e22b659ee6fca67feae23a74ce10c55e45f",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你会在酒吧聊得尽兴，尽兴到忘了交换联系方式。你们都会记住那个从没问彼此做什么工作的人。",
+  "seconds": 8.6378125,
+  "normalization_gain": 2.5
+}

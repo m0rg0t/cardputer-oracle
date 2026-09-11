@@ -1,0 +1,10 @@
+{
+  "sha256": "fe2c428e3abf6e78c83c3bcda63ac4c3622a5b1eaaa07de0fd0d468d30959042",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "一份奢华礼物正等着你：取消的会议。好好利用这空闲一小时，比如告诉大家你有多忙。",
+  "seconds": 8.7306875,
+  "normalization_gain": 2.5
+}

@@ -1,0 +1,10 @@
+{
+  "sha256": "c99e734137bdefb3aab570b8108c899425301cbc1315ae3399db9ef73085907e",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "伟大的启示会在梦中降临。试着早点睡。刷短视频刷到凌晨两点，不算仪式的一部分。",
+  "seconds": 7.616125,
+  "normalization_gain": 2.5
+}

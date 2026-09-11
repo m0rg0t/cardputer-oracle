@@ -1,0 +1,10 @@
+{
+  "sha256": "ceee39437a3551a57928bc6e2affe9000b094293dd735ed0a8e1459a65e7b790",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "The perfect answer to a difficult question will arrive while the kettle boils. Write it down quickly. After the first sip it may become philosophical again.",
+  "seconds": 9.380875,
+  "normalization_gain": 1.4450867052023122
+}

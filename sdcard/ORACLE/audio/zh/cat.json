@@ -1,0 +1,10 @@
+{
+  "sha256": "f794dae2e4a2456075290abc08662d8599ab2f15abe7abb414961be38bfb1a4a",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "今天会有大人物关注你。多半是猫。它会在闹钟响前半小时，正式开启谈判。",
+  "seconds": 7.3839375,
+  "normalization_gain": 2.5
+}

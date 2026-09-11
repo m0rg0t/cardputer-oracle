@@ -1,0 +1,10 @@
+{
+  "sha256": "c56c69cff46a864ab34f0bc5abc4e607aceef8be05e8dabdbeb28940912cca0a",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "A good story will get another chapter when someone asks if you'd like more tea. Say yes if you fancy a cup. The kettle has an excellent sense of timing.",
+  "seconds": 9.1486875,
+  "normalization_gain": 1.0906040268456376
+}

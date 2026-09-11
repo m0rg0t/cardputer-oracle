@@ -1,0 +1,10 @@
+{
+  "sha256": "58bc65f9fb09efeb85510c4fbe65b4e52e8792e0f11ea038d3733a3c3c71b78c",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "Someone will ask about your favourite hobby. You'll become so absorbed in answering that you'll forget the glass in your hand. Your friend will notice its angle before you do.",
+  "seconds": 10.21675,
+  "normalization_gain": 1.502977050696572
+}

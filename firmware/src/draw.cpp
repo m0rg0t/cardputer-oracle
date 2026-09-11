@@ -1,6 +1,8 @@
+#include "oracle/locale.h"
 #include "oracle/draw.h"
 #include "oracle/text_rules.h"
 #include "oracle/cyrillic_font.h"
+#include "oracle/chinese_font.h"
 #include <cmath>
 #include <cstdio>
 
@@ -10,14 +12,20 @@ void drawText(lgfx::LGFX_Sprite& c, int x, int y, const std::string& str, int sc
     for (std::size_t i=0; i<str.size();) {
         std::uint32_t cp; i += hermes_terminal::decodeUtf8(str.data()+i, str.size()-i, cp);
         const int glyph=hermes_terminal::cyrillicGlyphIndex(cp);
-        if (glyph>=0) {
+        if (hermes_terminal::isChinese(cp)) {
+            std::uint16_t rows[12];
+            if(loadChineseGlyph(cp,rows)) {
+                for(int row=0;row<12;++row) for(int col=0;col<12;++col)
+                    if(rows[row] & (1u<<(11-col))) c.fillRect(x+col*scale,y+row*scale,scale,scale,color);
+            } else c.drawRect(x,y,11*scale,11*scale,color);
+        } else if (glyph>=0) {
             for (int row=0;row<7;++row) for(int col=0;col<5;++col)
                 if(hermes_terminal::kCyrillicGlyphs[glyph][row] & (0x10>>col)) c.fillRect(x+col*scale,y+row*scale,scale,scale,color);
         } else {
             char ch=cp<128 ? char(cp) : hermes_terminal::asciiFallback(cp);
             c.setCursor(x,y); c.write(ch ? ch : '?');
         }
-        x+=6*scale;
+        x+=6*scale*hermes_terminal::glyphColumns(cp);
     }
 }
 void drawTarotCards(lgfx::LGFX_Sprite& c, const Prediction& p, int x, int y, int width, int height, std::uint32_t color) {
@@ -45,7 +53,7 @@ void drawTarotCards(lgfx::LGFX_Sprite& c, const Prediction& p, int x, int y, int
             c.drawLine(mid-radius/2,cy-radius/2,mid+radius/2,cy+radius/2,color);
             c.drawLine(mid-radius/2,cy+radius/2,mid+radius/2,cy-radius/2,color);
         }
-        const char* labels[]={"БЫЛО","СЕЙЧАС","ВПЕРЕДИ"};
+        const char* labels[]={ORACLE_I18N("PAST", "БЫЛО", "过去"),ORACLE_I18N("PRESENT", "СЕЙЧАС", "现在"),ORACLE_I18N("FUTURE", "ВПЕРЕДИ", "未来")};
         const int length=hermes_terminal::utf8Columns(labels[i],std::char_traits<char>::length(labels[i]));
         drawText(c,mid-length*3,y+height-16,labels[i],1,color);
     }
@@ -87,12 +95,12 @@ void motif(lgfx::LGFX_Sprite& c,int x,int y,int r,unsigned kind,std::uint32_t fr
     }
 }
 void footer(lgfx::LGFX_Sprite& c,const std::string& label) {
-    c.drawFastHLine(8,120,224,panel); center(c,125,label,1,muted);
+    c.drawFastHLine(8,120,224,panel); center(c,kChinese?123:125,label,1,muted);
 }
 }
 void draw(lgfx::LGFX_Sprite& c,const View& v,lgfx::LGFX_Sprite* image) {
     c.fillScreen(bg);
-    text(c,8,5,"ORACLE / 05.3",1,gold);
+    text(c,8,5,"ORACLE / 06.0",1,gold);
     const bool knownBattery=v.batteryPercent>=0 && v.batteryPercent<=100;
     const auto batteryColor=!knownBattery?muted:v.batteryPercent<=20?0xFF786E:gold;
     c.drawRect(90,5,12,8,batteryColor);
@@ -109,33 +117,33 @@ void draw(lgfx::LGFX_Sprite& c,const View& v,lgfx::LGFX_Sprite* image) {
     if(v.screen==Screen::Idle) {
         motif(c,120,58,29,0,v.frame);
         star(c,48,51,6,gold); star(c,192,64,4,muted);
-        center(c,98,"СУДЬБА ЖДЁТ",1,gold);
-        center(c,110,std::string("< ")+themeLabel(v.theme)+" >",1,ink);
-        footer(c,"Остальные клавиши: прогноз");
+        center(c,kChinese?92:98,ORACLE_I18N("YOUR FUTURE AWAITS", "СУДЬБА ЖДЁТ", "你的未来在等你"),1,gold);
+        center(c,kChinese?106:110,std::string("< ")+themeLabel(v.theme)+" >",1,ink);
+        footer(c,ORACLE_I18N("Other keys: get a fortune", "Остальные клавиши: прогноз", "其他按键：抽签"));
     } else if(v.screen==Screen::Question) {
-        text(c,10,24,"ВОПРОС К КАРТАМ",1,gold);
+        text(c,10,24,ORACLE_I18N("ASK THE CARDS", "ВОПРОС К КАРТАМ", "询问塔罗牌"),1,gold);
         text(c,190,24,v.russianInput?"RU":"EN",1,muted);
         if(v.question.empty()) {
-            text(c,10,48,"Напиши свой вопрос",1,muted);
-            text(c,10,65,"или Enter: общий расклад",1,muted);
+            text(c,10,48,ORACLE_I18N("Type your question", "Напиши свой вопрос", "输入英文或拼音问题"),1,muted);
+            text(c,10,65,ORACLE_I18N("or Enter: a general reading", "или Enter: общий расклад", "或按回车：进行通用解读"),1,muted);
         } else {
             const auto rows=wrap(v.question+"_",18);
-            const auto first=rows.size()>4?rows.size()-4:0;
-            for(unsigned i=first;i<rows.size();++i) text(c,10,40+(i-first)*19,rows[i],2);
+            const auto first=rows.size()>kVisibleLines?rows.size()-kVisibleLines:0;
+            for(unsigned i=first;i<rows.size();++i) text(c,10,40+(i-first)*kLineHeight,rows[i],2);
         }
-        footer(c,"Enter: гадать  Tab: RU/EN  Esc: назад");
+        footer(c,ORACLE_I18N("Enter: read  Tab: RU/EN  Esc: back", "Enter: гадать  Tab: RU/EN  Esc: назад", "Enter：阅读  Tab：RU/EN  Esc：返回"));
     } else if(v.screen==Screen::Ritual) {
         const auto elapsed=std::uint32_t(v.frame-v.started);
         motif(c,120,57,26+(elapsed/140)%5,elapsed/650%4,v.frame*4);
-        const char* phrases[]={"Тасуем вероятности...","Советуемся с котом...","Уточняем у звёзд...","Будущее почти готово"};
+        const char* phrases[]={ORACLE_I18N("Shuffling possibilities...", "Тасуем вероятности...", "正在洗牌..."),ORACLE_I18N("Consulting the cat...", "Советуемся с котом...", "正在咨询猫咪…"),ORACLE_I18N("Checking with the stars...", "Уточняем у звёзд...", "正在向星辰求问…"),ORACLE_I18N("Future almost ready", "Будущее почти готово", "未来即将揭晓")};
         center(c,97,phrases[std::min(3u,elapsed/650)],1,gold);
         c.fillRect(20,113,std::min(200u,elapsed*200/2600),2,gold);
-        footer(c,"ESC: отменить ритуал");
+        footer(c,ORACLE_I18N("ESC: cancel ritual", "ESC: отменить ритуал", "ESC：取消仪式"));
     } else if(v.screen==Screen::Generating) {
         motif(c,120,53,24,(v.frame/700)%4,v.frame*3);
-        center(c,88,"КАРТЫ СОВЕТУЮТСЯ",1,gold);
-        center(c,105,v.notice.empty()?"Подключаемся...":v.notice,1,ink);
-        footer(c,"ESC: отменить");
+        center(c,88,ORACLE_I18N("THE CARDS ARE THINKING", "КАРТЫ СОВЕТУЮТСЯ", "牌正在思考"),1,gold);
+        center(c,105,v.notice.empty()?ORACLE_I18N("Connecting...", "Подключаемся...", "正在连接…"):v.notice,1,ink);
+        footer(c,ORACLE_I18N("ESC: cancel", "ESC: отменить", "ESC：取消"));
     } else if(v.screen==Screen::Result) {
         if(v.showArt || std::uint32_t(v.frame-v.started)<4300) {
             if(v.result.topic=="tarot") drawTarotCards(c,v.result,12,24,224,89,gold);
@@ -146,20 +154,20 @@ void draw(lgfx::LGFX_Sprite& c,const View& v,lgfx::LGFX_Sprite* image) {
             text(c,10,24,v.result.title,1,gold);
             star(c,221,27,4,gold);
             for(unsigned i=0;i<kVisibleLines && v.scroll+i<v.lines.size();++i)
-                text(c,10,39+i*19,v.lines[v.scroll+i],2);
+                text(c,10,39+i*kLineHeight,v.lines[v.scroll+i],2);
             const auto maxScroll=v.lines.size()>kVisibleLines ? v.lines.size()-kVisibleLines : 0;
             if(maxScroll) {
                 c.fillRect(232,39,2,72,panel);
                 c.fillRect(232,39+int(v.scroll*60/maxScroll),2,12,gold);
             }
-            const auto help=(v.frame/4000)%2 ? (v.result.topic=="tarot" ? ";/.: листать  N: новый расклад" : ";/.: листать  N: ещё  R: голос") : "P: печать  +/-: громкость";
+            const auto help=(v.frame/4000)%2 ? (v.result.topic=="tarot" ? ORACLE_I18N(";/.: scroll  N: new reading", ";/.: листать  N: новый расклад", ";/.: 滚动  N: 新占卜") : ORACLE_I18N(";/.: scroll  N: new  R: voice", ";/.: листать  N: ещё  R: голос", ";/.: 滚动  N: 新建  R: 语音")) : ORACLE_I18N("P: print  +/-: volume", "P: печать  +/-: громкость", "P：打印  +/-：音量");
             const bool printActive=v.printStatus==PrintStatus::Searching || v.printStatus==PrintStatus::Connecting || v.printStatus==PrintStatus::Sending;
             footer(c,!v.notice.empty()?v.notice:!v.printNotice.empty() && (printActive || (v.frame/4000)%2) ? v.printNotice:help);
         }
     } else {
-        center(c,44,"ОРАКУЛ ЗАДУМАЛСЯ",1,gold);
-        center(c,67,v.notice.empty()?"Проверь колоду на SD":v.notice);
-        footer(c,"ENTER: повторить  ESC: назад");
+        center(c,44,ORACLE_I18N("THE ORACLE NEEDS A MOMENT", "ОРАКУЛ ЗАДУМАЛСЯ", "神谕需要片刻"),1,gold);
+        center(c,67,v.notice.empty()?ORACLE_I18N("Check the deck on SD", "Проверь колоду на SD", "检查 SD 卡中的牌组"):v.notice);
+        footer(c,ORACLE_I18N("ENTER: retry  ESC: back", "ENTER: повторить  ESC: назад", "ENTER：重试  ESC：返回"));
     }
 }
 }

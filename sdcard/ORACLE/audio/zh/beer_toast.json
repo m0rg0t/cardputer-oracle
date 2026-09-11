@@ -1,0 +1,10 @@
+{
+  "sha256": "24c086ab4ef1f891ca33bbd59ddad8e824f236fd53dae9ac274554078cb7e49b",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你会发表一段热情、幽默又真正简短的祝酒词。大家都会感激你，尤其是等着开吃的朋友。",
+  "seconds": 8.4520625,
+  "normalization_gain": 2.5
+}

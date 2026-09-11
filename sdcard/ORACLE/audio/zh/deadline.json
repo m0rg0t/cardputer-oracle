@@ -1,0 +1,10 @@
+{
+  "sha256": "6a8387754b6edeacf9810cf335c3cc330f319019ca9e1ac9c9819170626eac3c",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你将获得掌控时间的力量。截止日期又延期了。请谨慎使用：它也在学习如何管理你。",
+  "seconds": 7.9876875,
+  "normalization_gain": 2.5
+}

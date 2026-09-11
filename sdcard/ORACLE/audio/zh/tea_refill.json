@@ -1,0 +1,10 @@
+{
+  "sha256": "32582dd2a6393ca265e7b7578500680e39731edcd221a9f1b3473cd34e4ddfaa",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "有人问你要不要续茶时，好故事也会翻开下一章。想喝就说好，水壶特别会挑时候。",
+  "seconds": 7.430375,
+  "normalization_gain": 2.5
+}

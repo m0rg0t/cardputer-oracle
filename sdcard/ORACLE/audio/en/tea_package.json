@@ -1,0 +1,10 @@
+{
+  "sha256": "ff01532409a8db623ebd2e648884340be404c43eae884872b4d294dfd1e5154e",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "The tea packet will promise morning mist, mountain breezes and harmony. You'll brew it in your ordinary kitchen, wearing slippers. To marketing's surprise, that will be quite enough.",
+  "seconds": 11.099125,
+  "normalization_gain": 1.6049382716049383
+}

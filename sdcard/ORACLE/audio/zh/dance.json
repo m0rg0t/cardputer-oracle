@@ -1,0 +1,10 @@
+{
+  "sha256": "19019d1767c18644c8cfc9f5907d39598e554bf18884eb1a4d673e1110f61e87",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "一段意外的旋律会为你指路。原来是微波炉在响：晚餐好了，宇宙强烈建议你配合。",
+  "seconds": 7.709,
+  "normalization_gain": 2.5
+}

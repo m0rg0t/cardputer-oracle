@@ -1,0 +1,10 @@
+{
+  "sha256": "210f8a044e0864bbe4f67e80670a1dffd3daec0edba079ddfad812e94d5b8308",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你会找到那个做出迷惑决定的人，变更记录显示正是你自己。别生气：那时的你也打算回来收拾残局。",
+  "seconds": 8.962875,
+  "normalization_gain": 2.5
+}

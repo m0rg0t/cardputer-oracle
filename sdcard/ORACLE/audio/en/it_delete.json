@@ -1,0 +1,10 @@
+{
+  "sha256": "eeb961bec8dda20148764406dbe4197ec0adb523c60d25f7b789eab00f4e4b3d",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will delete two hundred lines and improve the program. Your productivity report will look suspicious. Explain that you weren't losing work; you were finding the solution.",
+  "seconds": 10.356125,
+  "normalization_gain": 1.3850415512465375
+}

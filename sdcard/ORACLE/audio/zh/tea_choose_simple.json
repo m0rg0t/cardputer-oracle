@@ -1,0 +1,10 @@
+{
+  "sha256": "1c62dad62400a6248202a3e033ed9a47f61900c9dec9177f08ce83706d298a18",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "有人问你喜欢哪种茶，你很乐意回答：正在泡的那种。你的品味已进阶到这个地步：好陪伴比叶子的准确名字更重要。",
+  "seconds": 9.9845625,
+  "normalization_gain": 2.5
+}

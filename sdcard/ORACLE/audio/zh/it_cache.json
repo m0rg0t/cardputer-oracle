@@ -1,0 +1,10 @@
+{
+  "sha256": "0fdcf266f7454f7a786ea6e57840691988c2309ebef19fd14a073fa04747c977",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你会学着放下过去，先从浏览器缓存开始。原来你花两小时，正和午饭前完成任务的自己争论。",
+  "seconds": 8.1734375,
+  "normalization_gain": 2.5
+}

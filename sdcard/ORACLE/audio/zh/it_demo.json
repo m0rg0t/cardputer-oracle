@@ -1,0 +1,10 @@
+{
+  "sha256": "9d0581cbcbb55cb160c4f32b043c509dd5e34a8d622f81ef090d04a7d14b8aec",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "代码第一次运行就成功。你还是会再跑一遍，以求安心。信任很重要，但显然还得复测一次。",
+  "seconds": 8.034125,
+  "normalization_gain": 2.5
+}

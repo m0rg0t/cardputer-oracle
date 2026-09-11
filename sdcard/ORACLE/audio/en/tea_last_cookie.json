@@ -1,0 +1,10 @@
+{
+  "sha256": "22155170fde2fd1f1360e5c092ad8a0e86a658d9f84a05ffe1317bb5ddf03ff0",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "The last biscuit will be offered three times and politely returned to the plate. On the fourth attempt, someone will eat it. Let it be you. Every ceremony needs someone who can bring it to a close.",
+  "seconds": 11.7493125,
+  "normalization_gain": 1.6541544725792086
+}

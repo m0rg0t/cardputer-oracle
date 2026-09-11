@@ -1,0 +1,10 @@
+{
+  "sha256": "0a1f8a0c42252b577919f1b9363cfd9c659c929d24dedae046fd9118dbe7cba2",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你会用半小时交接项目，其中二十五分钟解释文件夹为何叫“旧_新_最终版”。剩下五分钟讲项目本身，绰绰有余，清楚多了。",
+  "seconds": 11.702875,
+  "normalization_gain": 2.5
+}

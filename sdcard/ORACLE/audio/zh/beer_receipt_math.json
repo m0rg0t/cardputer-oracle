@@ -1,0 +1,10 @@
+{
+  "sha256": "5c95e3f813f3f45e7adc676540993a1ea2d2d7929c4cac5957bef5a960fdd611",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "账单将和平分摊。那个自称数学苦手的朋友，反而第一个算清。任何天赋，都需要合适的场合。",
+  "seconds": 9.6130625,
+  "normalization_gain": 2.5
+}

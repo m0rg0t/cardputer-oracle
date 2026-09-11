@@ -1,0 +1,10 @@
+{
+  "sha256": "69cac6816bfa11151739e2ceaecbcaeda48593b7e31880f09611c06d5068319b",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "They will recognise you at your favourite pub and ask how your little project is going. Apparently you talked about it all evening last time. Your hobby now has regular customers.",
+  "seconds": 10.8205,
+  "normalization_gain": 1.4284929399483546
+}

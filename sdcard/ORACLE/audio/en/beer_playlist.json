@@ -1,0 +1,10 @@
+{
+  "sha256": "ba0e1b3d23e2d5e21843044a5ff96f11eb9019d25df5cb1406f298afa9ca7df4",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will find common ground at the first note of a familiar song. A minute ago you were debating software architecture. Now you are a distributed choir.",
+  "seconds": 10.21675,
+  "normalization_gain": 1.5921616656460502
+}

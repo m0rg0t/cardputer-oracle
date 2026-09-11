@@ -1,0 +1,10 @@
+{
+  "sha256": "ab50d289e2b9bf527ae07b6fb75f593cc384ac7f7596b48e85f9587e1d2c763b",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你删掉两百行代码，程序反而更好了。效率报告看起来很可疑，就说你不是在丢工作，而是在找到答案。",
+  "seconds": 9.4273125,
+  "normalization_gain": 2.5
+}

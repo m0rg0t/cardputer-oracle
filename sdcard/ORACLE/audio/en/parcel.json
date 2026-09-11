@@ -1,0 +1,10 @@
+{
+  "sha256": "44a7a71f7b9f524dfa38b6ffb88818af937135029964c38b79c689c85d69ef63",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "A gift is coming from someone who knows exactly what you want. It's you. The parcel is already on its way.",
+  "seconds": 6.6409375,
+  "normalization_gain": 1.707156927117531
+}

@@ -1,0 +1,10 @@
+{
+  "sha256": "02f18a9e9ebcec804934c8276b28a4bb034eab9f91a6faacb7ebcdfb3d7314d7",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你精心调好工作区，却意外重置，结果几乎没看出差别。真正的改进，是你终于坐得舒服了。",
+  "seconds": 7.8948125,
+  "normalization_gain": 2.5
+}

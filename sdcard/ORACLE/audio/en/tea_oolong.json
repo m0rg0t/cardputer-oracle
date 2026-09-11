@@ -1,0 +1,10 @@
+{
+  "sha256": "e977ada0ffc9098ca993ba340727eb9e1994fa2a51a53864d9b07564247fe915",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will start by saying it's just tea. An hour later you'll explain why these leaves deserve another infusion. Expertise brews surprisingly fast.",
+  "seconds": 9.752375,
+  "normalization_gain": 1.3958982068076882
+}

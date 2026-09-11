@@ -1,0 +1,10 @@
+{
+  "sha256": "bb09c03e98f1760e01ff67f2688dcc8289a663f1705025ca010f1f33ea2b7a9f",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "最后一块饼干被客气地推让三次，又放回盘中。第四次总有人会吃掉它。就让你来吧，每场仪式都需要有人负责收尾。",
+  "seconds": 10.727625,
+  "normalization_gain": 2.5
+}

@@ -1,0 +1,10 @@
+{
+  "sha256": "834965b0fd6faacad15f3d0f953ac24e31275a29c7833f7ae7eefcdc7d524471",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You'll try to photograph your glass beautifully. The foam will settle while your friends start laughing. The result: a blurred glass and a wonderful evening. Keep that one.",
+  "seconds": 11.702875,
+  "normalization_gain": 1.6649590163934427
+}

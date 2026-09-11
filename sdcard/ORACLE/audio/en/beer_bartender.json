@@ -1,0 +1,10 @@
+{
+  "sha256": "050247910ee41d0095058e8b7cc6459cb07dde461a95f2444efbd74e50c43257",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will meet a sage who can answer any question. The bartender. If the answer sounds like a beer name, your question was philosophical enough.",
+  "seconds": 9.3344375,
+  "normalization_gain": 1.597542242703533
+}

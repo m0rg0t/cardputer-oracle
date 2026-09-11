@@ -1,0 +1,10 @@
+{
+  "sha256": "eea79f0a94e9dcc2f08ad73880178177c6e850149bb99bfd09282ecd10fc304d",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "Your code will send you a sign. A red one. In the console. Don't panic: the universe would like a word about one small bracket.",
+  "seconds": 8.034125,
+  "normalization_gain": 1.444926086473269
+}

@@ -1,0 +1,10 @@
+{
+  "sha256": "35178985c3221e7434254d7487e4220f3f28f499e52e34055cce834d77f8c7b3",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will get the last glass of a rare beer and try hard to remember the taste. Next week you'll only recall the lovely label and the even better company.",
+  "seconds": 9.84525,
+  "normalization_gain": 1.7488397121140782
+}

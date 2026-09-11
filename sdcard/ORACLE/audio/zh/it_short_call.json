@@ -1,0 +1,10 @@
+{
+  "sha256": "8669f530ac850c024090fc92d0fcb416ec421ee1af33b46047cfc07a393b7e3e",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "有人说只占用五分钟，居然真的只用了五分钟。你盯着关闭的会议窗口发呆，怀疑自己漏掉了哪个条件。",
+  "seconds": 9.195125,
+  "normalization_gain": 2.5
+}

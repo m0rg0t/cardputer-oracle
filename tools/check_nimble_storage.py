@@ -1,18 +1,21 @@
 #!/usr/bin/env python3
 """Reject a firmware build whose BLE library still depends on NVS."""
 from pathlib import Path
+import argparse
 import hashlib
 import json
 import os
 import subprocess
 
 from nimble_m5apps import ram_only_device
+from languages import LANGUAGES, firmware_env
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def verify():
-    build = ROOT / 'firmware/.pio/build/oracle-adv'
+def verify(language='en'):
+    environment=firmware_env(language)
+    build = ROOT / 'firmware/.pio/build' / environment
     packages = Path(os.environ.get('PLATFORMIO_CORE_DIR', Path.home() / '.platformio')) / 'packages'
     nm = packages / 'toolchain-xtensa-esp32s3/bin/xtensa-esp32s3-elf-nm'
     libraries = list(build.glob('lib*/libNimBLE-Arduino.a'))
@@ -23,7 +26,7 @@ def verify():
     assert all(s in unresolved for s in ('esp_bt_controller_init', 'esp_bt_controller_enable', 'nimble_port_init')), 'BLE initialization was removed'
     printer = subprocess.check_output([str(nm), '-u', str(build / 'src/bq95_printer.cpp.o')], text=True)
     assert 'nvs_' not in printer, 'Printer still requires NVS'
-    original = ROOT / 'firmware/.pio/libdeps/oracle-adv/NimBLE-Arduino/src/NimBLEDevice.cpp'
+    original = ROOT / 'firmware/.pio/libdeps' / environment / 'NimBLE-Arduino/src/NimBLEDevice.cpp'
     generated = build / 'oracle-generated/NimBLEDevice.cpp'
     assert generated.read_text() == ram_only_device(original.read_text()), 'Generated source is stale'
     stores = list(build.glob('lib*/NimBLE-Arduino/**/ble_store_nvs.c.o'))
@@ -44,9 +47,12 @@ def verify():
         'physical_ble_start_and_print_verified': False,
     }
     version=(ROOT/'VERSION').read_text().strip()
-    (ROOT / f'docs/nimble-storage-{version}-validation.json').write_text(json.dumps(report, indent=2) + '\n')
+    report['language']=language
+    (ROOT / f'docs/nimble-storage-{version}-{language}-validation.json').write_text(json.dumps(report, indent=2) + '\n')
     print(json.dumps(report, indent=2))
 
 
 if __name__ == '__main__':
-    verify()
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--language',choices=LANGUAGES,default='en')
+    verify(parser.parse_args().language)

@@ -1,0 +1,10 @@
+{
+  "sha256": "1f920e7b9076b45c188ca2e55409e0a047029376c1bfd915426de53c5a5a0627",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "Even on a grey day, you will have your own little sun floating in a mug. Don't ask the lemon to solve everything. It's only on decorative duty.",
+  "seconds": 9.380875,
+  "normalization_gain": 1.7754711827369571
+}

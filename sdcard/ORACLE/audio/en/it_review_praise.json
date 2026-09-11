@@ -1,0 +1,10 @@
+{
+  "sha256": "63fecacd6ee123d6931224feaa3db4ce028df3460682196ae12bb95908687e2a",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "Your work will be approved with the words: looks good. Your first instinct will be to ask whether anyone actually read it. Try accepting praise without requesting further evidence.",
+  "seconds": 11.4241875,
+  "normalization_gain": 1.453813464549318
+}

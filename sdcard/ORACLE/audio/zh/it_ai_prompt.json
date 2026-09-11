@@ -1,0 +1,10 @@
+{
+  "sha256": "6348ef64211a3cce471a84298dd5b2b3fa10bfa4ccf3a97fe7aa0a0918a1846a",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你会把任务解释得足够清楚，结果自己先想出了答案。AI还是会发来长篇回复，恭敬点头吧，你们都干得不错。",
+  "seconds": 10.5883125,
+  "normalization_gain": 2.5
+}

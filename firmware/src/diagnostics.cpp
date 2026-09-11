@@ -27,6 +27,6 @@ void diagnosticBoot() {
 }
 void diagnosticSaveBoot() {
     auto f=SD.open("/ORACLE/diagnostic.txt",FILE_WRITE);
-    if(f) f.printf("Oracle 0.5.3\nReset reason: %u\nPrevious stage: %s\nFree heap: %u\n",reason,label(previous),ESP.getFreeHeap());
+    if(f) f.printf("Oracle 0.6.0\nReset reason: %u\nPrevious stage: %s\nFree heap: %u\n",reason,label(previous),ESP.getFreeHeap());
 }
 }

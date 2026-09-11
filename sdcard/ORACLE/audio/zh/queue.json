@@ -1,0 +1,10 @@
+{
+  "sha256": "2d904983428d8d013e63a8940e353a112fea90d724b757eba938721431ae2327",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "宇宙会给你独处思绪的时间。在队伍里。下一队会移动得更快，让体验更加深刻。",
+  "seconds": 7.7554375,
+  "normalization_gain": 2.5
+}

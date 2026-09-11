@@ -1,0 +1,10 @@
+{
+  "sha256": "1850a75acae2b6af4a80233c55a92e5e3e43defffc00c06ba0b9156560899905",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will choose a beer with a three-line name and a two-page backstory. The bartender will nod: the pale one, got it. Marketing's best translator works behind the bar.",
+  "seconds": 9.9845625,
+  "normalization_gain": 1.386814593556646
+}

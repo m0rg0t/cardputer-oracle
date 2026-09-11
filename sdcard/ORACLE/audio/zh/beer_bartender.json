@@ -1,0 +1,10 @@
+{
+  "sha256": "41ae5d651b77e5bafb02743c2c6d7e68aee16e1a7a35a60a30c6d3504656e453",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你会遇到一位能回答任何问题的智者：酒保。如果答案听起来像啤酒名，说明你的问题足够哲学。",
+  "seconds": 9.0093125,
+  "normalization_gain": 2.5
+}

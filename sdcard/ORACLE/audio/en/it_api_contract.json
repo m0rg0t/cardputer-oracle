@@ -1,0 +1,10 @@
+{
+  "sha256": "8f4b303a79fb12e6421704bbd94f08587f91ce53c7dc87a4187bf4d572ce9473",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "Two teams will interpret the documentation the same way. Integration will work first time. The meeting booked to settle the argument can become a friendly introduction.",
+  "seconds": 10.63475,
+  "normalization_gain": 1.488776912505726
+}

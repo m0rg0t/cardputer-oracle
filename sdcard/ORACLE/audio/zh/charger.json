@@ -1,0 +1,10 @@
+{
+  "sha256": "ce092c3c08cf47e81affed713db38389d7cd05b31f64004a895c1d221763315a",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你的能量很快就会回来。先给手机找充电器，再给自己找点吃的。可别把接口弄混了。",
+  "seconds": 8.31275,
+  "normalization_gain": 2.5
+}

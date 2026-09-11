@@ -1,3 +1,4 @@
+#include "oracle/locale.h"
 #include "oracle/core.h"
 #include "oracle/text_rules.h"
 #include "oracle/builtin_deck.h"
@@ -15,10 +16,10 @@ const char* themeKey(Theme theme) {
 }
 const char* themeLabel(Theme theme) {
     switch(theme) {
-        case Theme::Beer: return "ПИВНАЯ";
-        case Theme::Tea: return "ЧАЙНАЯ";
-        case Theme::Tarot: return "ТАРО / AI";
-        default: return "АЙТИ И ЮМОР";
+        case Theme::Beer: return ORACLE_I18N("BEER", "ПИВНАЯ", "啤酒");
+        case Theme::Tea: return ORACLE_I18N("TEA", "ЧАЙНАЯ", "茶");
+        case Theme::Tarot: return ORACLE_I18N("TAROT / AI", "ТАРО / AI", "塔罗 / AI");
+        default: return ORACLE_I18N("TECH & EVERYDAY", "АЙТИ И ЮМОР", "科技与日常");
     }
 }
 namespace {
@@ -42,7 +43,7 @@ bool validAssetPath(const std::string& path, const char* extension) {
 }
 bool validPrediction(const Prediction& p) {
     return validId(p.id) && !p.title.empty() && p.title.size() <= 48 &&
-        !p.text.empty() && p.text.size() <= 1400 && p.topic.size() <= 48 && p.question.size()<=160 && p.motif < 4 &&
+        !p.text.empty() && p.text.size() <= 1400 && p.topic.size() <= 48 && p.question.size()<=kQuestionMaxBytes && p.motif < 4 &&
         validAssetPath(p.image, ".jpg") && validAssetPath(p.audio, ".wav");
 }
 std::string receiptContent(const Prediction& p) {
@@ -114,7 +115,7 @@ bool Controller::trigger(std::uint32_t now) {
         return true;
     }
     if (!source_.next({themeKey(view.theme),""}, view.result)) {
-        view.screen = Screen::Error; view.notice = "В этой теме нет карточек"; return false;
+        view.screen = Screen::Error; view.notice = ORACLE_I18N("No cards in this theme", "В этой теме нет карточек", "此主题无卡牌"); return false;
     }
     view.lines = wrap(view.result.text, kColumns);
     view.showArt = false; view.scroll = 0; view.started = now; view.screen = Screen::Ritual; view.notice.clear();
@@ -128,7 +129,7 @@ bool Controller::acceptRemote(const Prediction& result, std::uint32_t now) {
     if(view.screen != Screen::Generating || view.theme != Theme::Tarot ||
        result.topic != "tarot" || !validPrediction(result)) return false;
     view.result = result;
-    view.lines = wrap((result.question.empty()?"":"Вопрос: "+result.question+"\n\n")+result.text, kColumns);
+    view.lines = wrap((result.question.empty()?"":ORACLE_I18N("Question: ", "Вопрос: ", "问题： ")+result.question+"\n\n")+result.text, kColumns);
     view.notice.clear(); view.started = now; view.screen = Screen::Ritual;
     return true;
 }

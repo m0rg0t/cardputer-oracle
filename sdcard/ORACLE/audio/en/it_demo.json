@@ -1,0 +1,10 @@
+{
+  "sha256": "335a96644d65e27e5428bc2f2684a8a0db3779f4cfe9036f4d6cc8a5f87b21f0",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "Your code will work on the first run. You will run it again, just to be sure. Trust is important, but apparently it needs a second test.",
+  "seconds": 8.405625,
+  "normalization_gain": 1.4909966739304965
+}

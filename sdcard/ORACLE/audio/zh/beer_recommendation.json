@@ -1,0 +1,10 @@
+{
+  "sha256": "fa74bdf61853229a2e1141893527afa86c4f5d80a24fd3b2908e0763792a03e0",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "酒保问两个简单问题，就能找到你的理想啤酒。你会想起工作中那份四十题问卷，帮谁都没帮上。它的作者该来这儿坐坐。",
+  "seconds": 10.8205,
+  "normalization_gain": 2.5
+}

@@ -1,0 +1,10 @@
+{
+  "sha256": "c4f192062c0843cd23baed5ad7f74b64b612c4ef026e663949051bbc718c46a4",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "熟悉的故事会突然拐弯。大概是佛手柑。你可以告诉朋友，自己闻到了巨变的气息，听起来更厉害。",
+  "seconds": 8.1734375,
+  "normalization_gain": 2.5
+}

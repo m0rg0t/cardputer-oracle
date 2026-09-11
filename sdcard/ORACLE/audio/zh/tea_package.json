@@ -1,0 +1,10 @@
+{
+  "sha256": "d3dd247c1de37195bde7d782f2362fbf468a4f61575b3522aca09660f037bf3f",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "茶包承诺清晨薄雾、山间微风与和谐。你穿着拖鞋，在普通厨房里泡开它。出乎营销人员意料，这样就已经很够了。",
+  "seconds": 10.1703125,
+  "normalization_gain": 2.5
+}

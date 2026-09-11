@@ -1,0 +1,10 @@
+{
+  "sha256": "b69240ff1f5cf4b4ce1ee535179db559b4f338e3b65e8393c7aa13879e094a8f",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "A glass of water will be your best order between conversations. Nobody will spend ten minutes debating the flavour. Sometimes a drink is perfect because it requires no commentary.",
+  "seconds": 11.099125,
+  "normalization_gain": 1.566359419242123
+}

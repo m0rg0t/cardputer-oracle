@@ -1,0 +1,10 @@
+{
+  "sha256": "2070c35fb6c10125942a40dc5e073733da8ea326b2b339508a2d9fe2d8ea1744",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "Someone will ask for five minutes and actually take five minutes. You'll stare at the closed meeting window for a while, wondering which condition you missed.",
+  "seconds": 8.7306875,
+  "normalization_gain": 1.2332795749928849
+}

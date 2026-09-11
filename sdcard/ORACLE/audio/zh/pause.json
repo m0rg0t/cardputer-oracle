@@ -1,0 +1,10 @@
+{
+  "sha256": "93dae6ca8c1e951755688d9998d6bf56b5d9b002d5d7fb59a88e027600d663f8",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "星星准许你休息。许可永不过期，印章是想象的。谁有意见，直接联系星星。",
+  "seconds": 7.7554375,
+  "normalization_gain": 2.5
+}

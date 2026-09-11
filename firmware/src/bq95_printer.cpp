@@ -1,3 +1,4 @@
+#include "oracle/locale.h"
 #include "oracle/bq95_printer.h"
 #include "oracle/print_protocol.h"
 #include "oracle/tarot_receipt.h"
@@ -240,24 +241,24 @@ bool Bq95Printer::submit(const Prediction& result) {
     return true;
 }
 std::string Bq95Printer::notice() const {
-    if(!impl_) return "Печать недоступна";
+    if(!impl_) return ORACLE_I18N("Printing unavailable", "Печать недоступна", "无法打印");
     switch(status()) {
-        case PrintStatus::Searching: return "Ищем BQ95...";
-        case PrintStatus::Connecting: return "Подключаем BQ95...";
-        case PrintStatus::Sending: return "Печать: "+std::to_string(impl_->percent.load())+"%";
-        case PrintStatus::Sent: return "Чек передан. P: ещё копия";
-        case PrintStatus::Uncertain: return "Проверь бумагу. P: повтор";
+        case PrintStatus::Searching: return ORACLE_I18N("Searching for BQ95...", "Ищем BQ95...", "正在搜索BQ95...");
+        case PrintStatus::Connecting: return ORACLE_I18N("Connecting to BQ95...", "Подключаем BQ95...", "正在连接 BQ95…");
+        case PrintStatus::Sending: return ORACLE_I18N("Printing: ", "Печать: ", "正在打印： ")+std::to_string(impl_->percent.load())+"%";
+        case PrintStatus::Sent: return ORACLE_I18N("Receipt sent. P: copy", "Чек передан. P: ещё копия", "小票已发送。P：复制");
+        case PrintStatus::Uncertain: return ORACLE_I18N("Check paper. P: retry", "Проверь бумагу. P: повтор", "检查纸张。P：重试");
         default: break;
     }
     switch(impl_->error.load()) {
-        case Error::None: return "P: печать на BQ95";
-        case Error::NotFound: return "BQ95 не найден. P: поиск";
-        case Error::Receipt: return "Нет чека: обнови ORACLE";
-        case Error::NoMemory: return "Мало памяти для печати";
-        case Error::State: return "Проверь камеру и бумагу";
-        case Error::Profile: return "BQ95: сервис недоступен";
-        case Error::Timeout: case Error::Connect: return "Открой QR FunPrint. P: снова";
-        default: return "Связь с BQ95 прервалась";
+        case Error::None: return ORACLE_I18N("P: print on BQ95", "P: печать на BQ95", "P：在BQ95上打印");
+        case Error::NotFound: return ORACLE_I18N("BQ95 not found. P: search", "BQ95 не найден. P: поиск", "未找到 BQ95。P：搜索");
+        case Error::Receipt: return ORACLE_I18N("No receipt: update ORACLE", "Нет чека: обнови ORACLE", "无小票：更新ORACLE");
+        case Error::NoMemory: return ORACLE_I18N("Not enough memory to print", "Мало памяти для печати", "内存不足，无法打印");
+        case Error::State: return ORACLE_I18N("Check camera and paper", "Проверь камеру и бумагу", "检查相机和纸张");
+        case Error::Profile: return ORACLE_I18N("BQ95 service unavailable", "BQ95: сервис недоступен", "BQ95 服务不可用");
+        case Error::Timeout: case Error::Connect: return ORACLE_I18N("Open FunPrint QR. P: retry", "Открой QR FunPrint. P: снова", "打开FunPrint二维码。P：重试");
+        default: return ORACLE_I18N("BQ95 disconnected", "Связь с BQ95 прервалась", "BQ95 已断开");
     }
 }
 }

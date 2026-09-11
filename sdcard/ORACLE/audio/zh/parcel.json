@@ -1,0 +1,10 @@
+{
+  "sha256": "5feb4e018c99c9b5d222a64da58ae1baea89fceb533bd59e4476ed1f86569939",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "懂你心意的人正寄来一份礼物。那个人就是你。包裹已经在路上了。",
+  "seconds": 6.6409375,
+  "normalization_gain": 2.5
+}

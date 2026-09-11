@@ -1,0 +1,10 @@
+{
+  "sha256": "74c4098563835ee5e64a5a7d8c383bc62f54ed741089f9949b3379de590d4a45",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "聊天间隙，一杯水会成为你最好的选择。没人会花十分钟讨论它的风味。有时饮品完美，只因无需评论。",
+  "seconds": 10.031,
+  "normalization_gain": 2.5
+}

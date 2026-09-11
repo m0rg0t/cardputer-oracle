@@ -1,0 +1,10 @@
+{
+  "sha256": "920f266bc3799fdde2a05edc1ca177050bafc2dcbdda170e7388cbbb68ca2140",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你会尝出面包皮、柑橘和一丝焦糖。你的朋友只尝出啤酒。美好夜晚正等着你学会尊重不同深度的研究。",
+  "seconds": 9.752375,
+  "normalization_gain": 2.5
+}

@@ -1,0 +1,10 @@
+{
+  "sha256": "95141a6b00c691d7df493ae739b60c41d8ba2eab392bd63ea6fc0d7f4adef31b",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你会觉得万物相连，尤其是茶包和那根小纸签。保护好这段关系，否则只能拿勺子捞答案。",
+  "seconds": 7.801875,
+  "normalization_gain": 2.5
+}

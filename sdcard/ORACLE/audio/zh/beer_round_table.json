@@ -1,0 +1,10 @@
+{
+  "sha256": "d604e758290861b18a5b87d49224a8e1df7985a2be9287167577c00131c520fa",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你们桌上每个人都有一个奇葩客户的故事。聊到最后，你会发现其中两个故事的客户正是你。幸好，讲故事的人都带着善意。",
+  "seconds": 10.727625,
+  "normalization_gain": 2.5
+}

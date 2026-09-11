@@ -1,0 +1,10 @@
+{
+  "sha256": "f0f42f9d9c1cdbbd9908cc8f8a424d0ef3a3a38bec2643ad3bd25a66a41a340d",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你想把杯子拍得很漂亮，泡沫却在朋友笑起来时慢慢消失。成片只有模糊的酒杯，却留下了精彩的夜晚。留着吧。",
+  "seconds": 10.7740625,
+  "normalization_gain": 2.5
+}

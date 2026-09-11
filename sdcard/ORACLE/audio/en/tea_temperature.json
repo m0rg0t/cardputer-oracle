@@ -1,0 +1,10 @@
+{
+  "sha256": "56e54d62a9f84b3473c4bc6b9b188bdbe7d67f6865af950dc4464b3b17798482",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "Your tea will reach the perfect temperature just as someone asks a question. Today you'll finally say: give me a minute. Let one important appointment start on time.",
+  "seconds": 10.1703125,
+  "normalization_gain": 1.713683100448194
+}

@@ -1,0 +1,10 @@
+{
+  "sha256": "183315b21923ebc6aa5f6f7cd4ee1a702e378383ef0de7d13517bcff933a5e54",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你会找到完美的变量名，省掉一半注释。另一半请留着：它们解释了事情为何如此复杂。",
+  "seconds": 8.2663125,
+  "normalization_gain": 2.5
+}

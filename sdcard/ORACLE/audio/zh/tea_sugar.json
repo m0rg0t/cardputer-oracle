@@ -1,0 +1,10 @@
+{
+  "sha256": "080cf32618de6b5e46d6dc9eb1eed2cac6dc469afcc239df274a27fd42cbcd5d",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "客人说加一点糖，你竟猜中了那个“一点”究竟是多少。这是专业级成就；工作中听懂含糊要求，通常只会换来更多含糊要求。",
+  "seconds": 12.1208125,
+  "normalization_gain": 2.5
+}

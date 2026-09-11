@@ -1,0 +1,10 @@
+{
+  "sha256": "5250a8bdfa7f4b6b5d2a6a888fbee303d48cf793033b3f83cfaadfd7c745614e",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will ask AI to review code written by AI. It will find flaws and suggest improvements. By the end, you'll be the only member of the team who missed lunch.",
+  "seconds": 10.1703125,
+  "normalization_gain": 1.7804560706704102
+}

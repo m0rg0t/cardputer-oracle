@@ -1,0 +1,10 @@
+{
+  "sha256": "7699f2afd262dbe1d4ee19eae746d95349274a9dbc0dbd006e074889d64054fd",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will fix a major problem with one line of configuration. It will look like a minute's work. The three hours spent finding that line can go in your memoirs.",
+  "seconds": 9.4273125,
+  "normalization_gain": 1.6153081510934393
+}

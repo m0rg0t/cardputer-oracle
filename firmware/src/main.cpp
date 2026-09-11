@@ -1,3 +1,6 @@
+#include "oracle/locale.h"
+#include "oracle/chinese_font.h"
+#include "oracle/chinese_font_file.h"
 #include <SD.h>
 #include <M5Cardputer.h>
 #include <SPI.h>
@@ -18,6 +21,25 @@
 
 namespace {
 using namespace oracle;
+#if ORACLE_LANG_ZH
+File chineseFont;
+SemaphoreHandle_t chineseFontMutex=nullptr;
+bool readSdChineseGlyph(std::uint16_t code,std::uint16_t* rows) {
+    if(!chineseFontMutex || xSemaphoreTake(chineseFontMutex,pdMS_TO_TICKS(1000))!=pdTRUE) return false;
+    struct Entry { std::uint16_t code=0, rows[12]{}; };
+    static Entry cache[32];
+    static unsigned next=0;
+    for(const auto& entry:cache) if(entry.code==code) {
+        std::memcpy(rows,entry.rows,24); xSemaphoreGive(chineseFontMutex); return true;
+    }
+    const bool found=readChineseFontFile(code,rows,[](unsigned offset,std::uint8_t* bytes,unsigned size) {
+        return chineseFont && chineseFont.seek(offset) && chineseFont.read(bytes,size)==size;
+    });
+    if(found) { cache[next].code=code; std::memcpy(cache[next].rows,rows,24); next=(next+1)%32; }
+    xSemaphoreGive(chineseFontMutex);
+    return found;
+}
+#endif
 std::uint8_t masterVolume=kDefaultVolume;
 class SdCatalog final : public Catalog {
     std::vector<std::string> ids_;
@@ -31,6 +53,7 @@ public:
         std::unique_ptr<char[]> bytes(new(std::nothrow) char[size]);
         if(!bytes || f.read(reinterpret_cast<std::uint8_t*>(bytes.get()),size)!=size) return false;
         if(deserializeJson(doc,bytes.get(),size) || doc["schema"].as<int>()!=1 || !doc["ids"].is<JsonArray>()) return false;
+        if(!matchesPackLanguage(doc["language"].as<const char*>())) return false;
         auto list=doc["ids"].as<JsonArray>();
         if(list.size()<1 || list.size()>256) return false;
         std::set<std::string> unique;
@@ -86,10 +109,10 @@ public:
     }
     bool start(const std::string& path) {
         stop(); error.clear();
-        if(path.empty()) { error="Для карточки нет голоса"; return false; }
+        if(path.empty()) { error=ORACLE_I18N("No voice for this card", "Для карточки нет голоса", "此卡无语音"); return false; }
         file_=SD.open(path.c_str());
-        if(!file_ || !parseWav(file_,info_)) { file_.close(); error="WAV недоступен"; return false; }
-        if(!M5Cardputer.Speaker.begin()) { file_.close(); error="Ошибка динамика"; return false; }
+        if(!file_ || !parseWav(file_,info_)) { file_.close(); error=ORACLE_I18N("WAV unavailable", "WAV недоступен", "WAV 不可用"); return false; }
+        if(!M5Cardputer.Speaker.begin()) { file_.close(); error=ORACLE_I18N("Speaker error", "Ошибка динамика", "扬声器错误"); return false; }
         M5Cardputer.Speaker.setVolume(masterVolume);
         M5Cardputer.Speaker.setChannelVolume(0,255);
         remaining_=info_.bytes;
@@ -107,7 +130,7 @@ public:
         if(!pending_ && remaining_) {
             const std::size_t n=std::min(std::uint32_t(sizeof(buffers_[0])),remaining_);
             const auto got=file_.read(reinterpret_cast<std::uint8_t*>(buffers_[next_]),n);
-            if(got!=n) { stop(); error="Ошибка чтения WAV"; return; }
+            if(got!=n) { stop(); error=ORACLE_I18N("WAV read error", "Ошибка чтения WAV", "WAV 读取错误"); return; }
             remaining_-=got; pending_=got/2;
             for(std::size_t i=0;i<pending_;++i) buffers_[next_][i]=loudVoice(buffers_[next_][i]);
         }
@@ -157,12 +180,12 @@ void loadArt() {
     artReady=false;
     if(app->view.result.image.empty()) return;
     auto f=SD.open(app->view.result.image.c_str());
-    if(!f || f.size()>65536) { app->view.notice="Картинка недоступна"; return; }
+    if(!f || f.size()>65536) { app->view.notice=ORACLE_I18N("Image unavailable", "Картинка недоступна", "图像不可用"); return; }
     f.close();
     if(!art.getBuffer()) { art.setColorDepth(16); if(!art.createSprite(92,92)) return; }
     art.fillScreen(0x100E1B);
     artReady=art.drawJpgFile(SD,app->view.result.image.c_str(),0,0,92,92);
-    if(!artReady) app->view.notice="Картинка повреждена";
+    if(!artReady) app->view.notice=ORACLE_I18N("Image damaged", "Картинка повреждена", "图像损坏");
 }
 void startVoice() {
     if(app->view.muted || app->view.result.topic=="tarot") return;
@@ -189,7 +212,7 @@ void trigger() {
 void submitQuestion() {
     if(!app->submitQuestion(millis())) return;
     art.deleteSprite(); artReady=false;
-    if(printer.busy() || !printer.releaseRadio()) app->failRemote("Дождись окончания печати");
+    if(printer.busy() || !printer.releaseRadio()) app->failRemote(ORACLE_I18N("Wait for printing to finish", "Дождись окончания печати", "等待打印完成"));
     else if(!tarot.start(app->view.question)) app->failRemote(tarot.notice());
     else effects.play(Sound::Click);
 }
@@ -213,7 +236,7 @@ void key(char k) {
         if(app->view.screen==Screen::Result) {
             player.stop(); effects.stop(); effects.play(Sound::Click);
             app->view.notice.clear();
-            if(app->view.result.topic=="tarot") app->view.notice="Таро: текст и печать";
+            if(app->view.result.topic=="tarot") app->view.notice=ORACLE_I18N("Tarot: text and print", "Таро: текст и печать", "塔罗：文字并打印");
             else narration.request();
         }
     }
@@ -224,13 +247,13 @@ void key(char k) {
     else if(k=='+' || k=='=' || k=='-') {
         masterVolume=std::max(0,std::min(255,int(masterVolume)+(k=='-'?-15:15)));
         M5Cardputer.Speaker.setVolume(masterVolume);
-        app->view.notice="Громкость: "+std::to_string((unsigned(masterVolume)*100+127)/255)+"%";
+        app->view.notice=ORACLE_I18N("Volume: ", "Громкость: ", "音量： ")+std::to_string((unsigned(masterVolume)*100+127)/255)+"%";
         effects.play(Sound::Click);
     }
     else if(k=='p' || k=='P') {
         if(app->view.screen==Screen::Result) {
             app->view.notice.clear();
-            if(tarot.busy()) app->view.notice="Завершаем сетевой запрос";
+            if(tarot.busy()) app->view.notice=ORACLE_I18N("Finishing network request", "Завершаем сетевой запрос", "正在完成网络请求");
             else if(!printer.busy()) printer.submit(app->view.result);
             effects.play(Sound::Click);
         }
@@ -250,6 +273,13 @@ void setup() {
     if(!boardReady) { M5Cardputer.Display.println("Cardputer ADV required"); return; }
     SPI.begin(40,39,14,12);
     bool mounted=SD.begin(12,SPI,20000000) && SD.cardType()!=CARD_NONE;
+#if ORACLE_LANG_ZH
+    if(mounted) {
+        chineseFont=SD.open("/ORACLE/fonts/chinese12.bin");
+        chineseFontMutex=xSemaphoreCreateMutex();
+        setChineseGlyphReader(readSdChineseGlyph);
+    }
+#endif
     if(mounted) diagnosticSaveBoot();
     bool loaded=mounted && sdCatalog.begin();
     Catalog& catalog=loaded?static_cast<Catalog&>(sdCatalog):static_cast<Catalog&>(builtin);
@@ -257,6 +287,7 @@ void setup() {
     app->view.sd=loaded;
     updateBattery();
     printer.begin();
+    Serial.println(kBuildLanguageMarker);
     Serial.printf("Oracle ready: %u cards, SD pack %s, heap %u\n",unsigned(catalog.size()),loaded?"yes":"no",ESP.getFreeHeap());
 }
 void loop() {
@@ -298,7 +329,7 @@ void loop() {
     Prediction remote; std::string remoteError;
     if(tarot.take(remote,remoteError) && app->view.screen==Screen::Generating) {
         if(remoteError.empty() && app->acceptRemote(remote,now)) effects.play(Sound::Ritual);
-        else { app->failRemote(remoteError.empty()?"Неверный расклад":remoteError); effects.play(Sound::Error); }
+        else { app->failRemote(remoteError.empty()?ORACLE_I18N("Invalid reading", "Неверный расклад", "解读无效"):remoteError); effects.play(Sound::Error); }
     }
     if(app->view.screen==Screen::Generating) app->view.notice=tarot.notice();
     if(app->tick(now)) {
@@ -312,7 +343,7 @@ void loop() {
     }
     app->view.printStatus=printer.status();
     app->view.printNotice=printer.resultId()==app->view.result.id ? printer.notice() :
-        (printer.busy()?"Печатаем предыдущий чек":"P: печать на BQ95");
+        (printer.busy()?ORACLE_I18N("Printing previous receipt", "Печатаем предыдущий чек", "正在打印上次小票"):ORACLE_I18N("P: print on BQ95", "P: печать на BQ95", "P：在BQ95上打印"));
     effects.update();
     if(narration.update(now,effects.busy(),app->view.screen==Screen::Result && !app->view.muted)) startVoice();
     player.update(); app->view.playing=player.playing();

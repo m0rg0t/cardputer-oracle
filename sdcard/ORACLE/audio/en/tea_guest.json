@@ -1,0 +1,10 @@
+{
+  "sha256": "23d2b31bb606cfb6cd2ee890ae5d999687364fefe5bfc4b23b21a6b35d50f4d0",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "Someone will pop in for a minute, and you'll offer tea. An hour later, the minute will turn out to have been approximate. Some people improve a schedule by ignoring it.",
+  "seconds": 9.6595,
+  "normalization_gain": 1.4081455805892549
+}

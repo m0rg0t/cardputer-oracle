@@ -1,0 +1,10 @@
+{
+  "sha256": "4f7d8b2603eb7ed0b5f2f69716b676e552436f8a214bdd6e856e87732a456b87",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "第二泡比第一泡更好喝。你决定凡事再给一次机会，冷披萨和电视剧也可以试试。晚上的工作电话就算了。",
+  "seconds": 9.7059375,
+  "normalization_gain": 2.5
+}

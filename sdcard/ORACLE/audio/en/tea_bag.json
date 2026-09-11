@@ -1,0 +1,10 @@
+{
+  "sha256": "7aaad31d5d21dab492e5403d88039506f9b18de653cfc0d5b5dc08adcba338fc",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will feel that everything is connected. Especially the tea bag and its little paper tag. Protect that connection, or you'll be fishing for answers with a spoon.",
+  "seconds": 9.8916875,
+  "normalization_gain": 1.401239558070601
+}

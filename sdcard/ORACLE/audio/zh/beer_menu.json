@@ -1,0 +1,10 @@
+{
+  "sha256": "9cba54dafd78b1ae6a252018f4ed802d6843e751c88d342febb54be6b6f3deca",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你将学会分辨细微差别：先分清拉格和艾尔，再分清深思熟虑与“朋友点啥我就点啥”。",
+  "seconds": 7.848375,
+  "normalization_gain": 2.5
+}

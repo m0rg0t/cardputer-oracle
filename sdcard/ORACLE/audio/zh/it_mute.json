@@ -1,0 +1,10 @@
+{
+  "sha256": "683f51a69f21d9c3cbf0cbec74361e3ac17c7f059f0a97a8b7f36468d5326914",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "下次通话你会说出完美想法，还能让人听完。然后他们会让你取消静音再说一遍，于是它变成了普通想法。",
+  "seconds": 9.195125,
+  "normalization_gain": 2.5
+}

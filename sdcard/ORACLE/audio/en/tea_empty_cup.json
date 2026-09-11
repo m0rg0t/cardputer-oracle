@@ -1,0 +1,10 @@
+{
+  "sha256": "8945be4161ba9def28d0cf8c13c790d294accee57ddb9a36cb285402f0d5d050",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "Your cup will empty before the conversation runs out. A good sign. In a bad conversation, you'd have noticed the cup, the clock and every crack in the ceiling long ago.",
+  "seconds": 9.938125,
+  "normalization_gain": 1.6860125802477142
+}

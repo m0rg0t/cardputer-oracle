@@ -1,0 +1,10 @@
+{
+  "sha256": "b1f7372beab22708b946726e9e37887ae35847559b28f3255b0bda4b40e15bb7",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "A long journey lies ahead: from the kitchen to the sofa. Along the way, you will face a test of character: remembering why you got up.",
+  "seconds": 10.6811875,
+  "normalization_gain": 1.574135738935642
+}

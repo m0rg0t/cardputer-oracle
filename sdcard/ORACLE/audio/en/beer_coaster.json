@@ -1,0 +1,10 @@
+{
+  "sha256": "0fc9c45fb3b1a62c30a8aa6854ba20c691a0c95829b420d940fe0e42db784c23",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "A brilliant business idea will be born on a napkin. The glass ring can serve as the logo. All you need now is a problem it actually solves.",
+  "seconds": 10.123875,
+  "normalization_gain": 1.5201122544434051
+}

@@ -1,0 +1,10 @@
+{
+  "sha256": "3a54eb456f929cda20212ec9b7ee810a29e5097d78b5ac7ff383ab539ebbad88",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "第一口下肚后，你会若有所思地停顿。大家以为你在品回味，其实你只是在想：厨房窗户关了吗？",
+  "seconds": 8.9164375,
+  "normalization_gain": 2.5
+}

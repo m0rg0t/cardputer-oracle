@@ -19,8 +19,8 @@ std::string response(const std::string& reading) {
 int main(int argc,char** argv) {
     using namespace oracle;
     const std::array<unsigned,3> cards{1,17,19};
-    const std::string question="Как пройдёт мой доклад?";
-    const std::string reading="Вчера ты приручил хаос, сегодня ловишь звёзды. Завтра даже самый строгий слушатель улыбнётся: твоя магия сработает, особенно если не забудешь включить микрофон.";
+    const std::string question=ORACLE_I18N("How will my weekend go?","Как пройдут выходные?","我的周末会怎样？");
+    const std::string reading=ORACLE_I18N("A quiet afternoon is approaching. You will finally finish that book, provided the cat agrees to give up its place on the last chapter.","Тебя ждёт тихий вечер с книгой. Ты наконец дочитаешь последнюю главу, если кот согласится освободить страницу.","宁静的午后将至。只要猫咪同意让出最后一章的位置，你就能读完那本书。");
     if(argc==3 && std::string(argv[1])=="--request") {
         std::ofstream(argv[2])<<tarotApiRequest("openai/gpt-5.6-luna",cards,question); return 0;
     }
@@ -61,6 +61,9 @@ int main(int argc,char** argv) {
     assert(request["model"]=="openai/gpt-5.6-luna");
     assert(request["reasoning"]["effort"]=="none" && request["max_output_tokens"]==512);
     assert(request["text"]["format"]["strict"]==true);
+    const auto prompt=request["input"][0]["content"].as<std::string>();
+    assert(prompt.find(ORACLE_I18N("in English","по-русски","简体中文"))!=std::string::npos);
+    assert(prompt.find("доклад")==std::string::npos && prompt.find("lecture")==std::string::npos);
     JsonDocument user; assert(!deserializeJson(user,request["input"][1]["content"].as<std::string>()));
     assert(user["question"].as<std::string>()==question && user["present"]==arcanaName(17));
     BuiltinCatalog catalog; DeckSource source(catalog,17); Controller app(source);
@@ -69,7 +72,7 @@ int main(int argc,char** argv) {
     assert(!app.acceptRemote(p,0)); assert(!app.changeTheme(1));
     app.view.question=question; assert(app.submitQuestion(10)); assert(!app.trigger(20));
     assert(!app.tick(999999)); assert(app.acceptRemote(p,100)); assert(!app.tick(2699)); assert(app.tick(2700));
-    assert(app.view.result.question==question && app.view.lines.front()=="Вопрос: Как");
+    assert(app.view.result.question==question && app.view.lines.front()==wrap(ORACLE_I18N("Question: ","Вопрос: ","问题： ")+question,kColumns).front());
     app.back(); app.trigger(3000); app.submitQuestion(3001); app.back();
     assert(!app.acceptRemote(p,3010)); app.failRemote("late"); assert(app.view.screen==Screen::Idle);
     assert(!source.next({"tarot",""},p));

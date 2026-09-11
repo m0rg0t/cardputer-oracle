@@ -1,0 +1,10 @@
+{
+  "sha256": "02c1aad02af87901607b7b937394e1d601cd2487ce09616da6ba8d109531eff4",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "A long debate about the best programming language will end in sudden agreement when hot snacks arrive. Some values really do rank above the technology stack.",
+  "seconds": 9.380875,
+  "normalization_gain": 1.3335384931015029
+}

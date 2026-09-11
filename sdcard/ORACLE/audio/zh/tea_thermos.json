@@ -1,0 +1,10 @@
+{
+  "sha256": "a44d39bf8d1b8dc657c9b6a6589d7fe252c550ed6066618c8aa6134882b60198",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "一壶茶会让你成为全组最有准备的人。大家还在找咖啡馆时，你会神秘一笑，拧开壶盖。",
+  "seconds": 7.616125,
+  "normalization_gain": 2.3230879199428163
+}

@@ -1,0 +1,10 @@
+{
+  "sha256": "c04699f677b66bc29be62a7f430af38f0349e70722d56df0f3a5fc4280cd3752",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你的搜索记录将解答一个难题。得知自己半年前就这么聪明，真让人安心；不太安心的是，你居然忘了。",
+  "seconds": 9.10225,
+  "normalization_gain": 2.5
+}

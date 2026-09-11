@@ -1,0 +1,10 @@
+{
+  "sha256": "4874d0c2c5e39b5775b358c84c2207d8082471f9ff81e1356aab967f8f8e0199",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "A small saucer will save the table from a large stain. Nobody will notice the disaster that didn't happen. You will suddenly understand everyone who does invisible work well.",
+  "seconds": 11.4241875,
+  "normalization_gain": 1.6896282817780088
+}

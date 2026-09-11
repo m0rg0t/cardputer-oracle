@@ -1,0 +1,10 @@
+{
+  "sha256": "ab3670035ccb4d9551e87a26908bd29242c718c11c9dd49f3fb4c61f7e5361eb",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "小杯茶比大马克杯带来更多休息：多续几次水，多看看窗外，也多回到聊天中。方便不一定意味着少站起来。",
+  "seconds": 10.26325,
+  "normalization_gain": 2.5
+}

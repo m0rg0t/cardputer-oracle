@@ -1,0 +1,10 @@
+{
+  "sha256": "e957f3c5160ec7336b22c78180f099682f569f0ee1a7290f8cc8a35b42c676fb",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will express a perfect thought on your next call. They will even let you finish. Then they will ask you to unmute and repeat it, and it will become an ordinary thought.",
+  "seconds": 10.913375,
+  "normalization_gain": 1.5889506814153884
+}

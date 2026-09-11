@@ -1,0 +1,10 @@
+{
+  "sha256": "19b8941cbd0b2e24b45658a4ca835ecf45d9be63a29f5bffb24fca3538abdae0",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You are about to read a remarkably accurate prediction: you will finish this sentence. The oracle's reputation remains spotless.",
+  "seconds": 9.1486875,
+  "normalization_gain": 1.6097077761267955
+}

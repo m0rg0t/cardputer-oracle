@@ -1,0 +1,10 @@
+{
+  "sha256": "2217e582f65742c6c7b2ef2da43624aaaafe1a705fe253ab5ce85b9c2a300ece",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "电脑三小时没解决的问题，午餐替你解决了。真正困难的是说服自己：第二顿午餐不会顺便解决其他一切。",
+  "seconds": 9.2415625,
+  "normalization_gain": 2.5
+}

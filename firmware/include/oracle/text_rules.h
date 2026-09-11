@@ -2,6 +2,7 @@
 
 #include <cstddef>
 #include <cstdint>
+#include "oracle/locale.h"
 
 // Small pure rules shared by the application layer and the native tests.
 
@@ -37,7 +38,18 @@ inline std::size_t utf8BomLength(const char* data, std::size_t length)
 // Largest row the wrap helper emits (240 px / 6 px glyphs = 40 columns).
 // Rows are byte buffers: Cyrillic code points are two bytes but one column.
 constexpr std::size_t kWrapMaxColumns = 48;
-constexpr std::size_t kWrapRowBytes = kWrapMaxColumns * 2 + 1;
+constexpr std::size_t kWrapRowBytes = kWrapMaxColumns * 3 + 1;
+
+inline bool isChinese(std::uint32_t cp) {
+    return oracle::kChinese && ((cp>=0x3000 && cp<=0x303F) ||
+        (cp>=0x3400 && cp<=0x9FFF) || (cp>=0xFF01 && cp<=0xFF60));
+}
+inline unsigned glyphColumns(std::uint32_t cp) { return isChinese(cp)?2:1; }
+inline bool closingChinesePunctuation(std::uint32_t cp) {
+    return oracle::kChinese && (cp==0x3001 || cp==0x3002 || cp==0xFF0C ||
+        cp==0xFF01 || cp==0xFF1F || cp==0xFF1A || cp==0xFF1B ||
+        cp==0xFF09 || cp==0x300B || cp==0x300D || cp==0x300F);
+}
 
 // Decodes one UTF-8 sequence. Returns the byte length consumed (0 if empty)
 // and writes the code point; malformed bytes decode as U+FFFD.
@@ -104,7 +116,7 @@ inline std::size_t utf8Columns(const char* text, std::size_t length)
     for (std::size_t i = 0; i < length;) {
         std::uint32_t cp;
         i += decodeUtf8(text + i, length - i, cp);
-        ++columns;
+        columns+=glyphColumns(cp);
     }
     return columns;
 }
@@ -117,8 +129,10 @@ inline std::size_t utf8PrefixBytes(const char* text, std::size_t length,
     std::size_t i = 0;
     while (i < length && columns < maxColumns) {
         std::uint32_t cp;
-        i += decodeUtf8(text + i, length - i, cp);
-        ++columns;
+        const auto bytes=decodeUtf8(text + i, length - i, cp);
+        if(columns+glyphColumns(cp)>maxColumns) break;
+        i+=bytes;
+        columns+=glyphColumns(cp);
     }
     return i;
 }
@@ -165,12 +179,14 @@ inline void wrapMonospace(const char* text, std::size_t length,
         std::size_t count = consumed;
         char folded = 0;
         index += consumed;
-        if (cp >= 0x80 && !(keepCyrillic && isRenderableCyrillic(cp))) {
+        if ((cp >= 0x80 && !isChinese(cp) && !(keepCyrillic && isRenderableCyrillic(cp))) ||
+            (isChinese(cp) && cols<2)) {
             const char fallback = asciiFallback(cp);
             folded = fallback ? fallback : '?';
             bytes = &folded;
             count = 1;
         }
+        const auto width=count==1?1:glyphColumns(cp);
         const char glyph = count == 1 ? bytes[0] : '\x01';
         if (glyph == '\r') continue;
         if (glyph == '\n') {
@@ -180,7 +196,7 @@ inline void wrapMonospace(const char* text, std::size_t length,
             continue;
         }
         if (glyph == ' ' && rowCols == 0) continue;
-        if (rowCols == cols) {
+        if (rowCols && rowCols+width > cols) {
             if (glyph == ' ') {
                 // The whole row fits: a separator after it must not move
                 // its final word onto the next line.
@@ -196,15 +212,25 @@ inline void wrapMonospace(const char* text, std::size_t length,
                 rowBytes = carry;
                 rowCols = columnsOf(row, rowBytes);
             } else {
-                flush(rowBytes);
-                rowBytes = rowCols = 0;
+                std::size_t carryAt=rowBytes;
+                if(closingChinesePunctuation(cp) && cols>=4 && rowBytes>3) {
+                    --carryAt;
+                    while(carryAt && (static_cast<unsigned char>(row[carryAt])&0xC0)==0x80) --carryAt;
+                }
+                flush(carryAt);
+                const auto carry=rowBytes-carryAt;
+                for(std::size_t k=0;k<carry;++k) row[k]=row[carryAt+k];
+                rowBytes=carry; rowCols=columnsOf(row,rowBytes);
             }
             lastSpace = static_cast<std::size_t>(-1);
             if (glyph == ' ' && rowCols == 0) continue;
+            if(rowCols && rowCols+width>cols) {
+                flush(rowBytes); rowBytes=rowCols=0;
+            }
         }
         if (glyph == ' ') lastSpace = rowBytes;
         for (std::size_t k = 0; k < count; ++k) row[rowBytes++] = bytes[k];
-        ++rowCols;
+        rowCols+=width;
         pendingRow = true;
     }
     if (pendingRow) {

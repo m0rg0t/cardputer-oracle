@@ -1,0 +1,10 @@
+{
+  "sha256": "0aad987c1a37390b3bf648ed8f4fcc143a0b6b83a36318f41b231c409fc8ffe6",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "散茶让你摆脱了茶包，接着你开始挑滤网、茶壶和电子秤。看来，自由也有相当完整的配件专区。",
+  "seconds": 9.4273125,
+  "normalization_gain": 2.5
+}

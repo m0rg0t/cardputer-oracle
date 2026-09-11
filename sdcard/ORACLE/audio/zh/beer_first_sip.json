@@ -1,0 +1,10 @@
+{
+  "sha256": "15314d8ac4c7a2488a6c3dd79452ccfd9fbcf0eecf7c921ec10de3e30747e33e",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你会尝试一款时髦啤酒，然后承认自己不喜欢。世界不会因此崩塌；他们会换来一杯你喜欢的，品尝这才真正愉快。",
+  "seconds": 10.356125,
+  "normalization_gain": 2.5
+}

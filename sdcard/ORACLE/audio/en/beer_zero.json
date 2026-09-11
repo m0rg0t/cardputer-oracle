@@ -1,0 +1,10 @@
+{
+  "sha256": "ea24afb27de04eaacfbb4875a38d81fe30fbe834ee7601777a5cd3f6c02ec379",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "A pleasant discovery awaits: alcohol-free beer is fully compatible with great ideas. Zero alcohol, full participation. The oracle has checked the protocol.",
+  "seconds": 10.8669375,
+  "normalization_gain": 1.238626077842885
+}

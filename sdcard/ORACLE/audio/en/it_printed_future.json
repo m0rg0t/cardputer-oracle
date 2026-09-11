@@ -1,0 +1,10 @@
+{
+  "sha256": "9ab1e4729b4440ff74a3592061fbd54db16a9749e49b5ef531b40b5f38ff4dec",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "Your future will arrive on paper. Reassuring: most plans only have a document link. Keep the receipt, or the oracle will have to explain why backups are now your responsibility.",
+  "seconds": 11.4706875,
+  "normalization_gain": 1.4857991885250585
+}

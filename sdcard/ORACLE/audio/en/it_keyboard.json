@@ -1,0 +1,10 @@
+{
+  "sha256": "ea37f1fcb95957033040d7bdefb4c831962ec5e2088b00107ae9be06b9a09ed3",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "Your fingers will remember a shortcut before your brain does. You will feel like a master. Then you'll forget why you opened the terminal, restoring balance to the universe.",
+  "seconds": 10.6811875,
+  "normalization_gain": 1.5511275504116453
+}

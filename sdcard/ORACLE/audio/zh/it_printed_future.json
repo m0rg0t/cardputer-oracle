@@ -1,0 +1,10 @@
+{
+  "sha256": "5c4f065b9493f7c432102b9275ca2dd118a51c98f5a2ea0e6f5cb0fd1a39082f",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你的未来将以纸张形式到来。挺安心：多数计划只有一个文档链接。收好凭条，否则预言家还得解释备份为何归你负责。",
+  "seconds": 11.0526875,
+  "normalization_gain": 2.5
+}

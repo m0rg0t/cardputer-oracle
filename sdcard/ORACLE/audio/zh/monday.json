@@ -1,0 +1,10 @@
+{
+  "sha256": "3fa14e6cd09203d69424350e5b1066e3e41be68e75b53686e575c6e29cdbd856",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你将在星期一开始新生活。星星很明智，没说是哪一种。你的星期一储备相当充足。",
+  "seconds": 8.2663125,
+  "normalization_gain": 2.5
+}

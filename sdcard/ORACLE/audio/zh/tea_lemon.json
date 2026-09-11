@@ -1,0 +1,10 @@
+{
+  "sha256": "2b89f33bf05b2bcd5cb062e43df51ec928aa917ebad8e7e16cddfb4dfb14a2cb",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "即使天色灰暗，你的杯中也有一轮小太阳。别指望柠檬解决一切，它只负责好看。",
+  "seconds": 6.687375,
+  "normalization_gain": 2.5
+}

@@ -1,0 +1,10 @@
+{
+  "sha256": "835346fc276863f6c728967ee6317fe3116a8d44c5e5d30828e2343da4508ac8",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "有人问起你最喜欢的爱好。你讲得太入神，忘了手里还端着杯子。朋友会先注意到杯子的倾斜角度。",
+  "seconds": 8.4985,
+  "normalization_gain": 2.5
+}

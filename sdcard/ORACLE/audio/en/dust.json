@@ -1,0 +1,10 @@
+{
+  "sha256": "c831ad2969b545676985f5f3740ff1c8e6baff44c204cb4700f35082894a3360",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will discover an object from a forgotten age under the sofa. Scholars will call it a remote control. You will remember owning a television.",
+  "seconds": 9.195125,
+  "normalization_gain": 1.4629754670267836
+}

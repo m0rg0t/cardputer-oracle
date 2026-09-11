@@ -1,0 +1,10 @@
+{
+  "sha256": "f758bde5a37a428476479f021d40633766c553304da864fadb39a864f67690a1",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "A long-awaited message will arrive. Possibly just a verification code. Still, it's nice that someone believes you are who you say you are.",
+  "seconds": 8.0805625,
+  "normalization_gain": 1.484950596835913
+}

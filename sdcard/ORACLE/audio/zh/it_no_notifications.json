@@ -1,0 +1,10 @@
+{
+  "sha256": "b01c58246e86f5f771f33880e2652a160b43c80a2f642bf3c8f6d7280866c47b",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你的手机将安静一小时，不再弹通知。世界离了你也能运转；你或许有点受伤，但这情绪消散得比群聊冷场还快。",
+  "seconds": 10.541875,
+  "normalization_gain": 2.5
+}

@@ -1,0 +1,10 @@
+{
+  "sha256": "8c7967ea2f89e91f8bd7685f7f7526066ff369dde26fef25443772efb4fce7ba",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "A great alchemist will awaken within you. You will combine everything left in the fridge. Best name the dish after the tasting.",
+  "seconds": 7.801875,
+  "normalization_gain": 1.4780285373202207
+}

@@ -1,0 +1,10 @@
+{
+  "sha256": "5dad57335e0aea608a932be1f2005c092f89fc7ea4aec530516937405adf7b6b",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "A door to new possibilities is close at hand. You open it every twenty minutes. So far it contains cheese, but hope remains strong.",
+  "seconds": 7.848375,
+  "normalization_gain": 1.5019351857200625
+}

@@ -1,0 +1,10 @@
+{
+  "sha256": "2d245da7157ccbe7c909b05ac89392278703aebd3aa04f1388e2046926efedf1",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你会选一款名字三行、背景故事两页的啤酒。酒保点头：淡色的，懂了。最好的营销翻译官，原来在吧台后面。",
+  "seconds": 9.7988125,
+  "normalization_gain": 2.5
+}

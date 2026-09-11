@@ -1,0 +1,10 @@
+{
+  "sha256": "7d3e53eb66804913a8d58d077a253b0e24ba3efabacdb97adc676b0b3a1c2bb9",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "The person at the next table will have exactly what you need: a charger, a good story or a spare chair. Today the universe is working through the pub.",
+  "seconds": 10.7740625,
+  "normalization_gain": 1.282557221783741
+}

@@ -1,0 +1,10 @@
+{
+  "sha256": "de1aa5faf072e97a8022669646adb1f497670d7cfe5032f07608076806b9f571",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will hand over a project in half an hour. Twenty-five minutes will explain why the folder is called old_new_final. Five minutes is plenty for the actual project. It's much clearer.",
+  "seconds": 11.6564375,
+  "normalization_gain": 1.2260102796246521
+}

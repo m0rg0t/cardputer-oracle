@@ -1,0 +1,10 @@
+{
+  "sha256": "608c58412164521cc6a61ab02874ef812420659b51327604a58dc4a32740016e",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你会在沙发底下发现被遗忘时代的物件。学者称它为遥控器，你则想起自己曾经有台电视。",
+  "seconds": 7.244625,
+  "normalization_gain": 2.5
+}

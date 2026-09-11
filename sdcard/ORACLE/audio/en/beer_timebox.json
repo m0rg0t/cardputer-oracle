@@ -1,0 +1,10 @@
+{
+  "sha256": "a0826222847f11ee521ff7a2ae657c6ca4006f86fee25a8f3f6e33d0813fe06c",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will drop into the pub for half an hour and meet someone you've wanted to talk to for ages. Your calendar will call it a delay. You'll remember why you freed up the evening.",
+  "seconds": 10.3096875,
+  "normalization_gain": 1.486988847583643
+}

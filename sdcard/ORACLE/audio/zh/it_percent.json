@@ -1,0 +1,10 @@
+{
+  "sha256": "3b2577736a4eb2845c3dd1ca7d8145c65b99e14352f26bab451f877733855fa3",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "进度会从百分之九十九跳到百分之百，最后这一格却耗掉九成九时间。现在，你对百分比有了私人看法。",
+  "seconds": 9.10225,
+  "normalization_gain": 2.5
+}

@@ -1,0 +1,10 @@
+{
+  "sha256": "794515bf34b6f1900a2f7aafc124482645d9276ec856bd0489ae40ce4f08d3fe",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "Sometimes a fresh start is all you need. Try restarting the device first. The decision to move to another country can wait.",
+  "seconds": 7.7554375,
+  "normalization_gain": 1.4513788098693758
+}

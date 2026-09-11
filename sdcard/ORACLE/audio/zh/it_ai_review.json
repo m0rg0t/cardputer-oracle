@@ -1,0 +1,10 @@
+{
+  "sha256": "d013aa87e334a1c2487e8b8ac3eabf37bc4fe88d063e720f7dfe035634d68f84",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你会让AI审查AI写的代码，它会找出问题并提出改进。到最后，团队里唯一没吃上午饭的就是你。",
+  "seconds": 8.777125,
+  "normalization_gain": 2.5
+}

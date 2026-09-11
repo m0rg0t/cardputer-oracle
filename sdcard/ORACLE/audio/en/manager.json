@@ -1,0 +1,10 @@
+{
+  "sha256": "10d292bd5faae23721c03b833eea0498063ec7a4abcfc106e95758930223acbd",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "You will meet someone who changes your life. Probably the new project manager. They already have a quick call in mind.",
+  "seconds": 6.6409375,
+  "normalization_gain": 1.373191084820957
+}

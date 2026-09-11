@@ -1,0 +1,10 @@
+{
+  "sha256": "27cef2b60f1d965b4ded8f52f39b16fb2ad2b18244e0c82a8d2bec88f8965fd8",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你去酒吧坐半小时，遇见一个想聊很久的人。日历会把它标成耽搁，而你会想起自己为何给今晚留了空。",
+  "seconds": 9.195125,
+  "normalization_gain": 2.5
+}

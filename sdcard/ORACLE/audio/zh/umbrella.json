@@ -1,0 +1,10 @@
+{
+  "sha256": "fba8b476f0829d809b03a43c1d18fedbf407d133e9676803af1af0f8d97141fe",
+  "voice_id": "SyNyPD84lTuHqi1HONfV",
+  "voice_name": "Willow",
+  "language": "zh",
+  "model": "eleven_multilingual_v2",
+  "text": "你将学会控制天气。带伞就不会下雨，忘带伞则会立刻得到实验确认。",
+  "seconds": 6.4086875,
+  "normalization_gain": 2.5
+}

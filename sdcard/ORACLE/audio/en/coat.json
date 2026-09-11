@@ -1,0 +1,10 @@
+{
+  "sha256": "4b6ef9e150d967545ce3a6fd86c23b683d6790c8e034abe12573f08916385068",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "voice_name": "Lily",
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "text": "Unexpected wealth awaits. Check your winter coat pockets. If all you find is a receipt, consider it an ancient scroll describing a more prosperous age.",
+  "seconds": 10.4025625,
+  "normalization_gain": 1.4229422066549913
+}
