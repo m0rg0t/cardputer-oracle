@@ -15,7 +15,7 @@ Press a key, watch the ritual, hear your fortune and take it away on a thermal r
 | Tech & everyday | 60 fortunes about work and life | No |
 | Beer | 30 fortunes for a relaxed evening | No |
 | Tea | 30 fortunes about tea and small rituals | No |
-| Tarot / AI | Your question, three different cards and a fresh reading | Wi-Fi + LiteLLM |
+| Tarot / AI | Your question, three different cards and a fresh reading | Wi-Fi + compatible AI gateway |
 
 - **120 fortunes per language**, with pre-generated WAV narration. English, Russian and Simplified Chinese use the same stable card IDs and artwork.
 - **English by default**; choose Russian or Simplified Chinese at build time. The choice covers interface, fallback cards, SD text, narration, Tarot output and printed receipts.
@@ -24,6 +24,14 @@ Press a key, watch the ritual, hear your fortune and take it away on a thermal r
 - Automatic and manual scrolling, volume controls and a battery percentage in the header.
 - BQ95 / FunPrint Bluetooth LE printing: 336-dot artwork on a 384-dot receipt.
 - Without SD: six silent fallback cards per offline theme. AI Tarot needs a network; there is no on-device neural model yet.
+
+## Install on Cardputer ADV
+
+**Requires M5Stack Cardputer ADV.** Choose one language for both firmware and SD resources.
+
+[English setup](docs/INSTALL.en.md) · [Русская установка](docs/INSTALL.md) · [中文安装](docs/INSTALL.zh.md)
+
+Prebuilt GitHub release downloads are not published yet. Build a language package below; do not mix firmware and SD resources from different languages.
 
 ## Build a language release
 
@@ -90,11 +98,11 @@ Switching the typing layout does not change the firmware's language.
 
 ## AI Tarot and printing
 
-For Tarot, copy sdcard/ORACLE/config.example.json to ORACLE/config.json on your card and supply your own 2.4GHz Wi-Fi, HTTPS LiteLLM host, model and token. Private configuration is ignored by Git and excluded from public packages. The received result is frozen: screen and paper use the same reading, and reprinting does not call the model again. Online Tarot currently has no narration.
+For Tarot, copy sdcard/ORACLE/config.example.json to ORACLE/config.json on your card and supply your own 2.4GHz Wi-Fi, HTTPS Responses API gateway host, model and token. Private configuration is ignored by Git and excluded from public packages. The received result is frozen: screen and paper use the same reading, and reprinting does not call the model again. Online Tarot currently has no narration.
 
 For printing, open the BQ95's **FunPrint QR screen** and disable auto power-off. The app attempts one automatic print on reveal; **P** requests a copy or retries after you check the paper. The driver targets a tested BQ95 identifier; change it for a different unit. Compatibility with all toy printers is not claimed.
 
-[Tarot configuration](docs/TAROT.md) · [Printer protocol and NVS fix](docs/PRINTER_BQ95.md)
+[OpenAI-compatible endpoint setup](docs/OPENAI_COMPATIBLE.md) · [Tarot configuration (RU)](docs/TAROT.md) · [Printer protocol and NVS fix](docs/PRINTER_BQ95.md)
 
 ## Content and narration
 
@@ -150,3 +158,7 @@ The optional GitHub Pages workflow is manual: see [Pages setup](docs/PAGES.md). 
 ## Credits and scope
 
 See [third_party](third_party) for retained dependency licences and [content notes](docs/CONTENT.md) for generated media. No licence for the project's original source has been selected yet; third-party notices remain intact.
+
+## Help the project grow
+
+Try a clean installation, report a tested printer, suggest a new theme or improve a translation. See the [launch kit and contribution ideas](docs/PROMOTION.md).

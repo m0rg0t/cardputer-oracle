@@ -215,10 +215,11 @@ The three offline themes contain 120 fortunes and need no account or API key.
 Without a usable SD pack there are six silent fallback fortunes per offline theme.
 
 For AI Tarot, copy ORACLE/config.example.json to ORACLE/config.json on the card
-and fill in your own 2.4GHz Wi-Fi networks, HTTPS LiteLLM host, model and token.
+and fill in your own 2.4GHz Wi-Fi networks, HTTPS Responses-compatible gateway host, model and token.
 The host must be reachable by the device. Keep the supplied TLS roots file.
 Never commit your actual configuration. An empty question requests a general reading.
 AI Tarot currently produces text and a printable receipt, without generated speech.
+See [OpenAI-compatible endpoint setup](https://github.com/m0rg0t/cardputer-oracle/blob/main/docs/OPENAI_COMPATIBLE.md) for the precise API, model, token and TLS requirements. Chat Completions-only servers are not supported.
 
 ## Printing
 
