@@ -16,10 +16,12 @@ jobs:
           python-version: '3.13'
           cache: pip
       - run: python -m pip install -r requirements.txt
+      - run: python -m unittest discover -s tools -p test_image_preparation.py
       - run: python -m unittest discover -s tools -p test_pack.py
       - run: python -m unittest discover -s tools -p test_languages.py
       - run: python -m unittest discover -s tools -p test_chinese_font.py
       - run: python -m unittest discover -s tools -p test_repo_guard.py
+      - run: python -m unittest discover -s tools -p test_native_runner.py
       - run: python tools/run_native_tests.py
       - run: python tools/build_site.py
       - run: python -m unittest discover -s tools -p test_site.py
@@ -28,3 +30,29 @@ jobs:
           node-version: '24'
       - run: node tools/test_site_language.cjs
       - run: python tools/check_repo.py --site
+
+  firmware:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+          sparse-checkout: |
+            firmware
+            tools
+            sdcard/ORACLE/fonts
+            docs
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - run: python -m pip install platformio==6.2.0
+      - name: Compile EN, RU and ZH firmware with partition checks
+        run: pio run -d firmware -e oracle-adv -e oracle-adv-ru -e oracle-adv-zh
+      - name: Require all native suites including Tarot in every language
+        run: python tools/run_native_tests.py --require-tarot
+      - name: Verify RAM-only NimBLE storage in each language
+        run: |
+          python tools/check_nimble_storage.py --language en
+          python tools/check_nimble_storage.py --language ru
+          python tools/check_nimble_storage.py --language zh
