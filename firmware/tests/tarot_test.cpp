@@ -43,7 +43,10 @@ int main(int argc,char** argv) {
     assert(typed=="Привет"); eraseQuestionKey(typed); assert(typed=="Приве");
     typed.clear(); for(unsigned i=0;i<80;++i) assert(appendQuestionKey(typed,'z',true));
     assert(!appendQuestionKey(typed,'z',true)); assert(validQuestion(typed));
-    for(unsigned i=0;i<81;++i) eraseQuestionKey(typed); assert(typed.empty());
+    for(unsigned i=0;i<81;++i) {
+        eraseQuestionKey(typed);
+    }
+    assert(typed.empty());
     Prediction p;
     assert(makeTarotPrediction(cards,reading,42,p,question));
     assert(p.tarotCards==cards && p.question==question && p.audio.empty());
@@ -78,3 +81,4 @@ int main(int argc,char** argv) {
     assert(!source.next({"tarot",""},p));
     std::cout<<"PASS: 10,000 unique-card spreads, RU/EN input, question limits, frozen result, API format/refusal/limits, cancellation and offline isolation\n";
 }
+

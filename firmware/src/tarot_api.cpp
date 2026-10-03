@@ -30,7 +30,8 @@ bool parseTarotResponse(const std::string& json,const std::array<unsigned,3>& ca
     for(JsonObject item:doc["output"].as<JsonArray>()) {
         if(item["type"]!="message") continue;
         if(item["role"]!="assistant" || item["status"]!="completed" || !item["content"].is<JsonArray>()) return false;
-        for(JsonObject content:item["content"].as<JsonArray>()) {
+        const JsonArray contents = item["content"].as<JsonArray>();
+        for(JsonObject content:contents) {
             if(content["type"]=="refusal") return false;
             if(content["type"]=="output_text") {
                 if(!content["text"].is<const char*>() || ++texts!=1) return false;
@@ -44,3 +45,4 @@ bool parseTarotResponse(const std::string& json,const std::array<unsigned,3>& ca
     return makeTarotPrediction(cards,doc["reading"].as<std::string>(),id,result,question);
 }
 }
+
